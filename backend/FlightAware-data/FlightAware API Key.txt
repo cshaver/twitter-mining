@@ -1,0 +1,4 @@
+FlightAware API Key
+
+username: markmcspadden
+key: 67335dec3f3b762a4fb496e9f17c66594ad903a4
