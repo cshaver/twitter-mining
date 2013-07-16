@@ -1,0 +1,319 @@
+﻿Airlines
+Aviation
+Aircraft
+Flights
+Flight
+Flying
+Plane
+Jet
+Airport
+Runway
+international
+Pilot
+Co-Pilot
+Captain
+Gate
+Ticket
+Itinerary
+Fare
+Travel
+Vacation
+Air
+Attendant
+Steward
+stewardess
+baggage
+luggage
+bags
+Landing
+World
+Boarding
+Unaccompanied minor
+Booking
+No Show
+Pet Carrier
+Cabin
+Carry on
+Cockpit
+Meals
+Freebies
+Flyers
+Fly
+Pack
+Packing
+Cheap
+Passenger
+Safe
+Safety
+Security
+Seat
+Holiday
+Take off
+Extra
+Flexible 
+Route
+Stop
+Transit
+Air hostess
+Check-in desk
+Check in
+upgraded
+rebooked
+switched
+TSA
+customer
+service
+status
+crew
+Departure
+Arrival
+country
+Passport
+tourism
+Tour
+Trip
+Visa
+Class
+Premium
+Economy
+Business
+First
+KLM
+Turkish Airlines
+AirAsia
+AirFrance
+Qatar Airways
+Lufthansa
+Jet Airways
+TAM Airlines
+Alitalia
+British Airways
+LAN Peru
+Malaysia Airlines
+Japan Airlines (JAL)
+JetBlue Airways
+Air New Zealand
+Iberia Lineas Aereas
+Onur Air
+Cathay Pacific Airways
+Air Canada
+Etihad Airways
+SAS
+WestJet
+All Nippon Airways
+TAP Portugal
+United
+Quantas
+Vueling People!
+Aeromexico
+Singapore Airlines
+Germanwings
+Virgin Atlantic
+Virgin Australia
+Jetstar Japan
+LUV
+NCL
+FRA
+DMK
+SFO
+MIA
+JFK
+LGW
+EWR
+SIN
+NRT
+PEK
+SEA
+MCO
+YYZ
+STL
+FLL
+BDA
+NYC
+SXF
+BWI
+SEA
+SDY
+DFW
+DAL
+LAX
+HOU
+ATL
+ORD
+LHR
+HND
+FRA
+CDG
+AMS
+DEN
+PHX
+LAS
+MAD
+IAH
+HKG
+MSP
+DTW
+SDU
+“Bad weather”
+Crash
+Late
+Delay
+Drunk Pilot
+Rude
+Turbulence
+Suspended 
+No-Fly
+Complaint
+Cancel Fee
+Cancel
+Miserable
+Excess baggage
+Charge
+Fee
+Worst
+Hate
+Carrier
+Airbus
+Boeing
+Dreamliner
+A380
+DeltaAssist
+British_Airways
+AirFranceUS
+AirFranceUS 
+AlaskaAir 
+AirTran
+AAirwaves 
+BritishAirways
+Continental 
+DeltaAirlines
+flyfrontier 
+JetBlue 
+FlyHawaiian
+SouthwestAir 
+SpiritAirlines
+UnitedAirlines 
+USAirways 
+VirginAmerica 
+VirginAtlantic 
+AerArann
+_Aeroflot_
+aegeanairlines
+aerosvit
+AirAsiaDotCom
+AmericanAir
+AADFW
+air_baltic
+airberlin
+airberlin_DE
+airberlin_US
+airescolombia
+Air_France
+AirFranceUK
+airnzuk
+AIRNZUSA
+AirSouthwest
+allegiantair
+AllNipponAirUSA
+AsianaAirlines
+ASIANA_SF
+AtlanticAir
+Austrian_NL
+AustrianSrbija
+bmibaby_com
+British_Airways
+Cathay_Pacific
+cathaypacificUK
+cathaypacificUS
+Cirrus_Airlines
+clickair (Bracelona)
+Corendon
+CzechAirlines
+EasternAirways (UK)
+easyJet
+easyJet_DE
+easyjet_promos
+easyJetCare
+easyjetspain
+easyjetuk
+elal_airlines
+Estonian_Air
+Eurofly
+Eurofly_Air
+flyairnorth
+flyairnz
+FlyAustrian
+flybe
+FlyEmirate
+Emirates
+flykingfisher
+flymepegasus
+flyniki
+fly_pacificblue
+FLYSAS_com
+flyseair
+FrontierStorm
+GarudaIndonesia
+germanwings_com
+GoAirlines
+horizonair
+IberiaAirlines
+Icelandair37
+icelandexpress
+iflygo
+Jet2com
+jet4you
+JetstarAirways
+kenyaairways
+KLM_UK
+KLM_US
+KLMCanada
+KLMNigeria
+KoreanAir_KE
+last_seat
+LOTpolish
+Lufthansa_DE
+Lufthansa_USA
+MAS
+Meridiana_Air
+mexicana_com
+MokuleleAir
+OfficialGulfAir
+philippineair
+piedmontair
+Qantas
+QantasUSA
+QFTravelInsider
+qatarairways
+SAS_Norge
+SASGroup
+SeaPortAir
+skyeurope
+Skywest_Airline
+southwestair
+spanair
+SQairlines
+SrilankanUK
+SunCountryAir
+sunwingairlines
+SwissAirLines
+TAMAirlines
+TAMLinhasAereas
+tapnews
+ThaiAirwaysAust
+themonarchbeach
+tigerairways
+TigerAirwaysAU
+transaviacom
+TUIflycom
+turkishairlines
+ucurbenipegasus
+USA3000Airlines
+usairways
+VAustralia
+viajaVolaris
+virginblue
+vivaaerobus
+vueling
+westjet
+wizzair
