@@ -29,6 +29,13 @@
     <!-- Chart.js -->
     <script src="js/Chart.min.js"></script>
 
+    <!-- d3 js -->
+    <link rel="stylesheet" href="css/d3.css">
+    <script type="text/javascript" src="d3/d3.js"></script>
+    <script type="text/javascript" src="d3/d3.csv.js"></script>
+    <script type="text/javascript" src="d3/d3.geo.js"></script>
+    <script type="text/javascript" src="d3/d3.geom.js"></script>
+
     <!-- font-awesome icons -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
@@ -165,21 +172,11 @@
           </div>
           <div id="cloud-view" style="display: none;">
             <h1>Cloud</h1>
-            <div id="jqcloud" style="width: 300px; height: 300px;"></diV>
+            <div id="jqcloud" style="width: 500px; height: 300px;"></diV>
           </div>
           <div id="map-view" style="display: none;">
-            <h1>Map</h1>
-            <div id="body">
-              <div id="footer">
-                <span>U.S. Commercial Flights</span>, 2008
-                <div class="hint">
-                  mouseover for flights from each airport
-                </div>
-                <div style="font-size:12px;line-height:60px;"><input type="checkbox" id="voronoi"> <label for="voronoi">show Voronoi</label></div>
-              </div>
-            </div>
+            <div id="map"></div>
           </div>
-          </table>
         </div>
       </div>
     </div>

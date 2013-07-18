@@ -323,16 +323,16 @@ $(function() {
           data : posArr
         },
         { // negative D4CCC5
-          fillColor : "rgba(205,187,151,0.5)",
-          strokeColor : "rgba(205,187,151,1)",
-          pointColor : "rgba(205,187,151,1)",
+          fillColor : "rgba(212, 204, 197,0.5)",
+          strokeColor : "rgba(212, 204, 197,1)",
+          pointColor : "rgba(212, 204, 197,1)",
           pointStrokeColor : "#fff",
           data : negArr
         },
         { //neutral 4D5360
-          fillColor : "rgba(220,220,220,0.5)",
-          strokeColor : "rgba(220,220,220,1)",
-          pointColor : "rgba(220,220,220,1)",
+          fillColor : "rgba(77, 83, 96,0.5)",
+          strokeColor : "rgba(77, 83, 96,1)",
+          pointColor : "rgba(77, 83, 96,1)",
           pointStrokeColor : "#fff",
           data : neuArr
         }
@@ -342,14 +342,23 @@ $(function() {
   }
 
   function createCloud(data){
-    var word_array = [
-        {text: "Lorem", weight: 15},
-        {text: "Ipsum", weight: 9},
-        {text: "Dolor", weight: 6, html: {class: "positive"}},
-        {text: "Sit", weight: 7},
-        {text: "Amet", weight: 5}
-        // ...as many words as you want
-    ];
+    // count keywords
+    var keywordsCount = {};
+    for (var i = 0; i < data.length; i++)
+    {
+      var keywords = data[i].keywords;
+      for (var j = 0; j < keywords.length; j++){
+        if (typeof keywordsCount[keywords[j]] == "undefined"){
+          keywordsCount[keywords[j]] = 0;
+        }
+        keywordsCount[keywords[j]]++;
+      }
+    }
+
+    var word_array = [];
+    for (var key in keywordsCount){
+      word_array.push({text: key, weight: keywordsCount[key]});
+    }
 
     $(function() {
       // When DOM is ready, select the container element and call the jQCloud method, passing the array of words as the first argument.
@@ -357,20 +366,20 @@ $(function() {
     });
   }
 
-  function createMap(data){/*
-    var w = 1280,
-        h = 800;
+  function createMap(data){
+    var w = 600,
+        h = 400;
 
     var projection = d3.geo.azimuthal()
         .mode("equidistant")
         .origin([-98, 38])
-        .scale(1400)
-        .translate([640, 360]);
+        .scale(700)
+        .translate([300, 200]);
 
     var path = d3.geo.path()
         .projection(projection);
 
-    var svg = d3.select("#body").append("svg:svg")
+    var svg = d3.select("#map").append("svg:svg")
         .attr("width", w)
         .attr("height", h);
 
@@ -451,7 +460,7 @@ $(function() {
             .attr("r", function(d, i) { return Math.sqrt(countByAirport[d.iata]); })
             .sort(function(a, b) { return countByAirport[b.iata] - countByAirport[a.iata]; });
       });
-    });*/
+    });
   }
 
 });
