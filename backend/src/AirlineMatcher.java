@@ -257,20 +257,17 @@ public class AirlineMatcher {
 		String store = "";
 		ArrayList<String> arr = new ArrayList<String>();
 		StoreToDB db = new StoreToDB();
-		
-		
 		String[] tokens = null;
 		
 		for(int i=0; i < flights.size(); i++) {
 			
-			tokens = flights.get(i).split("|");
+			tokens = flights.get(i).split("/");
 			for (String t : tokens) {
 				arr.add(t);
 			}
 			
 			db.writeAirlineData(arr.get(0),arr.get(1), arr.get(2), arr.get(3), arr.get(4),arr.get(5), 
 					arr.get(6), arr.get(7), arr.get(8),Integer.parseInt(arr.get(9)));
-							
 		}
 	}
 	
