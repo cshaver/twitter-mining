@@ -1,0 +1,70 @@
+@AmericanAir	American Airlines
+@AAdvantage	American Airlines
+@AirAsia	AirAsia
+@British_Airways	British Airways
+@BritishAirways	British Airways
+@Delta	Delta
+@DeltaAssist	Delta
+@JetBlue	JetBlue Airways
+@KLM	Royal Dutch Airlines
+@SouthwestAir	Southwest Airlines
+@united	United Airlines
+@VirginAmerica	Virgin America
+@WestJet	WestJet
+@SingaporeAir	Singapore Airlines
+@qatarairways	Qatar Airways
+@KoreanAir_KE	Korean Air
+@FlyAirNZ	Air New Zealand
+@AirNZFairy	Air New Zealand
+@AlaskaAir	Alaska Airlines
+@flyPAL	Philippine Airlines
+@CebuPacificAir	Cebu Pacific
+@HawaiianAir	Hawaiian Airlines
+@HawaiianFares	Hawaiian Airlines
+@TurkishAirlines	Turkish Airlines
+@TK_TR	Turkish Airlines
+@TAMAirlines	TAM Airlines
+@USAirways	US Airways
+@MAS	Malaysia Airlines
+@baltiausa	Baltia Air Lines
+@Lufthansa_DE	Deutsche Lufthansa
+@VirginAtlantic	Virgin Atlantic
+@VirginAustralia	Virgin Australia
+@AirCanada	Air Canada
+@easyJet	easyJet
+@vueling	Vueling Airlines
+@SpiritAirlines	Spirit Airlines
+@JetstarAirways	Jetstar Airways
+@Lufthansa_USA	Deutsche Lufthansa
+@FlySWISS	Swiss International Air Lines
+@cathaypacific	Cathay Pacific
+@KenyaAirways	Kenya Airways
+@ucurbenipegasus	Pegasus Airlines
+@airBaltic	Air Baltic
+@FlyFrontier	Frontier Airlines
+@Alitalia	Alitalia
+@QantasUSA	Qantas
+@flySAA_US	South African Airways
+@AsianaAirlines	Asiana Airlines
+@GulfAir	Gulf Air
+@Icelandair	Icelandair
+@aeroflot	Aeroflot Russian Airlines
+@SAS	SAS
+@germanwings	Germanwings
+@KLM_UK	Royal Dutch Airlines
+@ELALUSA	El Al Israel Airlines
+@Spanair	Spanair
+@tapnews	TAP Portugal
+@AirFranceUK	Air France
+@qftravelinsider	Qantas
+@ThaiAirwaysAust	Thai Airways International
+@EtihadDeals	Etihad Airways
+@CzechAirlines	Czech Airlines
+@Lufthansa_BR	Deutsche Lufthansa
+@AIRNZUSA	Air New Zealand
+@airnzuk	Air New Zealand
+@horizonair	Horizon Air
+@EL_AL_AIRLINES	El Al Israel Airlines
+@EtihadAirways	Etihad Airways
+@LOTpolish	LOT Polish Airlines
+@LufthansaLatina	Deutsche Lufthansa

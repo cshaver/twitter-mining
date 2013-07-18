@@ -1,1 +1,3 @@
+backend/bin/
+backend/data/raw-tweets*
 *.class

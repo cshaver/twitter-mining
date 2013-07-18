@@ -1,0 +1,153 @@
+@DeltaAssist	Delta	DL	United States
+@British_Airways	British Airways	BA	United Kingdom
+@AirFranceUS	Air France	AF	France
+@AlaskaAir	Alaska Airlines	AS	United States
+@AirTran	AirTran Airways	FL	United States
+@AAirwaves	American Airlines	AA	United States
+@BritishAirways	British Airways	BA	United Kingdom
+@Continental	United Airlines	UA	United States
+@DeltaAirlines	Delta	DL	United States
+@FlyFrontier	Frontier Airlines	F9	United States
+@JetBlue	JetBlue Airways	B6	United States
+@FlyHawaiian	Hawaiian Airlines	HA	United States
+@SouthwestAir	Southwest Airlines	WN	United States
+@SpiritAirlines	Spirit Airlines	NK	United States
+@UnitedAirlines	United Airlines	UA	United States
+@USAirways	US Airways	US	United States
+@VirginAmerica	Virgin America	VX	United States
+@VirginAtlantic	Virgin Atlantic	VS	United Kingdom
+@AerArann	Aer Arann	RE	Ireland
+@_Aeroflot_	Aeroflot Russian Airlines	SU	Russia
+@aegeanairlines	Aegean Airlines	A3	Greece
+@aerosvit	Aerosvit Airlines	VV	Ukraine
+@AirAsiaDotCom	AirAsia	AK	Malaysia
+@AmericanAir	American Airlines	AA	United States
+@air_baltic	Air Baltic	BT	Latvia
+@airberlin	Air Berlin	AB	Germany
+@airberlin_DE	Air Berlin	AB	Germany
+@airberlin_US	Air Berlin	AB	Germany
+@airescolombia	NULL	NULL	NULL
+@Air_France	Air France	AF	France
+@AirFranceUK	Air France	AF	France
+@airnzuk	Air New Zealand	NZ	New Zealand
+@AIRNZUSA	Air New Zealand	NZ	New Zealand
+@AirSouthwest	Air Southwest	SZ	Kingdom
+@allegiantair	NULL	NULL	NULL
+@AllNipponAirUSA	All Nippon Airways	NH	Japan
+@AsianaAirlines	Asiana Airlines	OZ	Republic of Korea
+@ASIANA_SF	Asiana Airlines	OZ	Republic of Korea
+@AtlanticAir	EX	Atlantic Airlines	United States
+@Austrian_NL	Austrian Airlines	OS	Austria
+@AustrianSrbija	Austrian Airlines	OS	Austria
+@bmibaby_com	Bmibaby	WW	United Kingdom
+@British_Airways	British Airways	BA	United Kingdom
+@Cathay_Pacific	Cathay Pacific	CX	Hong Kong SAR of China
+@cathaypacificUK	Cathay Pacific	CX	Hong Kong SAR of China
+@cathaypacificUS	Cathay Pacific	CX	Hong Kong SAR of China
+@Cirrus_Airlines	Cirrus Airlines	C9	Germany
+@clickair	Clickair	XG	Spain
+@Corendon	Corendon Airlines	XC	Netherlands
+@CzechAirlines	Czech Airlines	OK	Czech Republic
+@EasternAirways	Eastern Airways	T3	United Kingdom (UK)
+@easyJet	easyJet	U2	United Kingdom
+@easyJet_DE	easyJet	U2	United Kingdom
+@easyjet_promos	easyJet	U2	United Kingdom
+@easyJetCare	easyJet	U2	United Kingdom
+@easyjetspain	easyJet	U2	United Kingdom
+@easyjetuk	easyJet	U2	United Kingdom
+@elal_airlines	El Al Israel Airlines	LY	Israel
+@Estonian_Air	Estonian Air	OV	Estonia
+@Eurofly	Eurofly	GJ	Italy
+@Eurofly_Air	Eurofly	GJ	Italy
+@flyairnorth	NULL	NULL	NULL
+@flyairnz	Air New Zealand	NZ	New Zealand
+@FlyAustrian	Austrian Airlines	OS	Austria
+@flybe	Flybe	BE	United Kingdom
+@FlyEmirate	Emirates Airline	EK	United Arab Emirates
+@Emirates	Emirates Airline	EK	United Arab Emirates
+@flykingfisher	Kingfisher Airlines	IT	India
+@flymepegasus	Pegasus Airlines	H9	Turkey
+@flyniki	Niki	HG	Austria
+@fly_pacificblue	Pacific Blue	DJ	New Zealand
+@FLYSAS_com	SAS	SK	Norway
+@flyseair	Tiger Airways Philippines	DG	Philippines
+@FrontierStorm	Frontier Airlines	F9	United States
+@GarudaIndonesia	Garuda Indonesia	GA	Indonesia
+@germanwings	Germanwings	4U	Germany
+@GoAirlines	!go	YV	United States
+@iflygo	!go	YV	United States
+@goairlinesindia	GoAir	G8	India
+@horizonair	Horizon Air	QX	United States
+@HorizonAirlines	Horizon Air	QX	United States
+@IberiaAirlines	Iberia Airlines	IB	Spain
+@Icelandair	Icelandair	FI	Iceland
+@icelandexpress	Iceland Express	HC	Iceland
+@Jet2_Airlines	Jet2.com	LS	United Kingdom
+@jet4you	Jetairfly	TB	Belgium
+@JetstarAirways	Jetstar Airways	JQ	Australia
+@kenyaairways	Kenya Airways	KQ	Kenya
+@KLM_UK	KLM	WA	Netherlands
+2KLM_US	KLM	WA	Netherlands
+@KLMCanada	KLM	WA	Netherlands
+@KLMNigeria	KLM	WA	Netherlands
+@KoreanAir_KE	Korean Air	KE	Republic of Korea
+@last_seat	Thomas Cook Airlines	HQ	Belgium
+@LOTpolish	LOT Polish Airlines	LO	Poland
+@Lufthansa_DE	Deutsche Lufthansa	LH	Germany
+@Lufthansa_USA	Deutsche Lufthansa	LH	Germany
+@MAS	Malaysia Airlines	MH	Malaysia
+@Meridiana_Air	Meridiana	IG	Italy
+@Meridiana	Meridiana	IG	Italy
+@mexicana_com	Mexicana de Aviación	MX	Mexico
+@MokuleleAir	Mokulele Airlines	MW	United States
+@OfficialGulfAir	Gulf Air	GF	Bahrain
+@flyPAL	Philippine Airlines	PR	Philippines
+@QantasAirways	Qantas	QF	Australia
+@QantasUSA	Qantas	QF	Australia
+@qftravelinsider	Qantas	QF	Australia
+@qatarairways	Qatar Airways	QR	Qatar
+@SAS	SAS	SK	Norway
+@SkyWestAirlines	SkyWest Airlines	OO	United States
+@SouthwestAir	Southwest Airlines	WN	United States
+@Spanair	Spanair	JK	Spain
+@SunCountryAir	Sun Country Airlines	SY	United States
+@FlySWISS	Swiss International Air Lines	LX	Switzerland
+@FlySWISS_US	Swiss International Air Lines	LX	Switzerland
+@FlySWISS_CH	Swiss International Air Lines	LX	Switzerland
+@TAMAirlines	TAM Airlines	JJ	Brazil
+@ThaiAirways	Thai Airways International	TG	Thailand
+@TigerairSG	Tiger Airways Singapore	TR	Singapore
+@tigerairmandala	Tiger Airways Philippines	DG	Philippines
+@TigerairAU	Tiger Airways Australia	TT	Australia
+@TUIflycom	TUIfly Nordic	6B	Sweden
+@TurkishAirlines	Turkish Airlines	TK	Turkey
+@TK_TR	Turkish Airlines	TK	Turkey
+@ucurbenipegasus	Pegasus Airlines	H9	Turkey
+@USAirways	US Airways	US	United States
+@VirginAustralia	Virgin Australia	VA	Australia
+@VirginAmerica	Virgin America	VX	United States
+@VirginAtlantic	Virgin Atlantic	VS	United Kingdom
+@viajaVolaris	Volaris	Y4	Mexico
+@vueling	Vueling Airlines	VY	Spain
+@WestJet	WestJet	WS	Canada
+@flyWizzAir	Wizz Air	W6	Hungary
+@JetBlueCheeps	JetBlue Airways	B6	United States
+@HawaiianAir	Hawaiian Airlines	HA	United States
+@AirAsia	AirAsia	AK	Malaysia
+@airBaltic	Air Baltic	BT	Latvia
+@airberlin_com	Air Berlin	AB	Germany
+@IndonesiaGaruda	Garuda Indonesia	GA	Indonesia
+@AAdvantage	American Airlines	AA	United States
+@Delta	Delta	Delta	DL	United States
+@KLM	Royal Dutch Airlines	KL	Netherlands
+@united	United Airlines	UA	United States
+@SingaporeAir	Singapore Airlines	SQ	Singapore
+@AirNZFairy	Air New Zealand	NZ	New Zealand
+@flyPAL	Philippine Airlines	PR	Philippines
+@CebuPacificAir	Cebu Pacific	5J	Philippines
+@HawaiianFares	Hawaiian Airlines	HA	United States
+@TK_TR	Turkish Airlines	TK	Turkey
+@baltiausa	Baltia Air Lines-NULL	United States
+@VirginAustralia	Virgin Australia	VA	Australia
+@AirCanada	Air Canada	AC	Canada
+
