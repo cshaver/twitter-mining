@@ -13,14 +13,6 @@ public class StoreToDB {
     private static String userName = "root";
     private static String password = "";
     
-    /*
-     * Need to figure out how to generate
-     * unique id to identify tweet and matching
-     * flights 
-     * 
-     */
-    private static int id;
-	
 	/*
 	 * 
 	 */
@@ -30,7 +22,7 @@ public class StoreToDB {
 	
 		java.sql.PreparedStatement insertData = null;
 	    String tblName = "airline_tweets";
-	    String insertString = "INSERT into "+ dbName + "." + tblName+ " VALUES(?,?,?,?,?,?,?,?)";
+	    String insertString = "INSERT into "+ dbName + "." + tblName+ " VALUES(ID,?,?,?,?,?,?,?)";
 
 	    
 		    try {
@@ -39,17 +31,19 @@ public class StoreToDB {
 		        Connection con = DriverManager.getConnection(url,userName,password);
 	
 		        insertData = con.prepareStatement(insertString);
-			        insertData.setInt(1, id);
-			        insertData.setString(2, tweet);
-			        insertData.setString(3, date);
-			        insertData.setString(4, location);
-			        insertData.setString(5, username);
-			        insertData.setString(6, sentiment_type);
-			        insertData.setString(7, keywords);
-			        insertData.setInt(8, numFollowers);
+			      //  insertData.setInt(1, id);
+			        insertData.setString(1, tweet);
+			        insertData.setString(2, date);
+			        insertData.setString(3, location);
+			        insertData.setString(4, username);
+			        insertData.setString(5, sentiment_type);
+			        insertData.setString(6, keywords);
+			        insertData.setInt(7, numFollowers);
 			        insertData.executeUpdate();
 	
 		    } catch (SQLException e ) {
+		    	
+		    	System.err.println(e.getMessage());
 		
 		    } finally {
 		        if (insertData != null) {
@@ -69,7 +63,7 @@ public class StoreToDB {
 	    String tblName = "airline_data";
 	    
 	    String insertString =
-	        "INSERT into "+ dbName + "." + tblName+ " VALUES(?,?,?,?,?,?,?,?,?,?,?)";
+	        "INSERT into "+ dbName + "." + tblName+ " VALUES(ID,?,?,?,?,?,?,?,?,?,?)";
 	    
 	        try {
 		    	
@@ -77,20 +71,21 @@ public class StoreToDB {
 		        Connection con = DriverManager.getConnection(url,userName,password);
 	
 		        insertData = con.prepareStatement(insertString);
-			        insertData.setInt(1, id);
-			        insertData.setString(2, tweet_id);
-			        insertData.setString(3, flightNumber);
-			        insertData.setString(4, planeType);
-			        insertData.setString(5, origin_air);
-			        insertData.setString(6, origin_city);
-			        insertData.setString(7, dest_air);
-			        insertData.setString(8, dest_city);
-			        insertData.setString(9, dept_time);
-			        insertData.setString(10, arr_time);
-			        insertData.setInt(11, metric);
+			       // insertData.setInt(1, id);
+			        insertData.setString(1, tweet_id);
+			        insertData.setString(2, flightNumber);
+			        insertData.setString(3, planeType);
+			        insertData.setString(4, origin_air);
+			        insertData.setString(5, origin_city);
+			        insertData.setString(6, dest_air);
+			        insertData.setString(7, dest_city);
+			        insertData.setString(8, dept_time);
+			        insertData.setString(9, arr_time);
+			        insertData.setInt(10, metric);
 			        insertData.executeUpdate();
 	
 		    } catch (SQLException e ) {
+		    	System.err.println(e.getMessage());
 		
 		    } finally {
 		        if (insertData != null) {
@@ -99,33 +94,4 @@ public class StoreToDB {
 		    }
 	}
 	
-	/*
-	 * 
-	 */
-	public static void main(String[] args) throws SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
-		
-		java.sql.PreparedStatement insertData = null;
-	    String tblName = "tweet";
-
-	    String insertString =
-	        "INSERT into "+ dbName + "." + tblName+ " VALUES(?,?)";
-	    
-		    try {
-		    	
-				Class.forName(driver).newInstance();
-		        Connection con = DriverManager.getConnection(url,userName,password);
-	
-		        insertData = con.prepareStatement(insertString);
-			    //    insertData.setString(1, "random test");
-			        insertData.setString(2, "ppppppppppppppppp");
-			        insertData.executeUpdate();
-	
-		    } catch (SQLException e ) {
-		
-		    } finally {
-		        if (insertData != null) {
-		        	insertData.close();
-		        }
-		    }
-	}
 }
