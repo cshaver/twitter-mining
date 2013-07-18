@@ -6,7 +6,7 @@ import java.sql.SQLException;
  * 
  */
 public class StoreToDB {
-  
+	
 	private static String dbName = "twitter_data";
 	private static String url = "jdbc:mysql://localhost:3306/"+dbName;
     private static String driver = "com.mysql.jdbc.Driver";
@@ -62,14 +62,14 @@ public class StoreToDB {
 	 * 
 	 */
 	public void writeAirlineData(String tweet_id,String flightNumber, String planeType, String origin_air, String origin_city,
-			String dest_air, String dest_city, String dept_time, String arr_time,
-			String enroute, int metric) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
+			String dest_air, String dest_city, String dept_time, String arr_time,int metric) 
+					throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 		
 		java.sql.PreparedStatement insertData = null;
 	    String tblName = "airline_data";
 	    
 	    String insertString =
-	        "INSERT into "+ dbName + "." + tblName+ " VALUES(?,?,?,?,?,?,?,?,?,?,?,?)";
+	        "INSERT into "+ dbName + "." + tblName+ " VALUES(?,?,?,?,?,?,?,?,?,?,?)";
 	    
 	        try {
 		    	
@@ -87,8 +87,7 @@ public class StoreToDB {
 			        insertData.setString(8, dest_city);
 			        insertData.setString(9, dept_time);
 			        insertData.setString(10, arr_time);
-			        insertData.setString(11, enroute);
-			        insertData.setInt(12, metric);
+			        insertData.setInt(11, metric);
 			        insertData.executeUpdate();
 	
 		    } catch (SQLException e ) {
