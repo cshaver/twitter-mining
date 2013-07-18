@@ -27,7 +27,7 @@ public class SentimentAnalyzer {
 		System.getProperties().put("http.proxyPassword", "Calcifer56");
 		
 		String text = URLEncoder.encode(tweet, "ISO-8859-1");
-		String key = "0466e03a0f680707977ff2b8878ec804283538f1";
+		String key = "d73c10d0ab430f7bc7f549fd074577f67db3bd86";
 		String url = "http://access.alchemyapi.com/calls/text/TextGetTextSentiment?apikey="+key+"&outputMode=json&showSourceText=1&text="+text;
 
 		URL obj = new URL(url);	
