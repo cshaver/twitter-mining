@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Mining</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+
+    <!-- twitter bootstrap styles / js -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- jqueryui styles / js -->
+    <link href="css/ui-lightness/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" media="screen">
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+
+    <!-- tagsinput styles / js -->
+    <link rel="stylesheet" href="css/jquery.tagsinput.css">
+    <script src="js/jquery.tagsinput.min.js"></script>
+
+    <!-- filtrify styles / js -->
+    <script src="js/filtrify.js"></script>
+    <link rel="stylesheet" href="css/filtrify.css">
+
+    <!-- jqcloud wordcloud styles / js -->
+    <script src="js/jqcloud-1.0.4.min.js"></script>
+    <link rel="stylesheet" href="css/jqcloud.css">
+
+    <!-- Chart.js -->
+    <script src="js/Chart.min.js"></script>
+
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <!-- custom styles / js -->
+    <link href="css/styles.css" rel="stylesheet" media="screen">
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">Twitter Mining</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="content" class="one-up-search">
+      <div id="search-column">
+        <div class="show-content">
+          <h3><i class="icon-search icon-large"></i> Search</h3>
+          <form name="search" action="" method="post" id="search-form">
+            <div class="input-prepend input-append criteria" id="tags-div">
+              <span class="add-on">
+                <a href="#" data-toggle="tooltip" class="tooltip-link" title="Keywords">
+                  <i class="icon-tag"></i>
+                </a>
+              </span>
+              <input name="tags" id="tags" value="" placeholder="keywords" />
+            </div>
+
+            <div class="input-prepend input-append criteria" id="dates-div">
+              <span class="add-on">
+                <a href="#" data-toggle="tooltip" class="tooltip-link" title="Dates">
+                  <i class="icon-calendar"></i>
+                </a>
+              </span>
+              <input class="date" name="dateFrom" type="text" placeholder="mm/dd/yyyy"/>
+              <span class="add-on">to</span>
+              <input class="date appended" name="dateTo" type="text" placeholder="mm/dd/yyyy"/>
+            </div>
+
+            <div class="input-prepend criteria" id="airlines-div">
+              <span class="add-on">
+                <a href="#" data-toggle="tooltip" class="tooltip-link" title="Airline">
+                  <i class="icon-plane"></i>
+                </a>
+              </span>
+              <select class="span-select" id="search-select" name="airline">
+                <option value="" disabled selected>Airline</option>
+                <option value="American">American</option>
+                <option value="Southwest">Southwest</option>
+                <option value="Spirit">Spirit</option>
+              </select>
+                </a>
+              </button>
+            </div>
+
+            <div class="input-prepend criteria" id="flight-nums-div">
+              <span class="add-on">
+                <a href="#" data-toggle="tooltip" class="tooltip-link" title="Flight Number">
+                  #
+                </a>
+              </span>
+              <input class="span-cust" id="search-flightnum" name="flightNum" type="text" placeholder="Flight Number" />
+            </div>
+
+            <button type="submit" class="btn" id="search-submit">Search</button>
+
+          </form>
+          <i class="icon-chevron-left icon-large toggle"></i>
+        </div>
+        <div class="hide-content">
+          <h3><i class="icon-search icon-large"></i></h3>
+          <i class="icon-chevron-right icon-large toggle"></i>
+        </div>
+      </div>
+      <div id="filter-column" class="collapsed">
+        <div class="show-content">
+          <h3><i class="icon-filter icon-large"></i> Filter</h3>
+          <div id="filtrify-filter-container">
+          </div>
+          <div class="btn-group" id="display-links">
+            <hr/>
+            <h4>Display:</h4>
+            <button class="btn active" value="table-view">
+              <a data-toggle="tooltip" class="tooltip-link" title="Table">
+                <i class="icon-table icon-large"></i>
+              </a>
+            </button>
+            <button class="btn" value="graph-view">
+              <a data-toggle="tooltip" class="tooltip-link" title="Graphs">
+                <i class="icon-bar-chart icon-large"></i>
+              </a>
+            </button>
+            <button class="btn" value="cloud-view">
+              <a data-toggle="tooltip" class="tooltip-link" title="Tag Cloud">
+                <i class="icon-cloud icon-large"></i>
+              </a>
+            </button>
+            <button class="btn" value="map-view">
+              <a data-toggle="tooltip" class="tooltip-link" title="Map">
+                <i class="icon-map-marker icon-large"></i>
+              </a>
+            </button>
+          </div>
+          <i class="icon-chevron-left icon-large toggle"></i>
+        </div>
+        <div class="hide-content">
+          <h3><i class="icon-filter icon-large"></i></h3>
+          <i class="icon-chevron-right icon-large toggle"></i>
+        </div>
+      </div>
+      <div id="results-column">
+        <div class="show-content">
+          <div id="table-view">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Tweet Text</th>
+                  <th>Date/Time</th>
+                  <th>Sentiment</th>
+                  <th>Airline</th>
+                  <th>Flight Number</th>
+                </tr>
+              </thead>
+              <tbody id="filtrify-data-container">
+              </tbody>
+            </table>
+          </div>
+          <div id="graph-view" style="display: none;">
+            <h1>Graph</h1>
+            <canvas id="keyword-doughnut" width="500" height="300"></canvas>
+            <canvas id="sentiment-line" width="500" height="300"></canvas>
+          </div>
+          <div id="cloud-view" style="display: none;">
+            <h1>Cloud</h1>
+            <div id="jqcloud" style="width: 300px; height: 300px;"></diV>
+          </div>
+          <div id="map-view" style="display: none;">
+            <h1>Map</h1>
+            <div id="body">
+              <div id="footer">
+                <span>U.S. Commercial Flights</span>, 2008
+                <div class="hint">
+                  mouseover for flights from each airport
+                </div>
+                <div style="font-size:12px;line-height:60px;"><input type="checkbox" id="voronoi"> <label for="voronoi">show Voronoi</label></div>
+              </div>
+            </div>
+          </div>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
