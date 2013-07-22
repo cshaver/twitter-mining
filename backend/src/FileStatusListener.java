@@ -20,7 +20,7 @@ import twitter4j.json.DataObjectFactory;
 /**
  * Write tweets to raw json files.
  * 
- * @author Qing Ke (Qing.Ke@sabre.com)
+ * @author Sabre Labs Twitter Mining Team - 2
  * 
  */
 public class FileStatusListener implements StatusListener {

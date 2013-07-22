@@ -1,12 +1,13 @@
-import java.io.File;
-
 /*
  * Copyright 2013 Sabre Holdings
  */
 
+import java.io.File;
+
 /**
+ * All of the used constants.
  * 
- * @author Qing Ke (Qing.Ke@sabre.com)
+ * @author Sabre Labs Twitter Mining Team - 2
  * 
  */
 public class Constants {
@@ -20,6 +21,9 @@ public class Constants {
 	/** number of tweets in a single file */
 	public static final int NUMBER_OF_TWEETS_PER_FILE = 100000;
 
+	/** Twitter Date Format */
+	public static final String TWITTER_DATE_FORMAT = "EEE MMM dd HH:mm:ss ZZZZZ yyyy";
+
 	/** root directory for tweets files */
 	public static final String TWEETS_DATA_DIR = "data";
 
@@ -28,7 +32,7 @@ public class Constants {
 
 	/** File path for airport data */
 	public static final String KEYWORDS_AIRPORT_DATA_PATH = KEYWORDS_DATA_DIR
-			+ File.separator + "airports.txt";
+			+ File.separator + "airport-all.txt";
 
 	/** File path for airline twitter data */
 	public static final String KEYWORDS_AIRLINE_TWITTER_DATA_PATH = KEYWORDS_DATA_DIR
@@ -37,5 +41,8 @@ public class Constants {
 	/** File path for airline code data */
 	public static final String KEYWORDS_AIRLINE_CODE_DATA_PATH = KEYWORDS_DATA_DIR
 			+ File.separator + "airlines-codes-small.txt";
+
+	public static final String KEYWORDS_GENERAL_DATA_PATH = KEYWORDS_DATA_DIR
+			+ File.separator + "general.txt";
 
 }

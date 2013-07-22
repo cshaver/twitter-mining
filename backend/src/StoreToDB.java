@@ -1,8 +1,15 @@
+/*
+ * Copyright 2013 Sabre Holdings
+ */
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/*
+/**
+ * Write to database
+ * 
+ * @author Sabre Labs Twitter Mining Team - 2
  * 
  */
 public class StoreToDB {

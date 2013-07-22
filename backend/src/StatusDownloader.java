@@ -15,9 +15,9 @@ import twitter4j.TwitterStream;
 import twitter4j.TwitterStreamFactory;
 
 /**
- * Stream tweets using filter API.
+ * Stream tweets using Twitter filter API.
  * 
- * @author Qing Ke (Qing.Ke@sabre.com)
+ * @author Sabre Labs Twitter Mining Team - 2
  * 
  */
 public class StatusDownloader {
@@ -29,7 +29,7 @@ public class StatusDownloader {
 	private String[] getTrack() throws IOException {
 		List<String> track = new ArrayList<String>();
 		String keywordsFilePath = "keywords" + File.separator
-				+ "query-keywords-3.txt";
+				+ "query-keywords-2.txt";
 		BufferedReader br = new BufferedReader(new FileReader(keywordsFilePath));
 		while (br.ready()) {
 			track.add(br.readLine());

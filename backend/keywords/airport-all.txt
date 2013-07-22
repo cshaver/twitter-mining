@@ -65,9 +65,9 @@ AZR	Touat-Cheikh Sidi Mohamed Belkebir	9843 ft.	919 ft.	Adrar	Algeria	DZ	Unavail
 TGR	Touggourt	9843 ft.	279 ft.	Touggourt	Algeria	DZ	Unavailable	6° 5’ 14” E	33° 3’ 36” N	500	+1.0
 TLM	Zenata-Messali El Hadj	8530 ft.	814 ft.	Tlemcen	Algeria	DZ	Unavailable	1° 27’ 3” W	35° 0’ 55” N	500	+1.0
 FTI	Fitiuta	Unknown	Unknown	Fitiuta	American Samoa	AS	Unavailable	169° 27’ 0” W	14° 13’ 0” S	5	+11.0
-PPG	International	9000 ft.	30 ft.	Pago Pago	American Samoa	AS	Unavailable	170° 43’ 0” W	14° 20’ 0” S	5	+11.0
+PPG	Pago Pago International	9000 ft.	30 ft.	Pago Pago	American Samoa	AS	Unavailable	170° 43’ 0” W	14° 20’ 0” S	5	+11.0
 OFU	Ofu Island Airstrip	1800 ft.	9 ft.	Vaoto, Ofu Island	American Samoa	AS	Unavailable	169° 40’ 12” W	14° 11’ 4” S	5	-11.0
-TAV	Tau Island Airport	2500 ft.	185 ft.	Fiti'Uta Village	American Samoa	AS	Unavailable	169° 30’ 40” W	14° 13’ 45” S	5	-11.0
+TAV	Tau Island	2500 ft.	185 ft.	Fiti'Uta Village	American Samoa	AS	Unavailable	169° 30’ 40” W	14° 13’ 45” S	5	-11.0
 ALV	Andorra La Vella	Unknown	Unknown	Andorra La Vella	Andorra	AD	Unavailable	1° 31’ 0” E	42° 30’ 0” N	Unknown	+1.0
 LAD	4 De Fevereiro	12190 ft.	243 ft.	Luanda	Angola	AO	Unavailable	13° 13’ 52” E	8° 51’ 30” S	502	+1.0
 AZZ	Ambriz	7900 ft.	144 ft.	Ambriz	Angola	AO	Unavailable	13° 9’ 0” E	7° 53’ 0” S	502	-1.0
@@ -156,8 +156,8 @@ OYA	Goya	7415 ft.	125 ft.	Goya	Argentina	AR	Unavailable	59° 15’ 0” W	29° 6
 GHU	Gualeguaychu	4540 ft.	76 ft.	Gualeguaychu	Argentina	AR	Unavailable	58° 35’ 0” W	33° 1’ 0” S	303	+3.0
 COR	Ingeniero Aeronáutico Ambrosio L.V. Taravella International	10410 ft.	1604 ft.	Cordoba	Argentina	AR	Unavailable	64° 12’ 29” W	31° 19’ 25” S	303	-3.0
 IGB	Ingeniero Jacobacci	5577 ft.	2926 ft.	Ingeniero Jacobacci	Argentina	AR	Unavailable	69° 35’ 0” W	41° 18’ 0” S	303	+3.0
-RGL	Internacional	11647 ft.	59 ft.	Rio Gallegos	Argentina	AR	Unavailable	69° 12’ 0” W	51° 39’ 0” S	303	+3.0
-BRC	International	7900 ft.	2772 ft.	San Carlos DeBariloche	Argentina	AR	Unavailable	71° 10’ 0” W	41° 8’ 0” S	303	+3.0
+RGL	Piloto Civil Norberto Fernández International	11647 ft.	59 ft.	Rio Gallegos	Argentina	AR	Unavailable	69° 12’ 0” W	51° 39’ 0” S	303	+3.0
+BRC	San Carlos de Bariloche	7900 ft.	2772 ft.	San Carlos DeBariloche	Argentina	AR	Unavailable	71° 10’ 0” W	41° 8’ 0” S	303	+3.0
 USH	Islas Malvinas Argentinas International	9186 ft.	71 ft.	Ushuaia, Tierra del Fuego	Argentina	AR	Unavailable	68° 17’ 45” W	54° 50’ 36” S	303	-3.0
 AEP	Jorge Newbery	6890 ft.	18 ft.	Buenos Aires	Argentina	AR	Unavailable	58° 24’ 56” W	34° 33’ 33” S	303	-3.0
 JSM	Jose De San Martin	5905 ft.	2362 ft.	Jose De San Martin	Argentina	AR	Unavailable	70° 28’ 0” W	44° 2’ 0” S	303	+3.0
@@ -426,7 +426,7 @@ FVL	Flora Valey	Unknown	Unknown	Flora Valley	Australia	AU	Unavailable	128° 0’
 FRB	Forbes	4060 ft.	760 ft.	Forbes	Australia	AU	Unavailable	148° 1’ 0” E	33° 23’ 0” S	802	-10.0
 WGA	Forest Hill	5801 ft.	724 ft.	Wagga Wagga	Australia	AU	Unavailable	147° 27’ 59” E	35° 9’ 55” S	802	+10.0
 FOS	Forrest	5000 ft.	511 ft.	Forrest	Australia	AU	Unavailable	128° 6’ 54” E	30° 50’ 17” S	802	+8.0
-FVR	Forrest River Airport	Unknown	Unknown	Forrest River	Australia	AU	Unavailable	128° 4’ 0” E	15° 18’ 0” S	802	+0.0
+FVR	Forrest River	Unknown	Unknown	Forrest River	Australia	AU	Unavailable	128° 4’ 0” E	15° 18’ 0” S	802	+0.0
 FOT	Forster	5030 ft.	13 ft.	Forster	Australia	AU	Unavailable	152° 31’ 0” E	32° 11’ 0” N	802	+10.0
 FSL	Fossil Downs	6120 ft.	400 ft.	Fossil Downs	Australia	AU	Unavailable	125° 45’ 0” E	18° 12’ 0” S	802	-8.0
 OKB	Fraser Island	Unknown	Unknown	Orchid Beach	Australia	AU	Unavailable	153° 17’ 0” E	25° 0’ 0” S	802	-10.0
@@ -549,7 +549,7 @@ LGH	Leigh Creek	5610 ft.	856 ft.	Leigh Creek	Australia	AU	Unavailable	138° 25�
 LER	Leinster	5700 ft.	1631 ft.	Leinster	Australia	AU	Unavailable	120° 37’ 0” E	27° 50’ 0” S	802	-8.0
 LNO	Leonora	4406 ft.	1217 ft.	Leonora	Australia	AU	Unavailable	121° 18’ 0” E	28° 53’ 0” S	802	-8.0
 LHG	Lightning Ridge	5000 ft.	540 ft.	Lightning Ridge	Australia	AU	Unavailable	147° 58’ 0” E	29° 24’ 0” S	802	-10.0
-LLT	Lilydale Airport	4 ft.	250 ft.	Lilydale	Australia	AU	Unavailable	145° 22’ 0” E	37° 41’ 30” S	61	+10.0
+LLT	Lilydale	4 ft.	250 ft.	Lilydale	Australia	AU	Unavailable	145° 22’ 0” E	37° 41’ 30” S	61	+10.0
 LIB	Limbunya	2680 ft.	1225 ft.	Limbunya	Australia	AU	Unavailable	129° 50’ 0” E	17° 20’ 0” S	802	-9.5
 LLP	Linda Downs	Unknown	Unknown	Linda Downs	Australia	AU	Unavailable	138° 42’ 0” E	23° 1’ 0” S	802	-10.0
 LDC	Lindeman Island	Unknown	Unknown	Lindeman Island	Australia	AU	Unavailable	149° 3’ 0” E	20° 27’ 0” S	802	-10.0
@@ -763,7 +763,7 @@ SWH	Swan Hill	4895 ft.	232 ft.	Swan Hill	Australia	AU	Unavailable	143° 33’ 0�
 BWU	Sydney Bankstown	3645 ft.	29 ft.	Sydney	Australia	AU	Unavailable	150° 59’ 0” E	33° 55’ 0” S	802	-10.0
 SWZ	Sydney West	4567 ft.	Unknown	Sydney	Australia	AU	Unavailable	150° 43’ 0” E	33° 53’ 0” S	802	+10.0
 TBL	Tableland	3773 ft.	118 ft.	Tableland	Australia	AU	Unavailable	126° 54’ 46” E	17° 17’ 44” S	802	+8.0
-TMW	Tamworth Regional Airport	7218 ft.	1334 ft.	Tamworth	Australia	AU	Unavailable	150° 50’ 44” E	31° 4’ 7” S	802	+10.0
+TMW	Tamworth Regional	7218 ft.	1334 ft.	Tamworth	Australia	AU	Unavailable	150° 50’ 44” E	31° 4’ 7” S	802	+10.0
 TXR	Tanbar	Unknown	Unknown	Tanbar	Australia	AU	Unavailable	141° 55’ 0” E	25° 50’ 0” S	802	+0.0
 TAN	Tangalooma	2000 ft.	Unknown	Tangalooma	Australia	AU	Unavailable	153° 22’ 25” E	27° 10’ 41” S	802	+10.0
 XTR	Tara	Unknown	Unknown	Tara	Australia	AU	Unavailable	150° 28’ 37” E	27° 9’ 42” S	802	+10.0
@@ -878,7 +878,7 @@ GHC	Great Harbour	4536 ft.	18 ft.	Great Harbour	Bahamas	BS	Unavailable	77° 51�
 GTC	Green Turtle	Unknown	Unknown	Green Turtle	Bahamas	BS	Unavailable	77° 20’ 0” W	26° 47’ 0” N	204	+5.0
 HBI	Harbour Island	Unknown	Unknown	Harbour Island	Bahamas	BS	Unavailable	76° 45’ 0” W	25° 30’ 0” N	204	+0.0
 IGA	Inagua	7016 ft.	8 ft.	Inagua	Bahamas	BS	Unavailable	73° 40’ 31” W	20° 58’ 30” N	204	-5.0
-BIM	International	5000 ft.	10 ft.	Bimini	Bahamas	BS	Unavailable	79° 17’ 0” W	25° 42’ 0” N	204	+5.0
+BIM	Bimini International	5000 ft.	10 ft.	Bimini	Bahamas	BS	Unavailable	79° 17’ 0” W	25° 42’ 0” N	204	+5.0
 NAS	Lynden Pindling International	11353 ft.	16 ft.	Nassau	Bahamas	BS	Unavailable	77° 27’ 58” W	25° 2’ 20” N	204	-5.0
 MAY	Mangrove Cay	5000 ft.	19 ft.	Mangrove Cay	Bahamas	BS	Unavailable	77° 41’ 3” W	24° 17’ 16” N	204	-5.0
 MHH	Marsh Harbour	5000 ft.	10 ft.	Marsh Harbour	Bahamas	BS	Unavailable	77° 5’ 0” W	26° 30’ 41” N	204	-5.0
@@ -932,17 +932,17 @@ VTB	Vitebsk	2606 ft.	208 ft.	Vitebsk	Belarus	BY	Unavailable	30° 20’ 59” E	5
 ZYZ	Berchem Railway Stn.	Unknown	Unknown	Antwerp	Belgium	BE	Unavailable	4° 25’ 0” E	51° 13’ 0” N	409	+0.0
 CRL	Charleroi (Brussels South)	8366 ft.	614 ft.	Charleroi	Belgium	BE	Unavailable	4° 27’ 10” E	50° 27’ 36” N	409	+1.0
 ZAY	De Keyserlei Bus Stn.	Unknown	Unknown	Antwerp	Belgium	BE	Unavailable	4° 25’ 0” E	51° 13’ 0” N	409	+1.0
-ANR	Deurne/ Antwerp Airport	4839 ft.	39 ft.	Antwerp	Belgium	BE	Unavailable	4° 27’ 37” E	51° 11’ 22” N	409	+1.0
+ANR	Deurne/ Antwerp	4839 ft.	39 ft.	Antwerp	Belgium	BE	Unavailable	4° 27’ 37” E	51° 11’ 22” N	409	+1.0
 GNE	Ghent	2789 ft.	34 ft.	Ghent	Belgium	BE	Unavailable	3° 43’ 0” E	51° 3’ 0” N	409	-1.0
 XHN	Guillemins, Raiway Stn	Unknown	Unknown	Liege	Belgium	BE	Unavailable	5° 34’ 0” E	50° 38’ 0” N	409	+0.0
 QHA	Kiewit	2231 ft.	141 ft.	Hasselt	Belgium	BE	Unavailable	5° 22’ 30” E	50° 58’ 12” N	409	+1.0
 KNO	Knokke/Het Zoute	Unknown	Unknown	Knokke/Het Zoute	Belgium	BE	Unavailable	3° 15’ 30” E	51° 25’ 0” N	409	-1.0
 KJK	Kortrijk-Wevelgem International	6030 ft.	64 ft.	Kortrijk	Belgium	BE	Unavailable	3° 12’ 17” E	50° 49’ 2” N	409	+1.0
-LGG	Liege Airport	8839 ft.	660 ft.	Liege	Belgium	BE	Unavailable	5° 26’ 34” E	50° 38’ 11” N	409	+1.0
+LGG	Liege	8839 ft.	660 ft.	Liege	Belgium	BE	Unavailable	5° 26’ 34” E	50° 38’ 11” N	409	+1.0
 MWW	Mouscron	Unknown	Unknown	Mouscron	Belgium	BE	Unavailable	Unknown	Unknown	409	+0.0
 BRU	National/Zaventem	11936 ft.	184 ft.	Brussels	Belgium	BE	Unavailable	4° 29’ 4” E	50° 54’ 5” N	409	+1.0
 OBL	Oostmalle	9777 ft.	53 ft.	Zoersel	Belgium	BE	Unavailable	4° 45’ 12” E	51° 15’ 53” N	409	+1.0
-OST	Ostend/Bruges International Airport	10499 ft.	13 ft.	Ostend	Belgium	BE	Unavailable	2° 52’ 0” E	51° 12’ 0” N	409	-1.0
+OST	Ostend/Bruges International	10499 ft.	13 ft.	Ostend	Belgium	BE	Unavailable	2° 52’ 0” E	51° 12’ 0” N	409	-1.0
 ZYB	SNCB Rail Network	Unknown	Unknown	SNCB Rail Network	Belgium	BE	Unavailable	Unknown	Unknown	409	+0.0
 BCV	Belmopan	Unknown	Unknown	Belmopan	Belize	BZ	Unavailable	88° 46’ 0” W	17° 15’ 0” N	106	+0.0
 BGK	Big Creek	3232 ft.	16 ft.	Big Creek	Belize	BZ	Unavailable	88° 25’ 0” W	16° 31’ 0” N	106	+6.0
@@ -1075,7 +1075,7 @@ BNU	Blumenau	3543 ft.	128 ft.	Blumenau	Brazil	BR	Unavailable	49° 3’ 0” W	26
 BVB	Boa Vista	8071 ft.	276 ft.	Boa Vista	Brazil	BR	Unavailable	60° 41’ 0” W	2° 50’ 0” N	316	+4.0
 BCR	Boca Do Acre	3937 ft.	394 ft.	Boca Do Acre	Brazil	BR	Unavailable	67° 25’ 0” W	8° 38’ 0” S	316	+4.0
 LAZ	Bom Jesus Da Lapa	3973 ft.	1454 ft.	Bom Jesus Da Lapa	Brazil	BR	Unavailable	43° 25’ 0” W	13° 16’ 0” S	316	+3.0
-BYO	Bonito Airport	Unknown	Unknown	Bonito	Brazil	BR	Unavailable	56° 45’ 0” W	21° 24’ 0” S	316	+0.0
+BYO	Bonito	Unknown	Unknown	Bonito	Brazil	BR	Unavailable	56° 45’ 0” W	21° 24’ 0” S	316	+0.0
 RBB	Borba	3937 ft.	295 ft.	Borba	Brazil	BR	Unavailable	59° 35’ 0” W	4° 24’ 0” S	316	+4.0
 BJP	Braganca Paulista	Unknown	Unknown	Braganca Paulista	Brazil	BR	Unavailable	39° 46’ 0” W	4° 38’ 0” S	316	+0.0
 BVS	Breves	2789 ft.	30 ft.	Breves	Brazil	BR	Unavailable	50° 28’ 0” W	1° 40’ 0” S	316	+3.0
@@ -1094,7 +1094,7 @@ CMP	Campo Alegre	4940 ft.	597 ft.	Santana Do Araguaia	Brazil	BR	Unavailable	50°
 CXJ	Campo Dos Bugres	6362 ft.	2472 ft.	Caxias Do Sul	Brazil	BR	Unavailable	51° 11’ 15” W	29° 11’ 49” S	316	-3.0
 CBW	Campo Mourao	Unknown	Unknown	Campo Mourao	Brazil	BR	Unavailable	52° 22’ 0” W	24° 3’ 0” S	316	+0.0
 NBV	Cana Brava	4019 ft.	1368 ft.	Cana Brava	Brazil	BR	Unavailable	48° 14’ 49” W	13° 32’ 17” S	316	+3.0
-CQA	Canarana Airport	Unknown	Unknown	Canarana	Brazil	BR	Unavailable	44° 32’ 0” W	4° 27’ 0” S	316	+0.0
+CQA	Canarana	Unknown	Unknown	Canarana	Brazil	BR	Unavailable	44° 32’ 0” W	4° 27’ 0” S	316	+0.0
 CNV	Canavieiras	3937 ft.	16 ft.	Canavieiras	Brazil	BR	Unavailable	38° 52’ 0” W	15° 38’ 0” S	316	+3.0
 FLB	Cangapara	5905 ft.	689 ft.	Floriano	Brazil	BR	Unavailable	43° 0’ 0” W	6° 50’ 0” S	316	+3.0
 CKS	Carajas	6562 ft.	2028 ft.	Carajas	Brazil	BR	Unavailable	50° 0’ 12” W	6° 7’ 4” S	316	-3.0
@@ -1132,7 +1132,7 @@ DOU	Dourados	4321 ft.	1509 ft.	Dourados	Brazil	BR	Unavailable	54° 52’ 0” W	
 MII	Dr Gastao Vidigal	4921 ft.	2093 ft.	Marilia	Brazil	BR	Unavailable	49° 56’ 0” W	22° 13’ 0” S	316	+3.0
 PVI	Edu Chaves	4921 ft.	1526 ft.	Paranavai	Brazil	BR	Unavailable	52° 29’ 19” W	23° 5’ 24” S	316	-3.0
 IOS	Eduardo Gomes	5167 ft.	15 ft.	Ilheus	Brazil	BR	Unavailable	39° 2’ 0” W	14° 48’ 57” S	316	-3.0
-MAO	Eduardo Gomes Intl	8858 ft.	279 ft.	Manaus	Brazil	BR	Unavailable	60° 2’ 50” W	3° 2’ 19” S	316	-4.0
+MAO	Eduardo Gomes International	8858 ft.	279 ft.	Manaus	Brazil	BR	Unavailable	60° 2’ 50” W	3° 2’ 19” S	316	-4.0
 ERN	Eirunepe	7545 ft.	412 ft.	Eirunepe	Brazil	BR	Unavailable	69° 52’ 47” W	6° 38’ 22” S	316	-4.0
 UMU	Ernesto Geisel	4593 ft.	1558 ft.	Umuarama	Brazil	BR	Unavailable	53° 20’ 0” W	23° 45’ 0” S	316	+3.0
 URB	Ernesto Pochler	5525 ft.	1169 ft.	Urubupunga	Brazil	BR	Unavailable	51° 34’ 0” W	20° 48’ 0” S	316	+3.0
@@ -1153,7 +1153,7 @@ GDP	Guadalupe	5249 ft.	564 ft.	Guadalupe	Brazil	BR	Unavailable	43° 34’ 56” 
 GJM	Guajara-Mirim	5904 ft.	479 ft.	Guajara-Mirim	Brazil	BR	Unavailable	65° 20’ 0” W	10° 50’ 0” S	316	+4.0
 GNM	Guanambi	3937 ft.	1815 ft.	Guanambi	Brazil	BR	Unavailable	42° 47’ 0” W	14° 13’ 0” S	316	+3.0
 GUZ	Guarapari	Unknown	Unknown	Guarapari	Brazil	BR	Unavailable	40° 30’ 0” W	20° 40’ 0” S	316	+0.0
-REC	Guararapes Intl	9875 ft.	36 ft.	Recife	Brazil	BR	Unavailable	34° 55’ 26” W	8° 7’ 33” S	316	+3.0
+REC	Guararapes International	9875 ft.	36 ft.	Recife	Brazil	BR	Unavailable	34° 55’ 26” W	8° 7’ 33” S	316	+3.0
 GUJ	Guaratingueta	5092 ft.	1761 ft.	Guaratingueta	Brazil	BR	Unavailable	45° 12’ 17” W	22° 47’ 30” S	316	-3.0
 GRU	Guarulhos International (Governador André Franco Montoro)	12140 ft.	2459 ft.	Sao Paulo	Brazil	BR	Unavailable	46° 28’ 10” W	23° 25’ 55” S	316	-3.0
 GMS	Guimaraes	3280 ft.	10 ft.	Guimaraes	Brazil	BR	Unavailable	44° 36’ 0” W	2° 8’ 0” S	316	+3.0
@@ -1164,10 +1164,10 @@ ITR	Hidroeletrica	5748 ft.	1630 ft.	Itumbiara	Brazil	BR	Unavailable	49° 12’ 4
 HRZ	Horizontina	Unknown	Unknown	Horizontina	Brazil	BR	Unavailable	54° 19’ 0” W	27° 37’ 0” S	316	+0.0
 ILB	Ilha Solteira	Unknown	Unknown	Ilha Solteira	Brazil	BR	Unavailable	51° 20’ 0” W	20° 23’ 0” S	316	+0.0
 IMP	Imperatriz	5918 ft.	430 ft.	Imperatriz	Brazil	BR	Unavailable	47° 25’ 0” W	5° 30’ 0” S	316	+3.0
-PMG	International	6562 ft.	2160 ft.	Ponta Pora	Brazil	BR	Unavailable	55° 44’ 0” W	22° 32’ 0” S	316	+4.0
-CGR	Intl. Airport Campo Grande	8530 ft.	1833 ft.	Campo Grande	Brazil	BR	Unavailable	54° 40’ 2” W	20° 28’ 2” S	316	+4.0
-CMG	Intl. Airport Corumba	5443 ft.	461 ft.	Corumba	Brazil	BR	Unavailable	57° 40’ 1” W	19° 0’ 41” S	316	+4.0
-CGB	Intl. Airpt. Marechal Rondon	7546 ft.	613 ft.	Cuiaba	Brazil	BR	Unavailable	56° 7’ 0” W	15° 39’ 11” S	316	+4.0
+PMG	Ponta Porã International	6562 ft.	2160 ft.	Ponta Pora	Brazil	BR	Unavailable	55° 44’ 0” W	22° 32’ 0” S	316	+4.0
+CGR	International Campo Grande	8530 ft.	1833 ft.	Campo Grande	Brazil	BR	Unavailable	54° 40’ 2” W	20° 28’ 2” S	316	+4.0
+CMG	Corumba International	5443 ft.	461 ft.	Corumba	Brazil	BR	Unavailable	57° 40’ 1” W	19° 0’ 41” S	316	+4.0
+CGB	Marechal Rondon International	7546 ft.	613 ft.	Cuiaba	Brazil	BR	Unavailable	56° 7’ 0” W	15° 39’ 11” S	316	+4.0
 IPU	Ipiau	3690 ft.	492 ft.	Ipiau	Brazil	BR	Unavailable	39° 44’ 0” W	14° 8’ 0” S	316	+3.0
 IPG	Ipiranga	Unknown	Unknown	Ipiranga	Brazil	BR	Unavailable	69° 25’ 0” W	3° 20’ 0” S	316	+4.0
 IRE	Irece	4593 ft.	2552 ft.	Irece	Brazil	BR	Unavailable	41° 52’ 0” W	11° 18’ 0” S	316	+3.0
@@ -1473,7 +1473,7 @@ YBH	Bull Harbour	Unknown	Unknown	Bull Harbour, BC	Canada	CA	Unavailable	127° 57
 YPZ	Burns Lake	5000 ft.	2340 ft.	Burns Lake	Canada	CA	Unavailable	125° 46’ 0” W	54° 14’ 0” N	906	+8.0
 YDB	Burwash Landings	6000 ft.	2620 ft.	Burwash Landings	Canada	CA	Unavailable	139° 0’ 0” W	61° 21’ 0” N	906	+8.0
 YKZ	Buttonville Municipal	3902 ft.	650 ft.	Markham/Toronto, ON	Canada	CA	Buttonville Municipal Guide	79° 22’ 12” W	43° 51’ 44” N	905	-5.0
-YYC	Calgary International Airport	12675 ft.	3557 ft.	Calgary, AB	Canada	CA	Unavailable	114° 1’ 13” W	51° 6’ 50” N	906	-7.0
+YYC	Calgary International	12675 ft.	3557 ft.	Calgary, AB	Canada	CA	Unavailable	114° 1’ 13” W	51° 6’ 50” N	906	-7.0
 YCB	Cambridge Bay	5000 ft.	90 ft.	Cambridge Bay	Canada	CA	Unavailable	105° 8’ 0” W	69° 7’ 0” N	906	+7.0
 YBL	Campbell River	5000 ft.	346 ft.	Campbell River	Canada	CA	Unavailable	125° 16’ 0” W	49° 57’ 0” N	906	+8.0
 YTE	Cape Dorset	4000 ft.	158 ft.	Cape Dorset	Canada	CA	Unavailable	76° 32’ 0” W	64° 14’ 0” N	906	+5.0
@@ -1543,7 +1543,7 @@ DUQ	Duncan/Quam	1600 ft.	310 ft.	Duncan/Quam	Canada	CA	Unavailable	123° 42’ 0
 YXR	Earlton	6000 ft.	798 ft.	Earlton	Canada	CA	Unavailable	79° 51’ 0” W	47° 42’ 0” N	906	+5.0
 ZEM	East Main	1900 ft.	20 ft.	East Main	Canada	CA	Unavailable	78° 31’ 0” W	52° 15’ 0” N	906	+5.0
 YEM	East Manitoulin	Unknown	Unknown	Manitowaning	Canada	CA	Unavailable	81° 51’ 46” W	45° 50’ 51” N	906	+0.0
-YXD	Edmonton City Center Airport	5868 ft.	2200 ft.	Edmonton	Canada	CA	Unavailable	113° 31’ 0” W	53° 34’ 0” N	906	+7.0
+YXD	Edmonton City Center	5868 ft.	2200 ft.	Edmonton	Canada	CA	Unavailable	113° 31’ 0” W	53° 34’ 0” N	906	+7.0
 YEG	Edmonton International	11000 ft.	2373 ft.	Edmonton, AB	Canada	CA	Unavailable	113° 34’ 47” W	53° 18’ 35” N	906	-7.0
 YET	Edson	6000 ft.	3036 ft.	Edson	Canada	CA	Unavailable	116° 26’ 0” W	53° 35’ 0” N	906	+7.0
 YOA	Ekati	Unknown	Unknown	Ekati	Canada	CA	Unavailable	25° 15’ 27” E	37° 23’ 40” N	906	+0.0
@@ -1600,7 +1600,7 @@ YGC	Grande Cache	Unknown	Unknown	Grande Cache	Canada	CA	Unavailable	96° 27’ 0
 YQU	Grande Prairie	6500 ft.	2195 ft.	Grande Prairie	Canada	CA	Unavailable	118° 53’ 0” W	55° 11’ 0” N	906	+7.0
 XGL	Granville Lake	Unknown	Unknown	Granville Lake	Canada	CA	Unavailable	100° 30’ 0” W	56° 18’ 0” N	906	+6.0
 DAS	Great Bear Lake	Unknown	Unknown	Great Bear Lake	Canada	CA	Unavailable	1° 0’ 0” W	66° 0’ 0” N	906	+0.0
-YQM	Greater Moncton International Airport	8000 ft.	232 ft.	Moncton, NB	Canada	CA	Unavailable	64° 40’ 43” W	46° 6’ 44” N	906	-4.0
+YQM	Greater Moncton International	8000 ft.	232 ft.	Moncton, NB	Canada	CA	Unavailable	64° 40’ 43” W	46° 6’ 44” N	906	-4.0
 YGN	Greenway Sound	Unknown	Unknown	Greenway Sound	Canada	CA	Unavailable	126° 51’ 0” W	50° 51’ 0” N	906	+8.0
 YZX	Greenwood	8000 ft.	91 ft.	Greenwood	Canada	CA	Unavailable	64° 55’ 0” W	44° 59’ 0” N	906	+4.0
 YGZ	Grise Fiord	2000 ft.	146 ft.	Grise Fiord	Canada	CA	Unavailable	82° 56’ 45” W	76° 25’ 30” N	906	+5.0
@@ -1627,7 +1627,7 @@ YGT	Igloolik	3700 ft.	174 ft.	Igloolik	Canada	CA	Unavailable	81° 49’ 0” W	6
 ZUC	Ignace	3000 ft.	1435 ft.	Ignace	Canada	CA	Unavailable	91° 50’ 0” W	49° 30’ 0” N	906	+6.0
 YGR	Iles De La Madeleine	3725 ft.	34 ft.	Iles De La Madeleine	Canada	CA	Unavailable	61° 52’ 0” W	47° 25’ 0” N	906	+4.0
 ILF	Ilford	3000 ft.	642 ft.	Ilford	Canada	CA	Unavailable	95° 35’ 0” W	56° 4’ 0” N	906	+6.0
-YDC	Industrial Airport	3900 ft.	2776 ft.	Drayton Valley	Canada	CA	Unavailable	114° 59’ 0” W	53° 13’ 0” N	906	+7.0
+YDC	Industrial	3900 ft.	2776 ft.	Drayton Valley	Canada	CA	Unavailable	114° 59’ 0” W	53° 13’ 0” N	906	+7.0
 YPH	Inukjuak	2000 ft.	9 ft.	Inukjuak	Canada	CA	Unavailable	78° 6’ 0” W	58° 27’ 0” N	906	+5.0
 YEV	Inuvik/mike Zubko	6000 ft.	224 ft.	Inuvik	Canada	CA	Unavailable	133° 28’ 58” W	68° 18’ 15” N	906	-6.0
 TIL	Inverlake	Unknown	Unknown	Inverlake	Canada	CA	Unavailable	1° 2’ 0” W	50° 30’ 0” N	906	+0.0
@@ -1728,7 +1728,7 @@ YCH	Miramichi	10006 ft.	110 ft.	Miramichi, NB	Canada	CA	Unavailable	65° 27’ 2
 YYY	Mont Joli	6000 ft.	172 ft.	Mont Joli, QC	Canada	CA	Unavailable	68° 12’ 29” W	48° 36’ 31” N	906	-5.0
 YTM	Mont Tremblant International (La Macaza)	5587 ft.	827 ft.	Mont Tremblant, Qc	Canada	CA	Unavailable	74° 46’ 48” W	46° 24’ 33” N	906	-5.0
 YMF	Montagne Harbor	Unknown	Unknown	Montagne Harbor	Canada	CA	Unavailable	123° 12’ 0” W	48° 49’ 0” N	906	+8.0
-YMJ	Moose Jaw / Air Vice Marshal C. M. Mcewen Airport	8326 ft.	1892 ft.	Moose Jaw, Sk	Canada	CA	Unavailable	105° 33’ 33” W	50° 19’ 49” N	906	+6.0
+YMJ	Moose Jaw / Air Vice Marshal C. M. Mcewen	8326 ft.	1892 ft.	Moose Jaw, Sk	Canada	CA	Unavailable	105° 33’ 33” W	50° 19’ 49” N	906	+6.0
 YAD	Moose Lake	Unknown	Unknown	Moose Lake	Canada	CA	Unavailable	76° 11’ 47”	53° 34’ 0”	906	+0.0
 YMO	Moosonee	4000 ft.	30 ft.	Moosonee, ON	Canada	CA	Unavailable	80° 36’ 28” W	51° 17’ 28” N	906	-5.0
 YMD	Mould Bay	5000 ft.	40 ft.	Mould Bay	Canada	CA	Unavailable	119° 18’ 56” W	76° 14’ 17” N	906	-7.0
@@ -1915,9 +1915,9 @@ YTH	Thompson Regional	5800 ft.	729 ft.	Thompson, MB	Canada	CA	Unavailable	97° 5
 YQT	Thunder Bay	6200 ft.	653 ft.	Thunder Bay, ON	Canada	CA	Unavailable	89° 19’ 26” W	48° 22’ 18” N	906	-5.0
 YTS	Timmins Victor M. Power	6000 ft.	967 ft.	Timmins, ON	Canada	CA	Unavailable	81° 22’ 36” W	48° 34’ 11” N	906	-5.0
 YTT	Tisdale	3000 ft.	1525 ft.	Tisdale, sk	Canada	CA	Unavailable	104° 4’ 0” W	52° 50’ 12” N	906	-6.0
-YAZ	Tofino Airport	5000 ft.	80 ft.	Tofino, BC	Canada	CA	Unavailable	125° 46’ 21” W	49° 4’ 56” N	906	-8.0
-YKD	Township Airport	4950 ft.	750 ft.	Kincardine	Canada	CA	Unavailable	81° 36’ 24” W	44° 12’ 5” N	906	+5.0
-YZZ	Trail Regional Airport	4000 ft.	1427 ft.	Trail/Fruitvale, BC	Canada	CA	Unavailable	117° 36’ 33” W	49° 3’ 20” N	906	-8.0
+YAZ	Tofino	5000 ft.	80 ft.	Tofino, BC	Canada	CA	Unavailable	125° 46’ 21” W	49° 4’ 56” N	906	-8.0
+YKD	Township	4950 ft.	750 ft.	Kincardine	Canada	CA	Unavailable	81° 36’ 24” W	44° 12’ 5” N	906	+5.0
+YZZ	Trail Regional	4000 ft.	1427 ft.	Trail/Fruitvale, BC	Canada	CA	Unavailable	117° 36’ 33” W	49° 3’ 20” N	906	-8.0
 YTR	Trenton	10000 ft.	283 ft.	Trenton, ON	Canada	CA	Unavailable	77° 31’ 41” W	44° 7’ 8” N	906	-5.0
 YTI	Triple Island	Unknown	Unknown	Triple Island	Canada	CA	Unavailable	14° 33’ 37” E	46° 28’ 32” N	906	+0.0
 YRQ	Trois-Rivieres	6000 ft.	199 ft.	Trois-Rivieres, QC	Canada	CA	Unavailable	72° 40’ 46” W	46° 21’ 10” N	906	-5.0
@@ -1931,13 +1931,13 @@ YBE	Uranium City	5000 ft.	1044 ft.	Uranium City	Canada	CA	Unavailable	108° 29�
 YOY	Valcartier	Unknown	Unknown	Valcartier	Canada	CA	Unavailable	71° 29’ 0” W	46° 53’ 0” N	906	+0.0
 YVR	Vancouver International	11500 ft.	14 ft.	Richmond, BC	Canada	CA	Unavailable	123° 11’ 4” W	49° 11’ 38” N	906	-8.0
 YVG	Vermilion	3300 ft.	2025 ft.	Vermilion	Canada	CA	Unavailable	110° 51’ 0” W	53° 22’ 0” N	906	+7.0
-YVE	Vernon Regional Airport	3360 ft.	1140 ft.	Vernon B. C.	Canada	CA	Unavailable	119° 19’ 50” W	50° 14’ 53” N	906	-8.0
+YVE	Vernon Regional	3360 ft.	1140 ft.	Vernon B. C.	Canada	CA	Unavailable	119° 19’ 50” W	50° 14’ 53” N	906	-8.0
 YWH	Victoria Inner Harbor	Unknown	Unknown	Victoria, BC	Canada	CA	Unavailable	123° 23’ 15” W	48° 25’ 22” N	906	-8.0
 YYJ	Victoria International	7000 ft.	63 ft.	Victoria, BC	Canada	CA	Unavailable	123° 25’ 33” W	48° 38’ 49” N	906	-8.0
 YWK	Wabush	6000 ft.	1806 ft.	Wabush	Canada	CA	Unavailable	66° 52’ 0” W	52° 55’ 0” N	906	+4.0
 YKQ	Waskaganish	3500 ft.	Unknown	Waskaganish	Canada	CA	Unavailable	78° 45’ 0” W	51° 29’ 15” N	906	+5.0
 YQH	Watson Lake	5500 ft.	2262 ft.	Watson Lake	Canada	CA	Unavailable	128° 49’ 0” W	60° 7’ 0” N	906	+8.0
-YXZ	Wawa Airport	3950 ft.	942 ft.	Wawa	Canada	CA	Unavailable	84° 47’ 0” W	47° 59’ 0” N	906	+5.0
+YXZ	Wawa	3950 ft.	942 ft.	Wawa	Canada	CA	Unavailable	84° 47’ 0” W	47° 59’ 0” N	906	+5.0
 YWP	Webequie	3500 ft.	650 ft.	Webequie	Canada	CA	Unavailable	87° 20’ 0” W	53° 0’ 0” N	906	+5.0
 YNC	Wemindji	2300 ft.	30 ft.	Wemindji	Canada	CA	Unavailable	78° 50’ 0” W	52° 59’ 50” N	906	+5.0
 YLE	Wha Ti	2200 ft.	890 ft.	Wha Ti/Lac La Martre	Canada	CA	Unavailable	117° 16’ 0” W	63° 9’ 0” N	906	+7.0
@@ -1946,7 +1946,7 @@ YWS	Whistler	Unknown	Unknown	Whistler	Canada	CA	Unavailable	122° 58’ 0” W	5
 YWR	White River	Unknown	Unknown	White River	Canada	CA	Unavailable	85° 15’ 0” W	48° 35’ 0” N	906	+5.0
 YZU	Whitecourt	5800 ft.	2567 ft.	Whitecourt	Canada	CA	Unavailable	115° 41’ 0” W	54° 9’ 0” N	906	+7.0
 YXY	Whitehorse International	9497 ft.	2317 ft.	Whitehorse, Yukon	Canada	CA	Unavailable	135° 4’ 2” W	60° 42’ 34” N	911	-8.0
-YVV	Wiarton/Keppel Airport	4921 ft.	729 ft.	Wiarton, ON	Canada	CA	Unavailable	81° 6’ 26” W	44° 44’ 45” N	906	-5.0
+YVV	Wiarton/Keppel	4921 ft.	729 ft.	Wiarton, ON	Canada	CA	Unavailable	81° 6’ 26” W	44° 44’ 45” N	906	-5.0
 YWM	Williams Harbour	2000 ft.	70 ft.	Williams Harbour	Canada	CA	Unavailable	56° 0’ 0” W	52° 20’ 0” N	906	+3.5
 YWL	Williams Lake	7000 ft.	3085 ft.	Williams Lake, BC	Canada	CA	Unavailable	122° 3’ 15” W	52° 10’ 59” N	906	-8.0
 YQG	Windsor	9000 ft.	622 ft.	Windsor, On	Canada	CA	Unavailable	82° 57’ 20” W	42° 16’ 32” N	906	-5.0
@@ -2045,7 +2045,7 @@ LOB	Los Andes	Unknown	Unknown	Los Andes	Chile	CL	Unavailable	Unknown	Unknown	324
 LSQ	Los Angeles	4921 ft.	426 ft.	Los Angeles	Chile	CL	Unavailable	72° 21’ 0” W	37° 25’ 0” S	324	+4.0
 ULC	Los Cerrillos	Unknown	Unknown	Santiago	Chile	CL	Unavailable	72° 12’ 0” W	19° 20’ 0” S	324	-4.0
 ZCO	Maquehue	5577 ft.	304 ft.	Temuco	Chile	CL	Unavailable	72° 38’ 14” W	38° 46’ 1” S	324	-4.0
-IPC	Mataveri Intl	9524 ft.	226 ft.	Easter Island	Chile	CL	Unavailable	109° 25’ 0” W	27° 9’ 53” S	324	-6.0
+IPC	Mataveri International	9524 ft.	226 ft.	Easter Island	Chile	CL	Unavailable	109° 25’ 0” W	27° 9’ 53” S	324	-6.0
 OVL	Ovalle	3280 ft.	1000 ft.	Ovalle	Chile	CL	Unavailable	71° 12’ 0” W	30° 24’ 0” S	324	+4.0
 ZAL	Pichoy	4199 ft.	13 ft.	Valdivia	Chile	CL	Unavailable	73° 14’ 0” W	39° 46’ 0” S	324	+4.0
 PUQ	Pres Ibanez	9153 ft.	144 ft.	Punta Arenas	Chile	CL	Unavailable	70° 53’ 0” W	53° 6’ 0” S	324	+4.0
@@ -2077,7 +2077,6 @@ BAV	Baotou	8038 ft.	Unknown	Baotou	China	CN	Unavailable	109° 59’ 49” E	40°
 RLK	Bayannur	8530 ft.	Unknown	Bayannur	China	CN	Unavailable	107° 44’ 20” E	40° 55’ 35” N	713	+8.0
 BHY	Beihai	Unknown	Unknown	Beihai	China	CN	Unavailable	109° 5’ 0” E	21° 29’ 0” N	713	-8.0
 PEK	Beijing Capital International	12467 ft.	116 ft.	Beijing	China	CN	Unavailable	116° 35’ 4” E	40° 3’ 48” N	713	+8.0
-BJS	Beijing Capital International Airport	Unknown	Unknown	Beijing	China	CN	Unavailable	116° 35’ 4” E	40° 4’ 48” N	713	+8.0
 BFU	Bengbu	Unknown	Unknown	Bengbu	China	CN	Unavailable	117° 21’ 39” E	32° 56’ 27” N	713	+0.0
 XNN	Caojiabu	9843 ft.	7129 ft.	Xining	China	CN	Unavailable	102° 2’ 43” E	36° 31’ 39” N	713	+8.0
 CGD	Changde	Unknown	Unknown	Changde	China	CN	Unavailable	111° 41’ 0” E	29° 2’ 0” N	713	+8.0
@@ -2086,7 +2085,7 @@ FOC	Changle	11841 ft.	46 ft.	Fuzhou	China	CN	Unavailable	119° 17’ 48” E	26�
 CIH	Changzhi	Unknown	Unknown	Changzhi	China	CN	Unavailable	113° 8’ 0” E	36° 11’ 0” N	713	-8.0
 CZX	Changzhou	Unknown	Unknown	Changzhou	China	CN	Unavailable	119° 58’ 0” E	31° 42’ 0” N	713	-8.0
 WUZ	Changzhoudao	Unknown	Unknown	Wuzhou	China	CN	Unavailable	111° 20’ 0” E	23° 30’ 0” N	713	-8.0
-CHG	Chaoyang Airport	Unknown	Unknown	Chaoyang	China	CN	Unavailable	120° 24’ 18” E	41° 36’ 6” N	713	-8.0
+CHG	Chaoyang	Unknown	Unknown	Chaoyang	China	CN	Unavailable	120° 24’ 18” E	41° 36’ 6” N	713	-8.0
 CTU	Chengdu Shuangliu International	11811 ft.	1625 ft.	Chengdu	China	CN	Unavailable	103° 56’ 50” E	30° 34’ 43” N	713	+8.0
 CIF	Chifeng	Unknown	Unknown	Chifeng	China	CN	Unavailable	119° 0’ 30” E	42° 20’ 0” N	713	-8.0
 CKG	Chongqing Jiangbei International	10499 ft.	1365 ft.	Chongqing	China	CN	Unavailable	106° 38’ 30” E	29° 43’ 9” N	713	+8.0
@@ -2154,7 +2153,7 @@ KHG	Kashi	Unknown	Unknown	Kashi	China	CN	Unavailable	76° 1’ 0” E	39° 40’
 KRL	Korla	Unknown	Unknown	Korla	China	CN	Unavailable	86° 9’ 0” E	41° 44’ 0” N	713	-8.0
 KMG	Kunming Changshui International (previously WUJIABA)	11155 ft.	6217 ft.	Kunming	China	CN	Unavailable	102° 55’ 45” E	25° 6’ 7” N	713	+8.0
 KCA	Kuqa	Unknown	Unknown	Kuqa	China	CN	Unavailable	82° 44’ 0” E	41° 34’ 0” N	713	-8.0
-LHW	Lanzhou Airport	3400 ft.	1947 ft.	Lanzhou	China	CN	Unavailable	103° 45’ 0” E	36° 1’ 0” N	713	-8.0
+LHW	Lanzhou	3400 ft.	1947 ft.	Lanzhou	China	CN	Unavailable	103° 45’ 0” E	36° 1’ 0” N	713	-8.0
 LZD	Lanzhoudong	Unknown	Unknown	Lanzhou	China	CN	Unavailable	103° 41’ 0” E	36° 1’ 0” N	713	-8.0
 LCX	Liancheng	Unknown	Unknown	Longyan	China	CN	Unavailable	109° 15’ 0” E	23° 52’ 0” N	713	+0.0
 LIA	Liangping	Unknown	Unknown	Liangping	China	CN	Unavailable	107° 42’ 0” E	30° 49’ 0” N	713	-8.0
@@ -2168,7 +2167,7 @@ LYI	Linyi	Unknown	Unknown	Linyi	China	CN	Unavailable	118° 20’ 34” E	35° 3�
 HZH	Liping	Unknown	Unknown	Liping City	China	CN	Unavailable	109° 9’ 0” E	26° 20’ 0” N	713	+8.0
 LZH	Liuzhou	Unknown	Unknown	Liuzhou	China	CN	Unavailable	109° 32’ 0” E	24° 22’ 0” N	713	+8.0
 CGQ	Longjia International	10500 ft.	706 ft.	Changchun	China	CN	Unavailable	125° 41’ 7” E	43° 59’ 46” N	713	+8.0
-NKG	Lukou International Airport	11800 ft.	Unknown	Nanking/nanjing	China	CN	Unavailable	118° 51’ 43” E	31° 44’ 31” N	713	+8.0
+NKG	Lukou International	11800 ft.	Unknown	Nanking/nanjing	China	CN	Unavailable	118° 51’ 43” E	31° 44’ 31” N	713	+8.0
 LYA	Luoyang	Unknown	Unknown	Luoyang	China	CN	Unavailable	112° 28’ 0” E	34° 41’ 0” N	713	-8.0
 JIU	Lushan	9186 ft.	Unknown	Jiujiang	China	CN	Unavailable	115° 48’ 4” E	29° 28’ 37” N	713	+8.0
 LZO	Luzhou	Unknown	Unknown	Luzhou	China	CN	Unavailable	105° 21’ 0” E	28° 53’ 0” N	713	-8.0
@@ -2183,7 +2182,7 @@ ZEF	Nanhai Ferry	Unknown	Unknown	Nanhai	China	CN	Unavailable	119° 47’ 0” E	
 NNG	Nanning	2700 ft.	420 ft.	Nanning	China	CN	Unavailable	108° 0’ 0” E	22° 47’ 0” N	713	-8.0
 NTG	Nantong	7546 ft.	Unknown	Nantong	China	CN	Unavailable	120° 58’ 32” E	32° 4’ 15” N	713	+8.0
 NNY	Nanyang	Unknown	Unknown	Nanyang	China	CN	Unavailable	112° 32’ 0” E	33° 0’ 0” N	713	-8.0
-NAY	Nanyuan Airport	Unknown	Unknown	Beijing	China	CN	Unavailable	116° 30’ 0” E	40° 15’ 0” N	713	+0.0
+NAY	Nanyuan	Unknown	Unknown	Beijing	China	CN	Unavailable	116° 30’ 0” E	40° 15’ 0” N	713	+0.0
 NGB	Ningbo Lishe International	8200 ft.	Unknown	Ningbo	China	CN	Unavailable	121° 27’ 43” E	29° 49’ 36” N	713	+8.0
 ZAX	Pan Yu Ferry	Unknown	Unknown	Pan Yu	China	CN	Unavailable	119° 3’ 0” E	25° 5’ 0” N	713	+0.0
 PZI	Pan Zhi Hua Bao An Ying	Unknown	Unknown	Pan Zhi Hua	China	CN	Unavailable	103° 0’ 0” E	22° 0’ 0” N	713	+8.0
@@ -2316,7 +2315,7 @@ ECO	El Encanto	Unknown	Unknown	El Encanto	Colombia	CO	Unavailable	73° 14’ 0�
 BOG	El Nuevo Dorado International	12467 ft.	8361 ft.	Bogota	Colombia	CO	Unavailable	74° 8’ 18” W	4° 42’ 11” N	327	-5.0
 ELJ	El Recreo	7544 ft.	900 ft.	El Recreo	Colombia	CO	Unavailable	74° 8’ 0” W	2° 0’ 0” N	327	+5.0
 EYP	El Yopal	5085 ft.	1100 ft.	El Yopal	Colombia	CO	Unavailable	72° 23’ 0” W	5° 21’ 0” N	327	+5.0
-EOH	Enrique Olaya Herrera International Airport	5900 ft.	4940 ft.	Medellín	Colombia	CO	Unavailable	75° 35’ 0” W	6° 13’ 0” N	327	-5.0
+EOH	Enrique Olaya Herrera International	5900 ft.	4940 ft.	Medellín	Colombia	CO	Unavailable	75° 35’ 0” W	6° 13’ 0” N	327	-5.0
 ULQ	Farfan	Unknown	Unknown	Tulua	Colombia	CO	Unavailable	76° 0’ 0” W	4° 5’ 0” N	327	+0.0
 GRA	Gamarra	3832 ft.	700 ft.	Gamarra	Colombia	CO	Unavailable	73° 47’ 0” W	8° 12’ 0” N	327	+5.0
 LET	General Alfredo Vásquez Cobo International	6167 ft.	277 ft.	Leticia	Colombia	CO	Unavailable	69° 56’ 34” W	4° 11’ 35” S	327	-5.0
@@ -2456,7 +2455,7 @@ SZC	Guanacaste	3875 ft.	197 ft.	Santa Cruz	Costa Rica	CR	Unavailable	85° 37’ 
 GPL	Guapiles	3937 ft.	883 ft.	Guapiles	Costa Rica	CR	Unavailable	83° 46’ 0” W	10° 13’ 0” N	110	+6.0
 SJO	Juan Santamaría International	9882 ft.	3021 ft.	San José	Costa Rica	CR	Unavailable	84° 12’ 32” W	9° 59’ 38” N	110	-6.0
 LCS	Las Canas	3937 ft.	262 ft.	Las Canas	Costa Rica	CR	Unavailable	85° 8’ 0” W	10° 25’ 0” N	110	+6.0
-LIO	Limon International Airport	5906 ft.	7 ft.	Limon	Costa Rica	CR	Unavailable	83° 1’ 19” W	9° 57’ 29” N	110	-6.0
+LIO	Limon International	5906 ft.	7 ft.	Limon	Costa Rica	CR	Unavailable	83° 1’ 19” W	9° 57’ 29” N	110	-6.0
 LSL	Los Chiles	4265 ft.	115 ft.	Los Chiles	Costa Rica	CR	Unavailable	84° 50’ 0” W	11° 0’ 0” N	110	+6.0
 NOB	Nosara Beach	Unknown	Unknown	Nosara Beach	Costa Rica	CR	Unavailable	85° 32’ 0” W	9° 48’ 0” N	110	+6.0
 PMZ	Palmar Sur	3183 ft.	49 ft.	Palmar	Costa Rica	CR	Unavailable	83° 28’ 7” W	8° 57’ 4” N	110	+6.0
@@ -2524,7 +2523,7 @@ CCC	Cayo Coco	Unknown	Unknown	Cayo Coco	Cuba	CU	Unavailable	78° 30’ 39” W	2
 CYO	Cayo Largo Del Sur	10493 ft.	16 ft.	Cayo Largo Del Sur	Cuba	CU	Unavailable	81° 33’ 3” W	21° 37’ 3” N	219	+5.0
 HOG	Frank Pais	10624 ft.	361 ft.	Holguin	Cuba	CU	Unavailable	76° 18’ 54” W	20° 47’ 8” N	219	-5.0
 NBW	Guantanamo NAS	Unknown	Unknown	Guantanamo	Cuba	CU	Unavailable	75° 12’ 33” W	20° 8’ 40” N	219	+0.0
-CMW	Ign Agramonte Intl	9842 ft.	413 ft.	Camaguey	Cuba	CU	Unavailable	77° 52’ 0” W	21° 25’ 0” N	219	+5.0
+CMW	Ign Agramonte International	9842 ft.	413 ft.	Camaguey	Cuba	CU	Unavailable	77° 52’ 0” W	21° 25’ 0” N	219	+5.0
 CFG	Jaime González	7874 ft.	102 ft.	Cienfuegos	Cuba	CU	Unavailable	80° 24’ 51” W	22° 9’ 0” N	219	-5.0
 HAV	Jose Marti International	13123 ft.	210 ft.	Havana	Cuba	CU	Unavailable	82° 24’ 33” W	22° 59’ 21” N	219	-5.0
 VRA	Juan Gualberto Gomez International	11491 ft.	210 ft.	Varadero	Cuba	CU	Unavailable	81° 26’ 7” W	23° 2’ 4” N	219	-5.0
@@ -2625,7 +2624,7 @@ PWO	Pweto	2580 ft.	3425 ft.	Pweto	Democratic Republic of the Congo	CD	Unavailabl
 TSH	Tshikapa	5249 ft.	1595 ft.	Tshikapa	Democratic Republic of the Congo	CD	Unavailable	20° 47’ 41” E	6° 26’ 18” S	517	+1.0
 YAN	Yangambi	2625 ft.	1378 ft.	Yangambi	Democratic Republic of the Congo	CD	Unavailable	24° 27’ 0” E	0° 48’ 0” N	517	+2.0
 AAL	Aalborg	8707 ft.	10 ft.	Aalborg	Denmark	DK	Unavailable	9° 50’ 57” E	57° 5’ 34” N	419	+1.0
-AAR	Aarhus Airport	9127 ft.	81 ft.	Aarhus	Denmark	DK	Unavailable	10° 37’ 34” E	56° 18’ 26” N	419	+1.0
+AAR	Aarhus	9127 ft.	81 ft.	Aarhus	Denmark	DK	Unavailable	10° 37’ 34” E	56° 18’ 26” N	419	+1.0
 ZBU	Aarhus Limo	Unknown	Unknown	Aarhus Limo	Denmark	DK	Unavailable	Unknown	Unknown	419	+0.0
 ODE	Beldringe	6053 ft.	56 ft.	Odense	Denmark	DK	Unavailable	10° 19’ 51” E	55° 28’ 36” N	419	+1.0
 BLL	Billund	10171 ft.	247 ft.	Billund	Denmark	DK	Unavailable	9° 9’ 0” E	55° 44’ 0” N	419	+1.0
@@ -2633,17 +2632,17 @@ EBJ	Esbjerg	8530 ft.	97 ft.	Esbjerg	Denmark	DK	Unavailable	8° 29’ 0” E	55°
 PQT	Heliport	Unknown	Unknown	Qeqertaq	Denmark	DK	Unavailable	51° 45’ 0” W	71° 17’ 0” N	419	+0.0
 KRP	Karup	9623 ft.	170 ft.	Karup	Denmark	DK	Unavailable	9° 7’ 0” E	56° 18’ 0” N	419	-1.0
 CPH	Kastrup	11811 ft.	17 ft.	Copenhagen	Denmark	DK	Unavailable	12° 39’ 21” E	55° 37’ 5” N	419	+1.0
-BYR	Laeso Airport	Unknown	Unknown	Laeso Island	Denmark	DK	Unavailable	11° 0’ 0”	57° 7’ 0”	419	+0.0
+BYR	Laeso	Unknown	Unknown	Laeso Island	Denmark	DK	Unavailable	11° 0’ 0”	57° 7’ 0”	419	+0.0
 QJV	Limousine Service	Unknown	Unknown	Skagen Z7	Denmark	DK	Unavailable	10° 32’ 0” E	57° 43’ 0” N	419	+0.0
 MRW	Lolland Falster	3937 ft.	16 ft.	Lolland Falster	Denmark	DK	Unavailable	11° 26’ 24” E	54° 41’ 58” N	419	+1.0
 XJE	Rialway Service	Unknown	Unknown	Vojens	Denmark	DK	Unavailable	9° 18’ 0” E	55° 17’ 0” N	419	+0.0
-RKE	Roskilde Airport	4921 ft.	145 ft.	Copenhagen	Denmark	DK	Unavailable	12° 8’ 0” E	55° 35’ 0” N	419	-1.0
+RKE	Roskilde	4921 ft.	145 ft.	Copenhagen	Denmark	DK	Unavailable	12° 8’ 0” E	55° 35’ 0” N	419	-1.0
 RNN	Rønne	6568 ft.	52 ft.	Bornholm	Denmark	DK	Unavailable	14° 45’ 34” E	55° 3’ 48” N	419	+1.0
 CNL	Sindal	3970 ft.	92 ft.	Sindal	Denmark	DK	Unavailable	10° 13’ 0” E	57° 29’ 0” N	419	-1.0
-SQW	Skive Airport	1199 ft.	67 ft.	Skive	Denmark	DK	Unavailable	9° 10’ 22” E	56° 33’ 0” N	419	+1.0
+SQW	Skive	1199 ft.	67 ft.	Skive	Denmark	DK	Unavailable	9° 10’ 22” E	56° 33’ 0” N	419	+1.0
 SGD	Sonderborg	5896 ft.	24 ft.	Sonderborg	Denmark	DK	Unavailable	9° 47’ 30” E	54° 57’ 52” N	419	+1.0
 QSG	Sonderborg	Unknown	Unknown	Sonderborg	Denmark	DK	Unavailable	9° 47’ 0” E	54° 58’ 0” N	419	+1.0
-STA	Stauning Vestjyllands Airport	4757 ft.	17 ft.	Skjern	Denmark	DK	Unavailable	8° 21’ 0” E	55° 59’ 0” N	419	-1.0
+STA	Stauning Vestjyllands	4757 ft.	17 ft.	Skjern	Denmark	DK	Unavailable	8° 21’ 0” E	55° 59’ 0” N	419	-1.0
 TED	Thisted	5249 ft.	23 ft.	Thisted	Denmark	DK	Unavailable	8° 42’ 19” E	57° 4’ 8” N	419	+1.0
 VEJ	Vejle	Unknown	Unknown	Vejle	Denmark	DK	Unavailable	9° 32’ 0” E	55° 42’ 0” N	419	+1.0
 SKS	Vojens	9940 ft.	141 ft.	Vojens	Denmark	DK	Unavailable	9° 16’ 0” E	55° 14’ 0” N	419	-1.0
@@ -2671,7 +2670,7 @@ BCH	Cakung International	8232 ft.	1777 ft.	Baucau	East Timor	TP	Unavailable	126�
 DIC	Dili City Heliport	Unknown	Unknown	Dili	East Timor	TP	Unavailable	125° 32’ 0” E	8° 34’ 0” S	862	+9.0
 BHA	Bahia De Caraquez	4595 ft.	10 ft.	Bahia De Caraquez	Ecuador	EC	Unavailable	80° 24’ 0” W	0° 35’ 0” S	337	+5.0
 GPS	Baltra	7874 ft.	52 ft.	Galapagos Is	Ecuador	EC	Unavailable	90° 16’ 0” W	0° 26’ 0” S	337	+6.0
-LOH	Camilo Ponce Enríquez Airport	5576 ft.	4061 ft.	Catamayo, Loja	Ecuador	EC	Unavailable	79° 14’ 0” W	3° 53’ 0” N	337	+5.0
+LOH	Camilo Ponce Enríquez	5576 ft.	4061 ft.	Catamayo, Loja	Ecuador	EC	Unavailable	79° 14’ 0” W	3° 53’ 0” N	337	+5.0
 ATF	Chachoan	6135 ft.	8300 ft.	Ambato	Ecuador	EC	Unavailable	78° 34’ 0” W	1° 12’ 0” S	337	+5.0
 OCC	Coca	5107 ft.	820 ft.	Coca	Ecuador	EC	Unavailable	76° 58’ 0” W	0° 29’ 0” S	337	+5.0
 LAT	Cotopaxi International	12117 ft.	9205 ft.	Latacunga	Ecuador	EC	Unavailable	78° 36’ 57” W	0° 54’ 25” N	337	-5.0
@@ -2785,7 +2784,7 @@ MUJ	Mui	4921 ft.	1780 ft.	Mui	Ethiopia	ET	Unavailable	36° 0’ 0” E	6° 0’ 
 EGL	Neghelli	10990 ft.	5200 ft.	Neghelli	Ethiopia	ET	Unavailable	39° 42’ 0” E	5° 17’ 0” N	522	-3.0
 NEJ	Nejjo	Unknown	Unknown	Nejjo	Ethiopia	ET	Unavailable	35° 28’ 0”	9° 30’ 0”	522	+0.0
 NEK	Nekemt	4104 ft.	6500 ft.	Nekemt	Ethiopia	ET	Unavailable	36° 35’ 0” E	9° 2’ 0” N	522	-3.0
-SZE	Semera Airport	Unknown	Unknown	Semera	Ethiopia	ET	Unavailable	110° 40’ 0” E	1° 33’ 0” N	522	+0.0
+SZE	Semera	Unknown	Unknown	Semera	Ethiopia	ET	Unavailable	110° 40’ 0” E	1° 33’ 0” N	522	+0.0
 SKR	Shakiso	Unknown	Unknown	Shakiso	Ethiopia	ET	Unavailable	38° 58’ 0” E	5° 53’ 0” N	522	-3.0
 SQJ	Shehdi	Unknown	Unknown	Shehdi	Ethiopia	ET	Unavailable	Unknown	Unknown	522	+0.0
 HIL	Shillavo	Unknown	Unknown	Shillavo	Ethiopia	ET	Unavailable	44° 46’ 0”	6° 5’ 0”	522	+0.0
@@ -2807,7 +2806,7 @@ BXL	Blue Lagoon	Unknown	Unknown	Blue Lagoon	Fiji	FJ	Unavailable	177° 21’ 50�
 CST	Castaway	Unknown	Unknown	Castaway	Fiji	FJ	Unavailable	177° 7’ 20” E	17° 37’ 10” S	821	-12.0
 ICI	Cicia	2500 ft.	13 ft.	Cicia	Fiji	FJ	Unavailable	179° 35’ 0” E	16° 44’ 0” S	821	-12.0
 BVF	Dama	3085 ft.	60 ft.	Bua	Fiji	FJ	Unavailable	178° 37’ 0” E	16° 48’ 0” S	821	+12.0
-NGI	Kaimbu Airport	2493 ft.	50 ft.	Ngau Island	Fiji	FJ	Unavailable	179° 20’ 23” E	18° 6’ 56” S	821	+12.0
+NGI	Kaimbu	2493 ft.	50 ft.	Ngau Island	Fiji	FJ	Unavailable	179° 20’ 23” E	18° 6’ 56” S	821	+12.0
 KDV	Kandavu	2502 ft.	6 ft.	Kandavu	Fiji	FJ	Unavailable	178° 13’ 0” E	19° 3’ 0” S	821	-12.0
 KXF	Koro Island	2515 ft.	358 ft.	Koro Island	Fiji	FJ	Unavailable	179° 23’ 0” E	17° 19’ 0” S	821	-12.0
 KVU	Korolevu	2650 ft.	24 ft.	Korolevu	Fiji	FJ	Unavailable	177° 44’ 0” E	18° 13’ 0” S	821	-12.0
@@ -2958,7 +2957,7 @@ XYV	Lyon Satolas Rail Svc	Unknown	Unknown	Lyon	France	FR	Unavailable	4° 51’ 0
 CEQ	Mandelieu	5282 ft.	13 ft.	Cannes	France	FR	Unavailable	6° 57’ 15” E	43° 32’ 47” N	427	+1.0
 ANE	Marce	5905 ft.	194 ft.	Angers	France	FR	Unavailable	0° 18’ 44” W	47° 33’ 37” N	427	+1.0
 RDZ	Marcillac	6234 ft.	1906 ft.	Rodez	France	FR	Unavailable	2° 31’ 0” E	44° 22’ 0” N	427	-1.0
-MRS	Marseille Provence Airport	11483 ft.	69 ft.	Marseille	France	FR	Unavailable	5° 12’ 54” E	43° 26’ 12” N	427	+1.0
+MRS	Marseille Provence	11483 ft.	69 ft.	Marseille	France	FR	Unavailable	5° 12’ 54” E	43° 26’ 12” N	427	+1.0
 XRF	Marseille Railway	Unknown	Unknown	Marseille	France	FR	Unavailable	3° 0’ 0” E	47° 4’ 0” N	427	+0.0
 CER	Maupertus	8005 ft.	456 ft.	Cherbourg	France	FR	Unavailable	1° 28’ 0” W	49° 39’ 0” N	427	-1.0
 DCM	Mazamet	2625 ft.	738 ft.	Castres	France	FR	Unavailable	2° 17’ 8” E	43° 33’ 21” N	427	-1.0
@@ -3213,7 +3212,7 @@ NUE	Nürnberg	8858 ft.	1046 ft.	Nürnberg	Germany	DE	Unavailable	11° 4’ 1” 
 OBF	Oberpfaffenhofen	7500 ft.	1947 ft.	Oberpfaffenhofen	Germany	DE	Unavailable	11° 17’ 0” E	48° 5’ 0” N	429	-1.0
 XZE	Off line Point	Unknown	Unknown	Rail (Generic)	Germany	DE	Unavailable	28° 58’ 0” E	37° 43’ 0” N	429	+0.0
 PAD	Paderborn/lippstadt	5577 ft.	712 ft.	Paderborn	Germany	DE	Unavailable	8° 45’ 0” E	51° 43’ 0” N	429	-1.0
-SZW	Parchim Airport	Unknown	Unknown	Schwerin	Germany	DE	Unavailable	11° 47’ 0” E	53° 25’ 37” N	429	+1.0
+SZW	Parchim	Unknown	Unknown	Schwerin	Germany	DE	Unavailable	11° 47’ 0” E	53° 25’ 37” N	429	+1.0
 PEF	Peenemuende	Unknown	Unknown	Peenemuende	Germany	DE	Unavailable	13° 46’ 0” E	54° 9’ 0” N	429	+0.0
 BGN	R.A.F.	8159 ft.	241 ft.	Brueggen	Germany	DE	Unavailable	6° 8’ 0” E	51° 12’ 0” N	429	-1.0
 LRC	R.A.F.	Unknown	Unknown	Laarbruch	Germany	DE	Unavailable	6° 11’ 0” E	51° 36’ 0” N	429	+0.0
@@ -3229,7 +3228,7 @@ ZAU	Sachsen Railway Stn.	Unknown	Unknown	Aue	Germany	DE	Unavailable	14° 28’ 0
 FLF	Schaferhaus	4003 ft.	130 ft.	Flensburg	Germany	DE	Unavailable	9° 23’ 0” E	54° 47’ 0” N	429	-1.0
 WBG	Schleswig-jagel	Unknown	Unknown	Schleswig-jagel	Germany	DE	Unavailable	13° 1’ 0” E	51° 15’ 0” N	429	+1.0
 SEX	Sembach	7880 ft.	1052 ft.	Sembach	Germany	DE	Unavailable	7° 52’ 0” E	49° 30’ 0” N	429	+1.0
-SGE	Siegerland Airport	5315 ft.	1966 ft.	Siegen	Germany	DE	Unavailable	8° 4’ 59” E	50° 42’ 28” N	429	+1.0
+SGE	Siegerland	5315 ft.	1966 ft.	Siegen	Germany	DE	Unavailable	8° 4’ 59” E	50° 42’ 28” N	429	+1.0
 SPM	Spangdahlem AB	1007 ft.	1197 ft.	Binsfeld	Germany	DE	Unavailable	6° 41’ 33” E	49° 58’ 22” N	429	+1.0
 PSH	St Peter	2198 ft.	5 ft.	St Peter	Germany	DE	Unavailable	8° 41’ 13” E	54° 18’ 32” N	429	+1.0
 QDU	Station	Unknown	Unknown	Dusseldorf	Germany	DE	Unavailable	6° 46’ 24” E	51° 12’ 27” N	429	+0.0
@@ -3254,7 +3253,7 @@ PVK	Aktion	9810 ft.	13 ft.	Preveza/Lefkas	Greece	GR	Unavailable	20° 45’ 55”
 PKH	Alexion	2165 ft.	70 ft.	Porto Kheli	Greece	GR	Unavailable	23° 9’ 0” E	37° 18’ 0” N	433	+2.0
 PYR	Andravida	Unknown	Unknown	Pyrgos	Greece	GR	Unavailable	21° 28’ 0” E	37° 41’ 0” N	433	+2.0
 GPA	Araxos	10999 ft.	46 ft.	Patras	Greece	GR	Unavailable	21° 25’ 32” E	38° 9’ 4” N	433	+2.0
-KSO	Aristoteles Airport	5938 ft.	2183 ft.	Kastoria	Greece	GR	Unavailable	21° 17’ 0” E	40° 29’ 0” N	433	-2.0
+KSO	Aristoteles	5938 ft.	2183 ft.	Kastoria	Greece	GR	Unavailable	21° 17’ 0” E	40° 29’ 0” N	433	-2.0
 JTY	Astypalaia	3215 ft.	154 ft.	Astypalaia Island	Greece	GR	Unavailable	26° 22’ 33” E	36° 34’ 48” N	433	+2.0
 JKH	Chios	4957 ft.	15 ft.	Chios	Greece	GR	Unavailable	26° 8’ 26” E	38° 20’ 35” N	433	+2.0
 RHO	Diagoras	10844 ft.	16 ft.	Rhodes	Greece	GR	Unavailable	28° 5’ 2” E	36° 24’ 3” N	433	+2.0
@@ -3271,7 +3270,7 @@ KLX	Kalamata	9894 ft.	20 ft.	Kalamata	Greece	GR	Unavailable	22° 1’ 32” E	37
 AOK	Karpathos	7871 ft.	66 ft.	Karpathos	Greece	GR	Unavailable	27° 8’ 46” E	35° 25’ 17” N	433	+2.0
 KSJ	Kasos Island	2493 ft.	33 ft.	Kasos Island	Greece	GR	Unavailable	26° 55’ 0” E	35° 25’ 17” N	433	-2.0
 KZS	Kastellorizo	2621 ft.	474 ft.	Kastellorizo	Greece	GR	Unavailable	29° 34’ 0” E	36° 7’ 40” N	433	+2.0
-EFL	Kefalonia Istland International Airport	8005 ft.	33 ft.	Kefalonia	Greece	GR	Unavailable	20° 30’ 1” E	38° 7’ 3” N	433	+2.0
+EFL	Kefalonia Istland International	8005 ft.	33 ft.	Kefalonia	Greece	GR	Unavailable	20° 30’ 1” E	38° 7’ 3” N	433	+2.0
 KIT	Kithira	2100 ft.	950 ft.	Kithira	Greece	GR	Unavailable	22° 59’ 0” E	36° 9’ 0” N	433	+2.0
 KGS	Kos Island International	7841 ft.	412 ft.	Kos	Greece	GR	Unavailable	27° 5’ 30” E	36° 47’ 36” N	433	+2.0
 LRA	Larisa	9711 ft.	241 ft.	Larisa	Greece	GR	Unavailable	22° 27’ 56” E	39° 39’ 1” N	433	+2.0
@@ -3281,12 +3280,12 @@ SKG	Macedonia International	8005 ft.	22 ft.	Thessaloniki	Greece	GR	Unavailable	2
 KVA	Megas Alexandros International	9844 ft.	18 ft.	Kavala	Greece	GR	Unavailable	24° 37’ 9” E	40° 54’ 48” N	433	+2.0
 JMK	Mikonos	4593 ft.	405 ft.	Mikonos	Greece	GR	Unavailable	25° 20’ 53” E	37° 26’ 6” N	433	+2.0
 MLO	Milos	2625 ft.	12 ft.	Milos	Greece	GR	Unavailable	24° 32’ 0” E	36° 43’ 0” N	433	-2.0
-MJT	Mytilene International Airport	7920 ft.	57 ft.	Mytilene	Greece	GR	Unavailable	26° 35’ 54” E	39° 3’ 24” N	433	+2.0
-JNX	Naxos Airport	2624 ft.	10 ft.	Naxos	Greece	GR	Unavailable	25° 22’ 5” E	37° 4’ 50” N	433	+2.0
+MJT	Mytilene International	7920 ft.	57 ft.	Mytilene	Greece	GR	Unavailable	26° 35’ 54” E	39° 3’ 24” N	433	+2.0
+JNX	Naxos	2624 ft.	10 ft.	Naxos	Greece	GR	Unavailable	25° 22’ 5” E	37° 4’ 50” N	433	+2.0
 VOL	Nea Anchialos	9052 ft.	83 ft.	Volos	Greece	GR	Unavailable	22° 47’ 40” E	39° 13’ 9” N	433	+2.0
-HER	Nikos Kazantzakis Airport	8904 ft.	79 ft.	Heraklion	Greece	GR	Unavailable	25° 10’ 49” E	35° 20’ 23” N	433	+2.0
+HER	Nikos Kazantzakis	8904 ft.	79 ft.	Heraklion	Greece	GR	Unavailable	25° 10’ 49” E	35° 20’ 23” N	433	+2.0
 PAS	Paros	2362 ft.	121 ft.	Paros	Greece	GR	Unavailable	25° 8’ 0” E	37° 4’ 0” N	433	-2.0
-KZI	Philippos Airport	6004 ft.	2080 ft.	Kozani	Greece	GR	Unavailable	21° 50’ 0” E	40° 17’ 0” N	433	-2.0
+KZI	Philippos	6004 ft.	2080 ft.	Kozani	Greece	GR	Unavailable	21° 50’ 0” E	40° 17’ 0” N	433	-2.0
 SMI	Samos	6660 ft.	20 ft.	Samos	Greece	GR	Unavailable	26° 54’ 8” E	37° 41’ 4” N	433	+2.0
 JTR	Santorini (Thira)	7874 ft.	130 ft.	Santorini (Thira)	Greece	GR	Unavailable	25° 29’ 0” E	36° 24’ 0” N	433	+2.0
 JSH	Sitia	6988 ft.	376 ft.	Sitia	Greece	GR	Unavailable	26° 6’ 5” E	35° 12’ 58” N	433	+2.0
@@ -3294,7 +3293,7 @@ JSI	Skiathos	5341 ft.	54 ft.	Skiathos	Greece	GR	Unavailable	23° 30’ 13” E	3
 SKU	Skiros	9840 ft.	48 ft.	Skiros	Greece	GR	Unavailable	24° 33’ 0” E	38° 53’ 0” N	433	-2.0
 JSS	Spetsai Island	Unknown	Unknown	Spetsai Island	Greece	GR	Unavailable	23° 15’ 0” E	37° 20’ 0” N	433	-2.0
 JSY	Syros Island	3542 ft.	236 ft.	Syros Island	Greece	GR	Unavailable	24° 57’ 3” E	37° 25’ 22” N	433	+2.0
-ZTH	Zakinthos International Airport	7310 ft.	12 ft.	Zakinthos	Greece	GR	Unavailable	20° 53’ 1” E	37° 45’ 1” N	433	+2.0
+ZTH	Zakinthos International	7310 ft.	12 ft.	Zakinthos	Greece	GR	Unavailable	20° 53’ 1” E	37° 45’ 1” N	433	+2.0
 JEG	Aasiaat	2621 ft.	74 ft.	Aasiaat	Greenland	GL	Unavailable	52° 47’ 5” W	68° 43’ 19” N	975	-3.0
 LLU	Alluitsup Paa	Unknown	Unknown	Alluitsup Paa	Greenland	GL	Unavailable	Unknown	Unknown	975	+0.0
 JRK	Arsuk	Unknown	Unknown	Arsuk	Greenland	GL	Unavailable	48° 25’ 0” W	61° 10’ 0” N	975	+3.0
@@ -3353,7 +3352,7 @@ NRV	USCG Shore Station	Unknown	Unknown	Guam	Guam (USA)	GU	Unavailable	144° 45�
 RER	Base Aerea Del Sur	Unknown	Unknown	Retalhuleu	Guatemala	GT	Unavailable	91° 41’ 0” W	14° 32’ 0” N	127	+0.0
 CMM	Carmelita	2700 ft.	745 ft.	Carmelita	Guatemala	GT	Unavailable	90° 10’ 0” W	17° 30’ 0” N	127	+6.0
 CIQ	Chiquimula	2600 ft.	1122 ft.	Chiquimula	Guatemala	GT	Unavailable	89° 33’ 0” W	14° 48’ 0” N	127	+6.0
-CTF	Coatepeque Airport	Unknown	Unknown	Coatepeque	Guatemala	GT	Unavailable	90° 9’ 0” W	14° 10’ 0” N	127	+0.0
+CTF	Coatepeque	Unknown	Unknown	Coatepeque	Guatemala	GT	Unavailable	90° 9’ 0” W	14° 10’ 0” N	127	+0.0
 CBV	Coban	3444 ft.	4339 ft.	Coban	Guatemala	GT	Unavailable	90° 15’ 0” W	15° 35’ 0” N	127	+6.0
 DON	Dos Lagunas	5091 ft.	656 ft.	Dos Lagunas	Guatemala	GT	Unavailable	89° 40’ 0” W	17° 38’ 0” N	127	+6.0
 ENJ	El Naranjo	2300 ft.	135 ft.	El Naranjo	Guatemala	GT	Unavailable	90° 50’ 0” W	14° 6’ 0” N	127	+6.0
@@ -3368,7 +3367,7 @@ PKJ	Playa Grande	Unknown	Unknown	Playa Grande	Guatemala	GT	Unavailable	89° 11�
 PON	Poptun	8284 ft.	1801 ft.	Poptun	Guatemala	GT	Unavailable	89° 24’ 58” W	16° 19’ 33” N	127	-6.0
 PBR	Puerto Barrios	7950 ft.	33 ft.	Puerto Barrios	Guatemala	GT	Unavailable	88° 30’ 0” W	15° 48’ 0” N	127	+6.0
 AAZ	Quetzaltenango	7779 ft.	Unknown	Quetzaltenango	Guatemala	GT	Unavailable	91° 30’ 7” W	14° 51’ 56” N	127	-6.0
-AQB	Quiche Airport	Unknown	Unknown	Quiche	Guatemala	GT	Unavailable	89° 48’ 0” W	15° 22’ 0” N	127	+0.0
+AQB	Quiche	Unknown	Unknown	Quiche	Guatemala	GT	Unavailable	89° 48’ 0” W	15° 22’ 0” N	127	+0.0
 RUV	Rubelsanto	Unknown	Unknown	Rubelsanto	Guatemala	GT	Unavailable	90° 20’ 0” W	15° 50’ 0” N	127	+6.0
 FRS	Santa Elena	10000 ft.	420 ft.	Flores	Guatemala	GT	Unavailable	89° 53’ 0” W	16° 55’ 0” N	127	+6.0
 UAX	Uaxactun	4000 ft.	499 ft.	Uaxactun	Guatemala	GT	Unavailable	89° 40’ 0” W	17° 23’ 0” N	127	+6.0
@@ -3417,7 +3416,7 @@ PKM	Port Kaituma	Unknown	Unknown	Port Kaituma	Guyana	GY	Unavailable	59° 38’ 0
 SDC	Sandcreek	2200 ft.	440 ft.	Sandcreek	Guyana	GY	Unavailable	59° 31’ 0” W	3° 0’ 0” N	350	+3.0
 SKM	Skeldon	3445 ft.	10 ft.	Skeldon	Guyana	GY	Unavailable	57° 10’ 30” W	5° 52’ 40” N	350	+3.0
 CAP	Cap Haitien International	4886 ft.	10 ft.	Cap Haitien	Haiti	HT	Unavailable	72° 11’ 41” W	19° 43’ 59” N	509	-5.0
-JAK	Jacmel Regional Airport	4075 ft.	167 ft.	Jacmel	Haiti	HT	Unavailable	72° 31’ 0” W	18° 15’ 0” N	238	-5.0
+JAK	Jacmel Regional	4075 ft.	167 ft.	Jacmel	Haiti	HT	Unavailable	72° 31’ 0” W	18° 15’ 0” N	238	-5.0
 JEE	Jeremie	3937 ft.	197 ft.	Jeremie	Haiti	HT	Unavailable	74° 10’ 0” W	18° 40’ 0” N	238	+5.0
 CYA	Les Cayes	3666 ft.	179 ft.	Les Cayes	Haiti	HT	Unavailable	73° 47’ 0” W	18° 16’ 0” N	238	+5.0
 PAX	Port De Paix	2100 ft.	10 ft.	Port De Paix	Haiti	HT	Unavailable	72° 50’ 30” W	19° 56’ 0” N	238	+5.0
@@ -3549,7 +3548,7 @@ DIB	Dibrugarh	6000 ft.	361 ft.	Dibrugarh	India	IN	Unavailable	94° 54’ 0” E	
 DMU	Dimapur	5600 ft.	485 ft.	Dimapur	India	IN	Unavailable	93° 44’ 0” E	25° 54’ 0” N	733	-5.5
 DIU	Diu	Unknown	Unknown	Diu	India	IN	Unavailable	70° 59’ 0” E	20° 44’ 0” N	733	+0.0
 NAG	Dr. Babasaheb Ambedkar International	10500 ft.	1033 ft.	Nagpur	India	IN	Unavailable	79° 2’ 50” E	21° 5’ 32” N	733	+5.5
-DHM	Gaggal Airport (Kangra)	4620 ft.	2525 ft.	Dharamsala	India	IN	Unavailable	76° 15’ 48” E	32° 9’ 54” N	733	+5.5
+DHM	Gaggal (Kangra)	4620 ft.	2525 ft.	Dharamsala	India	IN	Unavailable	76° 15’ 48” E	32° 9’ 54” N	733	+5.5
 ISK	Gandhinagar Arpt	9842 ft.	1900 ft.	Nasik	India	IN	Unavailable	73° 49’ 0” E	19° 58’ 0” N	733	-5.5
 GAY	Gaya	7500 ft.	380 ft.	Gaya	India	IN	Unavailable	84° 57’ 4” E	24° 44’ 40” N	733	+5.5
 GOI	Goa	11345 ft.	184 ft.	Goa	India	IN	Unavailable	73° 49’ 53” E	15° 22’ 51” N	733	+5.5
@@ -3583,7 +3582,7 @@ IXS	Kumbhirgram	5993 ft.	352 ft.	Silchar	India	IN	Unavailable	92° 58’ 43” E
 PNQ	Lohegaon	8329 ft.	1942 ft.	Pune	India	IN	Unavailable	73° 55’ 11” E	18° 34’ 56” N	733	+5.5
 PAT	Lok Nayak Jaya Prakash	6410 ft.	170 ft.	Patna	India	IN	Unavailable	85° 5’ 17” E	25° 35’ 29” N	733	+5.5
 LKO	Lucknow	8996 ft.	410 ft.	Lucknow	India	IN	Unavailable	80° 53’ 22” E	26° 45’ 38” N	733	+5.5
-LUH	Ludhiana Sahnewal Airport	4800 ft.	834 ft.	Ludhiana	India	IN	Unavailable	75° 57’ 9” E	30° 51’ 17” N	733	+5.5
+LUH	Ludhiana Sahnewal	4800 ft.	834 ft.	Ludhiana	India	IN	Unavailable	75° 57’ 9” E	30° 51’ 17” N	733	+5.5
 MAA	Madras International (Meenambakkam)	12001 ft.	52 ft.	Chennai/Madras	India	IN	Unavailable	80° 10’ 50” E	12° 59’ 40” N	733	+5.5
 IXM	Madurai	5990 ft.	459 ft.	Madurai	India	IN	Unavailable	78° 5’ 36” E	9° 50’ 4” N	733	+5.5
 LDA	Malda	3600 ft.	80 ft.	Malda	India	IN	Unavailable	88° 9’ 0” E	25° 2’ 0” N	733	-5.5
@@ -3745,7 +3744,7 @@ MXB	Masamba	2625 ft.	164 ft.	Masamba	Indonesia	ID	Unavailable	120° 20’ 0” E
 MWK	Matak Conocophillips	3905 ft.	10 ft.	Tarempa	Indonesia	ID	Unavailable	106° 15’ 29” E	3° 20’ 53” N	832	+7.0
 MNA	Melangguane	2789 ft.	30 ft.	Melangguane	Indonesia	ID	Unavailable	122° 33’ 0” E	1° 23’ 0” S	832	-8.0
 RDE	Merdey	1969 ft.	436 ft.	Merdey	Indonesia	ID	Unavailable	133° 20’ 0” E	1° 35’ 0” S	832	-9.0
-PDG	Minangkabau International Airport	7152 ft.	16 ft.	Padang	Indonesia	ID	Unavailable	100° 16’ 50” E	0° 47’ 13” S	832	+7.0
+PDG	Minangkabau International	7152 ft.	16 ft.	Padang	Indonesia	ID	Unavailable	100° 16’ 50” E	0° 47’ 13” S	832	+7.0
 MDP	Mindiptana	1900 ft.	33 ft.	Mindiptana	Indonesia	ID	Unavailable	147° 42’ 0” E	5° 52’ 0” S	832	-9.0
 ONI	Moanamani	1969 ft.	5400 ft.	Moanamani	Indonesia	ID	Unavailable	136° 5’ 0” E	3° 59’ 0” S	832	-9.0
 MKQ	Mopah	6070 ft.	10 ft.	Merauke	Indonesia	ID	Unavailable	140° 30’ 0” E	8° 31’ 0” S	832	-9.0
@@ -3892,7 +3891,7 @@ KHA	Khaneh	4618 ft.	4775 ft.	Khaneh	Iran	IR	Unavailable	45° 9’ 0” E	36° 44
 KHK	Khark Island	5125 ft.	11 ft.	Khark Island	Iran	IR	Unavailable	50° 20’ 0” E	29° 18’ 0” N	632	-4.0
 KHD	Khorramabad	10498 ft.	3782 ft.	Khorramabad	Iran	IR	Unavailable	48° 16’ 58” E	33° 26’ 7” N	632	+3.5
 KHY	Khoy	Unknown	Unknown	Khoy	Iran	IR	Unavailable	44° 58’ 25” E	38° 25’ 39” N	632	+3.5
-KIH	Kish Airport	12008 ft.	96 ft.	Kish Island	Iran	IR	Unavailable	53° 57’ 0” E	26° 29’ 0” N	632	+4.5
+KIH	Kish	12008 ft.	96 ft.	Kish Island	Iran	IR	Unavailable	53° 57’ 0” E	26° 29’ 0” N	632	+4.5
 LFM	Lamerd	10020 ft.	1337 ft.	Lamerd	Iran	IR	Unavailable	53° 11’ 20” E	27° 22’ 22” N	632	+3.5
 LRR	Lar A/P	Unknown	Unknown	Lar	Iran	IR	Unavailable	48° 54’ 0” E	36° 46’ 0” N	632	+0.0
 LVP	Lavan	6800 ft.	73 ft.	Lavan	Iran	IR	Unavailable	53° 15’ 0” E	26° 48’ 0” N	632	-3.5
@@ -3949,7 +3948,7 @@ CFN	Donegal	2001 ft.	26 ft.	Carrickfinn	Ireland	IE	Unavailable	8° 20’ 28” W
 DUB	Dublin International	8652 ft.	242 ft.	Dublin	Ireland	IE	Unavailable	6° 16’ 12” W	53° 25’ 17” N	441	+0.0
 INQ	Inisheer	1850 ft.	40 ft.	Inisheer	Ireland	IE	Unavailable	9° 26’ 0” W	53° 2’ 0” N	441	+0.0
 IIA	Inishmaan	2014 ft.	15 ft.	Galloway	Ireland	IE	Unavailable	9° 34’ 12” W	53° 5’ 31” N	441	+0.0
-NOC	Ireland West Airport Knock	7546 ft.	665 ft.	Knock	Ireland	IE	Unavailable	8° 48’ 43” W	53° 54’ 46” N	441	+0.0
+NOC	Ireland West Knock	7546 ft.	665 ft.	Knock	Ireland	IE	Unavailable	8° 48’ 43” W	53° 54’ 46” N	441	+0.0
 KIR	Kerry	6562 ft.	112 ft.	Farranfore	Ireland	IE	Unavailable	9° 31’ 26” W	52° 10’ 51” N	441	+0.0
 KKY	Kilkenny	3104 ft.	300 ft.	Kilkenny	Ireland	IE	Unavailable	7° 17’ 46” W	52° 39’ 3” N	441	+0.0
 IOR	Kilronan	1430 ft.	30 ft.	Inishmore	Ireland	IE	Unavailable	9° 39’ 12” W	53° 6’ 24” N	441	+0.0
@@ -4085,7 +4084,7 @@ HIW	Hiroshima West	Unknown	Unknown	Hiroshima	Japan	JP	Unavailable	132° 24’ 50
 WKJ	Hokkaido	6560 ft.	30 ft.	Wakkanai	Japan	JP	Unavailable	141° 48’ 3” E	45° 24’ 15” N	736	+9.0
 IEJ	Iejima	4920 ft.	246 ft.	Iejima	Japan	JP	Unavailable	127° 47’ 0” E	26° 44’ 0” N	736	-9.0
 IKI	Iki	3940 ft.	53 ft.	Iki	Japan	JP	Unavailable	129° 47’ 0” E	33° 45’ 0” N	736	-9.0
-HIJ	International	5906 ft.	15 ft.	Hiroshima	Japan	JP	Unavailable	132° 55’ 10” E	34° 26’ 10” N	736	+9.0
+HIJ	Hiroshima	5906 ft.	15 ft.	Hiroshima	Japan	JP	Unavailable	132° 55’ 10” E	34° 26’ 10” N	736	+9.0
 ISG	Ishigaki	4920 ft.	86 ft.	Ishigaki	Japan	JP	Unavailable	124° 11’ 13” E	24° 20’ 40” N	736	-9.0
 ITM	Itami	9840 ft.	40 ft.	Osaka	Japan	JP	Unavailable	135° 26’ 17” E	34° 47’ 7” N	736	+9.0
 IWJ	Iwami	Unknown	Unknown	Iwami	Japan	JP	Unavailable	150° 20’ 0” E	10° 27’ 0” S	736	+0.0
@@ -4258,7 +4257,7 @@ PRN	Pristina International	8165 ft.	1789 ft.	Pristina	Kosovo	KS	Unavailable	21°
 XIJ	Ahmed Al Jaber	Unknown	Unknown	Ahmed Al Jaber	Kuwait	KW	Unavailable	48° 5’ 2” E	29° 4’ 37” N	644	+0.0
 KWI	Kuwait International	11483 ft.	206 ft.	Kuwait City	Kuwait	KW	Unavailable	47° 58’ 8” E	29° 13’ 36” N	644	+3.0
 FRU	Manas (Frunze)	13780 ft.	2058 ft.	Bishkek	Kyrgyzstan	KG	Unavailable	74° 28’ 39” E	43° 3’ 41” N	743	+6.0
-OSS	Osh International Airport	8576 ft.	2927 ft.	Osh	Kyrgyzstan	KG	Unavailable	72° 47’ 36” E	40° 36’ 32” N	743	+5.0
+OSS	Osh International	8576 ft.	2927 ft.	Osh	Kyrgyzstan	KG	Unavailable	72° 47’ 36” E	40° 36’ 32” N	743	+5.0
 AOU	Attopeu	4820 ft.	344 ft.	Attopeu	Laos	LA	Unavailable	106° 49’ 0” E	14° 48’ 0” N	744	-7.0
 OUI	Ban Houei	4920 ft.	1380 ft.	Ban Houei	Laos	LA	Unavailable	100° 26’ 0” E	20° 15’ 0” N	744	-7.0
 PCQ	Bounneua	Unknown	Unknown	Phongsaly	Laos	LA	Unavailable	102° 25’ 2” E	18° 29’ 34” N	744	+0.0
@@ -4323,7 +4322,7 @@ THC	Tchien	Unknown	Unknown	Tchien	Liberia	LR	Unavailable	8° 5’ 2” W	5° 59�
 VOI	Voinjama	2235 ft.	1722 ft.	Voinjama	Liberia	LR	Unavailable	9° 45’ 0” W	8° 25’ 0” N	537	+0.0
 WES	Weasua	1300 ft.	400 ft.	Weasua	Liberia	LR	Unavailable	10° 29’ 0” W	7° 17’ 0” N	537	+0.0
 WOI	Wologissi	3608 ft.	1804 ft.	Wologissi	Liberia	LR	Unavailable	9° 45’ 0” W	8° 16’ 0” N	537	+0.0
-BEN	Benina Intl	11800 ft.	433 ft.	Benghazi	Libya	LY	Unavailable	20° 4’ 0” E	32° 7’ 0” N	538	-2.0
+BEN	Benina International	11800 ft.	433 ft.	Benghazi	Libya	LY	Unavailable	20° 4’ 0” E	32° 7’ 0” N	538	-2.0
 BCQ	Brack	Unknown	Unknown	Brack	Libya	LY	Unavailable	17° 28’ 0” E	22° 47’ 0” S	538	+0.0
 LTD	Ghadames	5740 ft.	1070 ft.	Ghadames	Libya	LY	Unavailable	9° 30’ 0” E	30° 10’ 0” N	538	-2.0
 GHT	Ghat	5500 ft.	2175 ft.	Ghat	Libya	LY	Unavailable	10° 10’ 0” E	24° 58’ 0” N	538	-2.0
@@ -4348,7 +4347,7 @@ SQQ	Siauliai International	11483 ft.	443 ft.	Siauliai	Lithuania	LT	Unavailable	2
 VNO	Vilnius International	8202 ft.	646 ft.	Vilnius	Lithuania	LT	Unavailable	25° 17’ 16” E	54° 38’ 13” N	452	+2.0
 LUX	Luxembourg-Findel International	13123 ft.	1234 ft.	Luxembourg	Luxembourg	LU	Unavailable	6° 12’ 16” E	49° 37’ 24” N	454	+1.0
 MFM	Macau International	10544 ft.	20 ft.	Macau	Macau	MO	Unavailable	113° 35’ 30” E	22° 8’ 58” N	853	+8.0
-SKP	Alexander The Great Airport	8038 ft.	781 ft.	Skopje	Macedonia	MK	Unavailable	21° 37’ 17” E	41° 57’ 42” N	497	+1.0
+SKP	Alexander The Great	8038 ft.	781 ft.	Skopje	Macedonia	MK	Unavailable	21° 37’ 17” E	41° 57’ 42” N	497	+1.0
 OHD	Ohrid	8366 ft.	2313 ft.	Ohrid	Macedonia	MK	Unavailable	20° 45’ 0” E	41° 10’ 48” N	497	+1.0
 IVA	Ambanja	4140 ft.	36 ft.	Ambanja	Madagascar	MG	Unavailable	48° 28’ 0” E	13° 39’ 0” S	541	-3.0
 AHY	Ambatolahy	4921 ft.	295 ft.	Ambatolahy	Madagascar	MG	Unavailable	45° 32’ 0” E	20° 1’ 0” S	541	-3.0
@@ -4468,7 +4467,7 @@ MZS	Mostyn	Unknown	Unknown	Mostyn	Malaysia	MY	Unavailable	Unknown	Unknown	749	+0
 MKM	Mukah	2460 ft.	5 ft.	Mukah	Malaysia	MY	Unavailable	112° 4’ 0” E	2° 54’ 0” N	749	-8.0
 MZV	Mulu, Sarawak	4921 ft.	Unknown	Mulu, Sarawak	Malaysia	MY	Unavailable	114° 48’ 18” E	4° 2’ 54” N	749	+8.0
 PAY	Pamol	2333 ft.	13 ft.	Pamol	Malaysia	MY	Unavailable	117° 23’ 47” E	5° 59’ 34” N	749	+8.0
-PKG	Pangkor Airport	Unknown	Unknown	Pangkor	Malaysia	MY	Unavailable	100° 33’ 0”	4° 13’ 0”	749	+0.0
+PKG	Pangkor	Unknown	Unknown	Pangkor	Malaysia	MY	Unavailable	100° 33’ 0”	4° 13’ 0”	749	+0.0
 ZLW	Pasir Gudang Port	Unknown	Unknown	Pasir Gudang	Malaysia	MY	Unavailable	102° 5’ 0” E	5° 57’ 0” N	749	+0.0
 PEN	Penang International	11000 ft.	11 ft.	Penang	Malaysia	MY	Unavailable	100° 16’ 0” E	5° 18’ 0” N	749	+8.0
 ZJR	Penang Port	Unknown	Unknown	Penang	Malaysia	MY	Unavailable	100° 14’ 0” E	5° 24’ 0” N	749	+0.0
@@ -4483,7 +4482,7 @@ SGG	Simanggang	1800 ft.	35 ft.	Simanggang	Malaysia	MY	Unavailable	111° 27’ 0�
 SPT	Sipitang	2400 ft.	110 ft.	Sipitang	Malaysia	MY	Unavailable	115° 33’ 0” E	5° 5’ 0” N	749	-8.0
 SWY	Sitiawan	1800 ft.	25 ft.	Sitiawan	Malaysia	MY	Unavailable	100° 42’ 0” E	4° 13’ 0” N	749	-8.0
 SZB	Sultan Abdul Aziz Shah	12402 ft.	89 ft.	Kuala Lumpur	Malaysia	MY	Unavailable	101° 32’ 54” E	3° 7’ 54” N	749	+8.0
-IPH	Sultan Azlan Shah Airport	5900 ft.	130 ft.	Ipoh	Malaysia	MY	Unavailable	101° 5’ 32” E	4° 34’ 5” N	749	+8.0
+IPH	Sultan Azlan Shah	5900 ft.	130 ft.	Ipoh	Malaysia	MY	Unavailable	101° 5’ 32” E	4° 34’ 5” N	749	+8.0
 JHB	Sultan Ismail International	11004 ft.	135 ft.	Johor Bahru	Malaysia	MY	Unavailable	103° 45’ 0” E	1° 27’ 0” N	749	+8.0
 KBR	Sultan Ismail Petra	6982 ft.	16 ft.	Kota Bharu	Malaysia	MY	Unavailable	102° 17’ 35” E	6° 10’ 1” N	749	+8.0
 TGG	Sultan Mahmood	6801 ft.	21 ft.	Kuala Terengganu	Malaysia	MY	Unavailable	103° 6’ 28” E	5° 23’ 10” N	749	+8.0
@@ -4495,7 +4494,7 @@ TWU	Tawau	8800 ft.	57 ft.	Tawau	Malaysia	MY	Unavailable	118° 7’ 19” E	4° 1
 TEL	Telupid	Unknown	Unknown	Telupid	Malaysia	MY	Unavailable	117° 7’ 0” E	5° 39’ 0” N	749	+0.0
 TOD	Tioman	3255 ft.	15 ft.	Tioman	Malaysia	MY	Unavailable	104° 9’ 36” E	2° 49’ 5” N	749	+8.0
 TMG	Tomanggong	Unknown	Unknown	Tomanggong	Malaysia	MY	Unavailable	118° 39’ 30” E	5° 24’ 10” N	749	+0.0
-GAN	Gan Airport	8698 ft.	6 ft.	Gan Island	Maldives	MV	Unavailable	73° 9’ 20” E	0° 41’ 36” S	750	+5.0
+GAN	Gan	8698 ft.	6 ft.	Gan Island	Maldives	MV	Unavailable	73° 9’ 20” E	0° 41’ 36” S	750	+5.0
 HAQ	Hanimaadhoo	4003 ft.	4 ft.	Hanimaadhoo	Maldives	MV	Unavailable	73° 10’ 7” E	6° 44’ 47” N	750	+5.0
 KDM	Kaadedhdhoo	3887 ft.	3 ft.	Kaadedhdhoo	Maldives	MV	Unavailable	72° 59’ 44” E	0° 29’ 17” N	750	+0.0
 KDO	Kadhdhoo	Unknown	4 ft.	Kadhdhoo	Maldives	MV	Unavailable	73° 31’ 19” E	1° 51’ 33” N	750	+6.0
@@ -4519,11 +4518,11 @@ MLA	Malta International	11627 ft.	300 ft.	Gudja/Luqa	Malta	MT	Unavailable	14° 2
 AIP	Ailinglapalap Island	Unknown	Unknown	Ailinglapalap Island	Marshall Islands	MH	Unavailable	168° 49’ 0” E	7° 16’ 0” N	844	-12.0
 AIM	Ailuk Island	Unknown	Unknown	Ailuk Island	Marshall Islands	MH	Unavailable	169° 59’ 0” E	10° 12’ 0” N	844	-12.0
 AIC	Airok	Unknown	Unknown	Airok, Ailinglaplap	Marshall Islands	MH	Unavailable	171° 14’ 0” E	7° 6’ 0” N	844	+12.0
-MAJ	Amata Kabua Intl	7900 ft.	6 ft.	Majuro	Marshall Islands	MH	Unavailable	171° 22’ 0” E	7° 15’ 0” N	844	-12.0
+MAJ	Amata Kabua International	7900 ft.	6 ft.	Majuro	Marshall Islands	MH	Unavailable	171° 22’ 0” E	7° 15’ 0” N	844	-12.0
 AMR	Arno	Unknown	Unknown	Arno	Marshall Islands	MH	Unavailable	171° 41’ 0” E	7° 5’ 0” N	844	-12.0
 AUL	Aur Island	Unknown	Unknown	Aur Island	Marshall Islands	MH	Unavailable	171° 10’ 0” E	8° 8’ 0” N	844	-12.0
 EBN	Ebadon	Unknown	Unknown	Ebadon	Marshall Islands	MH	Unavailable	166° 48’ 0” E	9° 20’ 0” N	844	+12.0
-EBO	Ebon Airport	Unknown	Unknown	Ebon	Marshall Islands	MH	Unavailable	168° 45’ 0”	4° 36’ 0”	844	+0.0
+EBO	Ebon	Unknown	Unknown	Ebon	Marshall Islands	MH	Unavailable	168° 45’ 0”	4° 36’ 0”	844	+0.0
 EAL	Elenak	Unknown	Unknown	Kwajalein Atoll	Marshall Islands	MH	Unavailable	167° 20’ 0” E	9° 5’ 0” N	844	+0.0
 ENT	Enewetak Island	7740 ft.	13 ft.	Enewetak Island	Marshall Islands	MH	Unavailable	162° 19’ 40” E	11° 20’ 27” N	844	+12.0
 EJT	Enijet	Unknown	Unknown	Mili Atoll	Marshall Islands	MH	Unavailable	171° 55’ 0” E	6° 8’ 0” N	844	+0.0
@@ -4580,7 +4579,7 @@ MRU	Sir Seewoosagur Ramgoolam International	11056 ft.	186 ft.	Plaisance	Mauritiu
 DZA	Dzaoudzi Pamandzi International	6330 ft.	23 ft.	Dzaoudzi	Mayotte	YT	Unavailable	45° 16’ 50” E	12° 48’ 24” S	513	+3.0
 CJS	Abraham Gonzalez International	8858 ft.	3904 ft.	Ciudad Juarez	Mexico	MX	Unavailable	106° 25’ 43” W	31° 38’ 10” N	148	-6.0
 AJS	Abreojos	3687 ft.	10 ft.	Abreojos	Mexico	MX	Unavailable	113° 35’ 0” W	26° 44’ 0” N	148	+7.0
-NTR	Aeropuerto del Norte International Airport	2 ft.	1476 ft.	Monterrey, Nuevo León	Mexico	MX	Unavailable	100° 14’ 14” W	25° 51’ 56” N	148	-6.0
+NTR	Aeropuerto del Norte International	2 ft.	1476 ft.	Monterrey, Nuevo León	Mexico	MX	Unavailable	100° 14’ 14” W	25° 51’ 56” N	148	-6.0
 XAL	Alamos	4000 ft.	1312 ft.	Alamos	Mexico	MX	Unavailable	108° 56’ 0” W	27° 1’ 0” N	148	+7.0
 TGZ	Angel Albino Corzo International	8202 ft.	1499 ft.	Tuxtla Gutierrez	Mexico	MX	Unavailable	93° 1’ 56” W	16° 34’ 17” N	148	-6.0
 AZG	Apatzingan	4921 ft.	1033 ft.	Apatzingan	Mexico	MX	Unavailable	102° 23’ 0” W	19° 5’ 0” N	148	+6.0
@@ -4616,8 +4615,8 @@ MTY	Gen Mariano Escobedo International	9843 ft.	1278 ft.	Monterrey	Mexico	MX	Una
 MZT	Gen Rafael Buelna	8859 ft.	33 ft.	Mazatlan	Mexico	MX	Unavailable	106° 25’ 0” W	23° 14’ 0” N	148	+7.0
 TIJ	General A. L. Rodriguez International	9711 ft.	489 ft.	Tijuana	Mexico	MX	Unavailable	116° 58’ 13” W	32° 32’ 28” N	148	-8.0
 ACA	General Juan N. Alvarez International	10832 ft.	16 ft.	Acapulco	Mexico	MX	Unavailable	99° 45’ 13” W	16° 45’ 25” N	148	-6.0
-LAP	General Manuel Márquez De León International Airport	8202 ft.	69 ft.	La Paz	Mexico	MX	Unavailable	110° 19’ 0” W	24° 7’ 0” N	148	-7.0
-CVJ	General Mariano Matamoros Airport	Unknown	Unknown	Cuernavaca	Mexico	MX	Unavailable	99° 15’ 41” W	18° 50’ 5” N	148	-6.0
+LAP	General Manuel Márquez De León International	8202 ft.	69 ft.	La Paz	Mexico	MX	Unavailable	110° 19’ 0” W	24° 7’ 0” N	148	-7.0
+CVJ	General Mariano Matamoros	Unknown	Unknown	Cuernavaca	Mexico	MX	Unavailable	99° 15’ 41” W	18° 50’ 5” N	148	-6.0
 CUU	General Roberto Fierro Villalobos International	8531 ft.	4462 ft.	Chihuahua	Mexico	MX	Unavailable	105° 57’ 52” W	28° 42’ 10” N	148	-6.0
 MXL	General Rodolfo Sánchez Taboada International	8530 ft.	74 ft.	Mexicali	Mexico	MX	Unavailable	115° 14’ 30” W	32° 37’ 50” N	148	-8.0
 DGO	Guadalupe Victoria	8859 ft.	6093 ft.	Durango	Mexico	MX	Unavailable	104° 40’ 0” W	24° 0’ 0” N	148	-6.0
@@ -4625,12 +4624,12 @@ GUB	Guerrero Negro	7216 ft.	59 ft.	Guerrero Negro	Mexico	MX	Unavailable	114° 1�
 PBC	Hermanos Serdan International	11811 ft.	7361 ft.	Puebla Atlixco	Mexico	MX	Unavailable	98° 22’ 17” W	19° 9’ 29” N	148	-6.0
 HUX	Huatulco	8858 ft.	464 ft.	Huatulco	Mexico	MX	Unavailable	96° 14’ 8” W	15° 46’ 6” N	148	-6.0
 QRO	Ingeniero Fernando Espinoza Gutiérrez International	11483 ft.	6296 ft.	Queretaro	Mexico	MX	Unavailable	100° 11’ 8” W	20° 37’ 2” N	148	-6.0
-NLD	Intl Quetzalcoatl	6562 ft.	486 ft.	Nuevo Laredo	Mexico	MX	Unavailable	99° 31’ 0” W	27° 27’ 0” N	148	+6.0
+NLD	International Quetzalcoatl	6562 ft.	486 ft.	Nuevo Laredo	Mexico	MX	Unavailable	99° 31’ 0” W	27° 27’ 0” N	148	+6.0
 ISJ	Isla Mujeres	4003 ft.	6 ft.	Isla Mujeres	Mexico	MX	Unavailable	86° 45’ 0” W	21° 16’ 0” N	148	+6.0
 ZIH	Ixtapa-Zihuatanejo International	8202 ft.	26 ft.	Ixtapa/Zihuatanejo	Mexico	MX	Unavailable	101° 27’ 38” W	17° 36’ 6” N	148	-6.0
 IZT	Ixtepec	7640 ft.	164 ft.	Ixtepec	Mexico	MX	Unavailable	95° 5’ 37” W	16° 26’ 58” N	148	-6.0
 JAL	Jalapa	4265 ft.	2871 ft.	Jalapa	Mexico	MX	Unavailable	96° 50’ 0” W	19° 35’ 0” N	148	+6.0
-AZP	Jorge Jiménez Cantú National Airport	4265 ft.	8120 ft.	Atizapan De Zaragoza, Mexico City	Mexico	MX	Unavailable	99° 17’ 20” W	19° 34’ 29” N	148	-5.0
+AZP	Jorge Jiménez Cantú National	4265 ft.	8120 ft.	Atizapan De Zaragoza, Mexico City	Mexico	MX	Unavailable	99° 17’ 20” W	19° 34’ 29” N	148	-5.0
 ZCL	La Calera	9640 ft.	7021 ft.	Zacatecas	Mexico	MX	Unavailable	102° 35’ 0” W	22° 47’ 0” N	148	+6.0
 VER	Las Bajadas	7874 ft.	95 ft.	Veracruz	Mexico	MX	Unavailable	96° 12’ 0” W	19° 8’ 0” N	148	+6.0
 LZC	Lazaro Cardenas	4922 ft.	36 ft.	Lazaro Cardenas	Mexico	MX	Unavailable	103° 10’ 0” W	25° 23’ 0” N	148	+6.0
@@ -4708,7 +4707,7 @@ IVG	Ivangrad/Dolac	7600 ft.	2326 ft.	Berane	Montenegro	ME	Unavailable	19° 51’
 TGD	Podgorica	8202 ft.	141 ft.	Podgorica	Montenegro	ME	Unavailable	19° 15’ 7” E	42° 21’ 34” N	382	+1.0
 TIV	Tivat	8208 ft.	20 ft.	Tivat	Montenegro	ME	Unavailable	18° 43’ 24” E	42° 24’ 17” N	382	+1.0
 ZBK	Zabljak	4429 ft.	4685 ft.	Zabljak	Montenegro	ME	Unavailable	19° 9’ 0” E	43° 6’ 0” N	382	+1.0
-MNI	Gerald's Airport	1814 ft.	551 ft.	Gerald's Park	Montserrat	MS	Unavailable	62° 11’ 36” W	16° 47’ 29” N	256	-4.0
+MNI	Gerald's	1814 ft.	551 ft.	Gerald's Park	Montserrat	MS	Unavailable	62° 11’ 36” W	16° 47’ 29” N	256	-4.0
 AGA	Agadir Almassira	9547 ft.	88 ft.	Agadir	Morocco	MA	Unavailable	9° 33’ 0” W	30° 23’ 0” N	548	+0.0
 CAS	Anfa	6904 ft.	203 ft.	Casablanca	Morocco	MA	Unavailable	7° 39’ 38” W	33° 35’ 25” N	548	+0.0
 TNG	Boukhalef	11483 ft.	62 ft.	Tangier	Morocco	MA	Unavailable	5° 55’ 1” W	35° 43’ 55” N	548	+0.0
@@ -4731,7 +4730,7 @@ TTU	Sania Ramel	7546 ft.	10 ft.	Tetuan	Morocco	MA	Unavailable	5° 19’ 12” W	
 SII	Sidi Ifni	6562 ft.	190 ft.	Sidi Ifni	Morocco	MA	Unavailable	10° 11’ 0” W	29° 22’ 0” N	548	+0.0
 TTA	Tan Tan	6562 ft.	653 ft.	Tan Tan	Morocco	MA	Unavailable	11° 9’ 41” W	28° 26’ 63” N	548	+0.0
 TFY	Tarfaya	Unknown	Unknown	Tarfaya	Morocco	MA	Unavailable	12° 54’ 36” W	27° 57’ 0” N	548	+0.0
-OZG	Zagora Airport	3609 ft.	2625 ft.	Zagora	Morocco	MA	Unavailable	5° 51’ 9” W	30° 16’ 2” N	548	+0.0
+OZG	Zagora	3609 ft.	2625 ft.	Zagora	Morocco	MA	Unavailable	5° 51’ 9” W	30° 16’ 2” N	548	+0.0
 AME	Alto Molocue	2955 ft.	1847 ft.	Alto Molocue	Mozambique	MZ	Unavailable	37° 41’ 0” E	15° 39’ 0” S	550	-2.0
 ANO	Angoche	3609 ft.	118 ft.	Angoche	Mozambique	MZ	Unavailable	39° 56’ 0” E	16° 10’ 0” S	550	-2.0
 BJN	Bajone	3281 ft.	148 ft.	Bajone	Mozambique	MZ	Unavailable	37° 57’ 0” E	17° 11’ 0” S	550	-2.0
@@ -4852,7 +4851,7 @@ INU	Nauru International	7054 ft.	22 ft.	Nauru Island	Nauru	NR	Unavailable	166° 
 BGL	Baglung	1420 ft.	3320 ft.	Baglung	Nepal	NP	Unavailable	83° 40’ 0” E	28° 13’ 0” N	755	-5.8
 BIT	Baitadi	1785 ft.	5500 ft.	Baitadi	Nepal	NP	Unavailable	80° 26’ 0” E	29° 32’ 0” N	755	-5.8
 BJH	Bajhang	2145 ft.	4100 ft.	Bajhang	Nepal	NP	Unavailable	81° 15’ 0” E	29° 33’ 0” N	755	-5.8
-BJU	Bajura Airport	1880 ft.	4300 ft.	Bajura	Nepal	NP	Unavailable	81° 40’ 0” E	29° 30’ 0” N	755	+5.8
+BJU	Bajura	1880 ft.	4300 ft.	Bajura	Nepal	NP	Unavailable	81° 40’ 0” E	29° 30’ 0” N	755	+5.8
 BDP	Bhadrapur	5000 ft.	300 ft.	Bhadrapur	Nepal	NP	Unavailable	88° 4’ 33” E	26° 34’ 13” N	755	+5.8
 BWA	Bhairawa	4970 ft.	358 ft.	Bhairawa	Nepal	NP	Unavailable	83° 25’ 8” E	27° 30’ 21” N	755	-5.8
 BHR	Bharatpur	3800 ft.	600 ft.	Bharatpur	Nepal	NP	Unavailable	84° 25’ 46” E	27° 40’ 41” N	755	+5.8
@@ -4893,7 +4892,7 @@ TPU	Tikapur	1 ft.	25 ft.	Tikapur	Nepal	NP	Unavailable	81° 8’ 0” E	28° 30�
 KTM	Tribhuvan International	10007 ft.	4390 ft.	Kathmandu	Nepal	NP	Unavailable	85° 21’ 33” E	27° 41’ 48” N	755	+5.8
 DNP	Tulsipur	2730 ft.	2100 ft.	Dang	Nepal	NP	Unavailable	82° 17’ 39” E	28° 6’ 40” N	755	-5.8
 TMI	Tumling Tar	4000 ft.	1700 ft.	Tumling Tar	Nepal	NP	Unavailable	87° 11’ 36” E	27° 18’ 54” N	755	+5.8
-DHR	De Kooy/Den Helder Airport	4183 ft.	3 ft.	Den Helder	Netherlands	NL	Unavailable	4° 46’ 51” E	52° 55’ 28” N	461	+1.0
+DHR	De Kooy/Den Helder	4183 ft.	3 ft.	Den Helder	Netherlands	NL	Unavailable	4° 46’ 51” E	52° 55’ 28” N	461	+1.0
 GRQ	Eelde	5906 ft.	17 ft.	Groningen	Netherlands	NL	Unavailable	6° 34’ 46” E	53° 7’ 11” N	461	+1.0
 EIN	Eindhoven	9843 ft.	70 ft.	Eindhoven	Netherlands	NL	Unavailable	5° 22’ 28” E	51° 27’ 0” N	461	+1.0
 GLZ	Gilze-Rijen	9117 ft.	49 ft.	Breda	Netherlands	NL	Unavailable	4° 55’ 59” E	51° 34’ 5” N	461	+1.0
@@ -4961,7 +4960,7 @@ MTA	Matamata	4780 ft.	182 ft.	Matamata	New Zealand	NZ	Unavailable	175° 45’ 0�
 MHB	Mechanics Bay	Unknown	1 ft.	Auckland	New Zealand	NZ	Unavailable	174° 55’ 0” E	36° 58’ 0” S	851	+12.0
 MFN	Milford Sound	2600 ft.	10 ft.	Milford Sound	New Zealand	NZ	Unavailable	167° 56’ 0” E	44° 37’ 0” S	851	+12.0
 MZP	Motueka	2500 ft.	38 ft.	Motueka	New Zealand	NZ	Unavailable	173° 0’ 0” E	41° 7’ 0” S	851	+12.0
-MON	Mount Cook Airport	5118 ft.	2153 ft.	Mount Cook	New Zealand	NZ	Unavailable	170° 8’ 0” E	43° 47’ 0” S	851	+12.0
+MON	Mount Cook	5118 ft.	2153 ft.	Mount Cook	New Zealand	NZ	Unavailable	170° 8’ 0” E	43° 47’ 0” S	851	+12.0
 NSN	Nelson	4420 ft.	17 ft.	Nelson	New Zealand	NZ	Unavailable	173° 13’ 16” E	41° 17’ 54” S	851	+12.0
 NPL	New Plymouth	4300 ft.	97 ft.	New Plymouth	New Zealand	NZ	Unavailable	174° 11’ 0” E	39° 2’ 0” S	851	+12.0
 OAM	Oamaru	4200 ft.	99 ft.	Oamaru	New Zealand	NZ	Unavailable	171° 5’ 0” E	44° 58’ 0” S	851	+12.0
@@ -5011,7 +5010,7 @@ NIM	Niamey	9842 ft.	728 ft.	Niamey	Niger	NE	Unavailable	2° 10’ 0” E	13° 29
 THZ	Tahoua	Unknown	Unknown	Tahoua	Niger	NE	Unavailable	15° 21’ 0” E	10° 51’ 0” N	554	+0.0
 ZND	Zinder	5988 ft.	1509 ft.	Zinder	Niger	NE	Unavailable	8° 59’ 0” E	13° 47’ 0” N	554	-1.0
 AKR	Akure	9613 ft.	1100 ft.	Akure	Nigeria	NG	Unavailable	5° 12’ 0” E	7° 15’ 0” N	555	-1.0
-KAN	Aminu Kano Intl Apt	10827 ft.	1565 ft.	Kano	Nigeria	NG	Unavailable	8° 31’ 29” E	12° 2’ 51” N	555	-1.0
+KAN	Aminu Kano International Apt	10827 ft.	1565 ft.	Kano	Nigeria	NG	Unavailable	8° 31’ 29” E	12° 2’ 51” N	555	-1.0
 BCU	Bauchi	6004 ft.	2003 ft.	Bauchi	Nigeria	NG	Unavailable	9° 50’ 0” E	10° 19’ 0” N	555	-1.0
 BNI	Benin City	7870 ft.	258 ft.	Benin City	Nigeria	NG	Unavailable	5° 35’ 58” E	6° 19’ 1” N	555	+1.0
 ENU	Enugu	7874 ft.	466 ft.	Enugu	Nigeria	NG	Unavailable	7° 33’ 0” E	6° 28’ 0” N	555	-1.0
@@ -5024,7 +5023,7 @@ MDI	Makurdi	10236 ft.	371 ft.	Makurdi	Nigeria	NG	Unavailable	8° 36’ 0” E	7�
 CBQ	Margaret Ekpo International	8040 ft.	210 ft.	Calabar	Nigeria	NG	Unavailable	8° 20’ 50” E	4° 58’ 34” N	555	+1.0
 MXJ	Minna	3000 ft.	861 ft.	Minna	Nigeria	NG	Unavailable	6° 32’ 0” E	9° 37’ 0” N	555	-1.0
 LOS	Murtala Muhammed International	12795 ft.	135 ft.	Lagos	Nigeria	NG	Unavailable	3° 19’ 16” E	6° 34’ 39” N	555	+1.0
-ABV	Nnamdi Azikiwe International Airport	11808 ft.	1122 ft.	Abuja	Nigeria	NG	Unavailable	7° 15’ 47” E	9° 0’ 24” N	555	+1.0
+ABV	Nnamdi Azikiwe International	11808 ft.	1122 ft.	Abuja	Nigeria	NG	Unavailable	7° 15’ 47” E	9° 0’ 24” N	555	+1.0
 QRW	Osubi	5906 ft.	Unknown	Warri	Nigeria	NG	Unavailable	5° 49’ 4” E	5° 35’ 46” N	555	+1.0
 PHC	Port Harcourt	9 ft.	61 ft.	Port Harcourt	Nigeria	NG	Unavailable	6° 56’ 59” E	5° 0’ 56” N	555	+1.0
 PHG	Port Harcourt City	Unknown	Unknown	Port Harcourt	Nigeria	NG	Unavailable	7° 1’ 0” E	4° 51’ 0” N	555	+0.0
@@ -5049,7 +5048,7 @@ BVG	Berlevag	2625 ft.	43 ft.	Berlevag	Norway	NO	Unavailable	29° 0’ 0” E	70�
 BOO	Bodo	11136 ft.	42 ft.	Bodo	Norway	NO	Unavailable	14° 22’ 55” E	67° 16’ 9” N	465	+1.0
 FDE	Bringeland	3116 ft.	1046 ft.	Forde	Norway	NO	Unavailable	5° 45’ 25” E	61° 23’ 28” N	465	+1.0
 BNN	Bronnoy	2624 ft.	28 ft.	Bronnoysund	Norway	NO	Unavailable	12° 13’ 0” E	65° 29’ 0” N	465	-1.0
-DLD	Dagali Airport	4593 ft.	2617 ft.	Geilo	Norway	NO	Unavailable	8° 30’ 0” E	60° 28’ 0” N	465	-1.0
+DLD	Dagali	4593 ft.	2617 ft.	Geilo	Norway	NO	Unavailable	8° 30’ 0” E	60° 28’ 0” N	465	-1.0
 EVE	Evenes	8720 ft.	85 ft.	Harstad-Narvik	Norway	NO	Unavailable	16° 41’ 0” E	68° 30’ 0” N	465	+1.0
 FRO	Florø	3934 ft.	37 ft.	Florø	Norway	NO	Unavailable	5° 1’ 29” E	61° 35’ 1” N	465	+1.0
 NVK	Framnes	2625 ft.	97 ft.	Narvik	Norway	NO	Unavailable	17° 25’ 30” E	68° 25’ 30” N	465	-1.0
@@ -5088,7 +5087,7 @@ SYG	Spitsberg	Unknown	Unknown	Svalbard	Norway	NO	Unavailable	20° 0’ 0” E	78
 SSJ	Stokka	2516 ft.	54 ft.	Sandnessjoen	Norway	NO	Unavailable	12° 28’ 0” E	65° 57’ 0” N	465	-1.0
 RET	Stolport	2625 ft.	12 ft.	Rost	Norway	NO	Unavailable	12° 5’ 0” E	67° 29’ 0” N	465	-1.0
 VRY	Stolport (Not operational)	2625 ft.	36 ft.	Vaeroy	Norway	NO	Unavailable	12° 41’ 0” E	67° 40’ 0” N	465	-1.0
-SRP	Stord Airport	3936 ft.	160 ft.	Stord	Norway	NO	Unavailable	5° 20’ 23” E	59° 47’ 34” N	465	+1.0
+SRP	Stord	3936 ft.	160 ft.	Stord	Norway	NO	Unavailable	5° 20’ 23” E	59° 47’ 34” N	465	+1.0
 XUV	Storekvina Railway	Unknown	Unknown	Storekvina	Norway	NO	Unavailable	6° 57’ 0” E	58° 23’ 0” N	465	+0.0
 XUW	Storen Railway	Unknown	Unknown	Storen	Norway	NO	Unavailable	10° 18’ 0” E	63° 2’ 0” N	465	+0.0
 LYR	Svalbard	7608 ft.	88 ft.	Longyearbyen	Norway	NO	Unavailable	15° 27’ 56” E	78° 11’ 45” N	465	+1.0
@@ -5172,7 +5171,7 @@ TUK	Turbat International	6000 ft.	498 ft.	Turbat	Pakistan	PK	Unavailable	63° 1�
 WAF	Wana	4900 ft.	4550 ft.	Wana	Pakistan	PK	Unavailable	69° 34’ 0” E	32° 17’ 0” N	764	-5.0
 PZH	Zhob	6070 ft.	4650 ft.	Zhob	Pakistan	PK	Unavailable	69° 50’ 0” E	32° 4’ 0” N	764	+5.0
 ROR	Babelthuap/Koror	7200 ft.	176 ft.	Koror	Palau	PW	Unavailable	134° 32’ 39” E	7° 22’ 2” N	5	+9.0
-GZA	Gaza - Yaser Arafat International Airport	10091 ft.	320 ft.	Rafah	Palestine	PS	Unavailable	34° 16’ 6” E	31° 14’ 8” N	Unknown	+2.0
+GZA	Gaza - Yaser Arafat International	10091 ft.	320 ft.	Rafah	Palestine	PS	Unavailable	34° 16’ 6” E	31° 14’ 8” N	Unknown	+2.0
 ZDM	Ramallah Heliport	Unknown	Unknown	Ramallah	Palestine	PS	Unavailable	35° 1’ 10” E	32° 16’ 19” N	Unknown	+0.0
 ACU	Achutupo	1568 ft.	36 ft.	Achutupo	Panama	PA	Unavailable	77° 58’ 0” W	8° 26’ 0” N	162	+5.0
 AIL	Ailigandi	1207 ft.	7 ft.	Ailigandi	Panama	PA	Unavailable	78° 1’ 0” W	9° 14’ 0” N	162	+5.0
@@ -5561,12 +5560,12 @@ TEO	Terapo	Unknown	Unknown	Terapo	Papua New Guinea	PG	Unavailable	146° 12’ 0�
 TDB	Tetabedi	Unknown	Unknown	Tetabedi	Papua New Guinea	PG	Unavailable	174° 28’ 0” E	0° 48’ 0” S	804	+0.0
 TFB	Tifalmin	Unknown	Unknown	Tifalmin	Papua New Guinea	PG	Unavailable	141° 28’ 0” E	5° 6’ 0” S	804	+0.0
 TBE	Timbunke	Unknown	Unknown	Timbunke	Papua New Guinea	PG	Unavailable	143° 31’ 0” E	4° 11’ 0” S	804	+0.0
-TCK	Tinboli Airport	Unknown	Unknown	Tinboli	Papua New Guinea	PG	Unavailable	143° 23’ 0” E	4° 6’ 0” S	804	+0.0
+TCK	Tinboli	Unknown	Unknown	Tinboli	Papua New Guinea	PG	Unavailable	143° 23’ 0” E	4° 6’ 0” S	804	+0.0
 TIG	Tingwon	Unknown	Unknown	Tingwon	Papua New Guinea	PG	Unavailable	149° 43’ 0” E	2° 37’ 0” S	804	+0.0
 RAB	Tokua	5210 ft.	29 ft.	Rabaul	Papua New Guinea	PG	Unavailable	152° 22’ 47” E	4° 20’ 26” S	804	+10.0
 TLO	Tol	Unknown	Unknown	Tol	Papua New Guinea	PG	Unavailable	64° 55’ 0” W	30° 49’ 0” S	804	+0.0
 TON	Tonu	Unknown	Unknown	Tonu	Papua New Guinea	PG	Unavailable	36° 26’ 0” E	40° 39’ 0” N	804	+0.0
-TCJ	Torembi Airport	Unknown	Unknown	Torembi	Papua New Guinea	PG	Unavailable	143° 8’ 0” E	4° 1’ 0” S	804	+0.0
+TCJ	Torembi	Unknown	Unknown	Torembi	Papua New Guinea	PG	Unavailable	143° 8’ 0” E	4° 1’ 0” S	804	+0.0
 TOK	Torokina	Unknown	Unknown	Torokina	Papua New Guinea	PG	Unavailable	155° 3’ 0” E	6° 14’ 0” S	804	+0.0
 TSW	Tsewi	Unknown	Unknown	Tsewi	Papua New Guinea	PG	Unavailable	Unknown	Unknown	804	+0.0
 TSI	Tsili Tsili	Unknown	Unknown	Tsili Tsili	Papua New Guinea	PG	Unavailable	Unknown	Unknown	804	+0.0
@@ -5629,7 +5628,7 @@ ANS	Andahuaylas	10000 ft.	11300 ft.	Andahuaylas	Peru	PE	Unavailable	73° 25’ 0
 BLP	Bellavista	4527 ft.	984 ft.	Bellavista	Peru	PE	Unavailable	77° 8’ 0” W	12° 1’ 30” S	368	+5.0
 PIU	Capitan Fap Guillermo Concha Iberico International	8202 ft.	120 ft.	Piura	Peru	PE	Unavailable	80° 36’ 59” W	5° 12’ 21” S	368	-5.0
 CIX	Captaán FAP José Abelardo Quiñones Gonzáles International	8267 ft.	95 ft.	Chiclayo	Peru	PE	Unavailable	79° 49’ 51” W	6° 47’ 15” S	368	-5.0
-PCL	Captain Rolden International Airport	8202 ft.	515 ft.	Pucallpa	Peru	PE	Unavailable	74° 35’ 0” W	8° 22’ 0” S	368	+5.0
+PCL	Captain Rolden International	8202 ft.	515 ft.	Pucallpa	Peru	PE	Unavailable	74° 35’ 0” W	8° 22’ 0” S	368	+5.0
 TCQ	Carlos Ciriani Santa Rosa	8202 ft.	1538 ft.	Tacna	Peru	PE	Unavailable	70° 16’ 33” W	18° 3’ 12” S	368	-5.0
 CHH	Chachapoyas	3430 ft.	7980 ft.	Chachapoyas	Peru	PE	Unavailable	78° 2’ 0” W	6° 3’ 0” S	368	+5.0
 CHM	Chimbote	5905 ft.	70 ft.	Chimbote	Peru	PE	Unavailable	78° 36’ 0” W	9° 5’ 0” S	368	+5.0
@@ -5676,8 +5675,8 @@ CDY	Cagayan De Sulu	4265 ft.	100 ft.	Cagayan De Sulu	Philippines	PH	Unavailable	
 CYP	Calbayog	5415 ft.	10 ft.	Calbayog	Philippines	PH	Unavailable	124° 33’ 0” E	12° 5’ 0” N	766	-8.0
 CGG	Casiguran	Unknown	Unknown	Casiguran	Philippines	PH	Unavailable	Unknown	Unknown	766	+0.0
 CYZ	Cauayan	4265 ft.	200 ft.	Cauayan	Philippines	PH	Unavailable	121° 45’ 0” E	16° 55’ 0” N	766	-8.0
-RZP	CLR Airport	Unknown	Unknown	Taytay Sandoval	Philippines	PH	Unavailable	119° 31’ 6” E	11° 3’ 6” N	766	+0.0
-XCN	Coron Airport	Unknown	Unknown	Puerto Princesa City	Philippines	PH	Unavailable	120° 12’ 0” E	12° 0’ 0” N	766	+8.0
+RZP	CLR	Unknown	Unknown	Taytay Sandoval	Philippines	PH	Unavailable	119° 31’ 6” E	11° 3’ 6” N	766	+0.0
+XCN	Coron	Unknown	Unknown	Puerto Princesa City	Philippines	PH	Unavailable	120° 12’ 0” E	12° 0’ 0” N	766	+8.0
 NCP	Cubi Pt NAS	2395 ft.	820 ft.	Luzon Is	Philippines	PH	Unavailable	121° 0’ 0” E	16° 0’ 0” N	766	-8.0
 CUJ	Culion	2952 ft.	230 ft.	Culion	Philippines	PH	Unavailable	120° 1’ 0” E	11° 53’ 0” N	766	-8.0
 CYU	Cuyo	2625 ft.	98 ft.	Cuyo	Philippines	PH	Unavailable	121° 0’ 0” E	10° 51’ 0” N	766	-8.0
@@ -5697,7 +5696,7 @@ IPE	Ipil	2460 ft.	40 ft.	Ipil	Philippines	PH	Unavailable	122° 35’ 0” E	7° 
 JOL	Jolo	4144 ft.	79 ft.	Jolo	Philippines	PH	Unavailable	121° 1’ 40” E	6° 3’ 13” N	766	+8.0
 KLO	Kalibo	4265 ft.	23 ft.	Kalibo	Philippines	PH	Unavailable	122° 22’ 0” E	11° 42’ 0” N	766	-8.0
 OZC	Labo	3937 ft.	16 ft.	Ozamis City	Philippines	PH	Unavailable	123° 45’ 0” E	8° 10’ 0” N	766	-8.0
-LAO	Laoag International Airport	7940 ft.	20 ft.	Laoag	Philippines	PH	Unavailable	120° 32’ 0” E	18° 11’ 0” N	766	-8.0
+LAO	Laoag International	7940 ft.	20 ft.	Laoag	Philippines	PH	Unavailable	120° 32’ 0” E	18° 11’ 0” N	766	-8.0
 LGP	Legazpi	6476 ft.	66 ft.	Legazpi	Philippines	PH	Unavailable	123° 44’ 0” E	13° 10’ 0” N	766	-8.0
 BAG	Loakan	5512 ft.	4239 ft.	Baguio	Philippines	PH	Unavailable	120° 37’ 0” E	16° 22’ 0” N	766	-8.0
 LBX	Lubang	3281 ft.	39 ft.	Lubang	Philippines	PH	Unavailable	120° 6’ 18” E	13° 51’ 56” N	766	-8.0
@@ -5737,8 +5736,8 @@ TUG	Tuguegarao	Unknown	Unknown	Tuguegarao	Philippines	PH	Unavailable	121° 45’
 VRC	Virac	5118 ft.	121 ft.	Virac	Philippines	PH	Unavailable	124° 12’ 20” E	13° 34’ 35” N	766	+8.0
 ZAM	Zamboanga International	8560 ft.	30 ft.	Zamboanga	Philippines	PH	Unavailable	122° 4’ 0” E	6° 56’ 0” N	766	+8.0
 IEG	Babimost	2500 ft.	59 ft.	Zielona Gora	Poland	PL	Unavailable	15° 47’ 55” E	52° 8’ 19” N	467	+1.0
-BZG	Bydgoszcz I. J. Paderewski Airport	8202 ft.	235 ft.	Bydgoszcz	Poland	PL	Unavailable	17° 58’ 40” E	53° 5’ 48” N	467	+1.0
-WRO	Copernicus Airport	8366 ft.	397 ft.	Wroclaw	Poland	PL	Unavailable	16° 53’ 9” E	51° 6’ 10” N	467	+1.0
+BZG	Bydgoszcz I. J. Paderewski	8202 ft.	235 ft.	Bydgoszcz	Poland	PL	Unavailable	17° 58’ 40” E	53° 5’ 48” N	467	+1.0
+WRO	Copernicus	8366 ft.	397 ft.	Wroclaw	Poland	PL	Unavailable	16° 53’ 9” E	51° 6’ 10” N	467	+1.0
 CZW	Czestochowa/Rudniki	6562 ft.	860 ft.	Czestochowa	Poland	PL	Unavailable	19° 12’ 17” E	50° 53’ 6” N	467	+1.0
 SZZ	Goleniow	8202 ft.	154 ft.	Szczecin	Poland	PL	Unavailable	14° 54’ 0” E	53° 35’ 0” N	467	+1.0
 RZE	Jasionka	10499 ft.	675 ft.	Rzeszow	Poland	PL	Unavailable	22° 1’ 8” E	50° 2’ 36” N	467	+1.0
@@ -6048,7 +6047,7 @@ RAE	Arar	10007 ft.	1821 ft.	Arar	Saudi Arabia	SA	Unavailable	40° 59’ 0” E	3
 BHH	Bisha	10007 ft.	3887 ft.	Bisha	Saudi Arabia	SA	Unavailable	42° 37’ 15” E	19° 59’ 4” N	670	+3.0
 XZF	Dammam Port	Unknown	Unknown	Dammam	Saudi Arabia	SA	Unavailable	39° 13’ 9” E	21° 31’ 1” N	670	+3.0
 DWD	Dawadmi	7000 ft.	3429 ft.	Dawadmi	Saudi Arabia	SA	Unavailable	44° 7’ 16” E	24° 26’ 59” N	670	+3.0
-ELQ	Gassim Regional Airport	9843 ft.	2126 ft.	Buraidah	Saudi Arabia	SA	Unavailable	43° 46’ 26” E	26° 18’ 10” N	670	+3.0
+ELQ	Gassim Regional	9843 ft.	2126 ft.	Buraidah	Saudi Arabia	SA	Unavailable	43° 46’ 26” E	26° 18’ 10” N	670	+3.0
 URY	Gurayat	10007 ft.	1671 ft.	Gurayat	Saudi Arabia	SA	Unavailable	37° 25’ 0” E	31° 20’ 0” N	670	-3.0
 HBT	Hafr Albatin	7054 ft.	1175 ft.	Hafr Albatin	Saudi Arabia	SA	Unavailable	45° 31’ 35” E	27° 53’ 40” N	670	+3.0
 HAS	Hail	10827 ft.	3331 ft.	Hail	Saudi Arabia	SA	Unavailable	41° 45’ 0” E	27° 31’ 0” N	670	-3.0
@@ -6123,7 +6122,7 @@ ILZ	Zilina	3773 ft.	1020 ft.	Zilina	Slovak Republic	SK	Unavailable	18° 36’ 49
 BTS	Milan Rastislav Stefánik	10466 ft.	436 ft.	Bratislava	Slovakia	SK	Unavailable	17° 12’ 46” E	48° 10’ 13” N	483	+1.0
 SLD	Sliac	7678 ft.	1033 ft.	Sliac	Slovakia	SK	Unavailable	19° 8’ 0” E	48° 38’ 0” N	483	+1.0
 LJU	Ljubljana Joze Pucnik	10827 ft.	1273 ft.	Ljubljana	Slovenia	SI	Unavailable	14° 27’ 27” E	46° 13’ 25” N	481	+1.0
-MBX	Maribor International Airport	8202 ft.	876 ft.	Maribor	Slovenia	SI	Unavailable	15° 41’ 10” E	46° 28’ 47” N	481	+1.0
+MBX	Maribor International	8202 ft.	876 ft.	Maribor	Slovenia	SI	Unavailable	15° 41’ 10” E	46° 28’ 47” N	481	+1.0
 POW	Portoroz	3937 ft.	7 ft.	Portoroz	Slovenia	SI	Unavailable	13° 36’ 54” E	45° 28’ 24” N	481	+1.0
 AFT	Afutara Aerodrome	Unknown	Unknown	Afutara	Solomon Islands	SB	Unavailable	160° 57’ 0” E	9° 11’ 0” S	874	+0.0
 ANH	Anuha Island Resort	Unknown	Unknown	Anuha Island Resort	Solomon Islands	SB	Unavailable	160° 30’ 0” E	8° 59’ 0” S	874	-11.0
@@ -6164,7 +6163,7 @@ EGM	Sege	3002 ft.	5 ft.	Sege	Solomon Islands	SB	Unavailable	157° 52’ 0” E	8
 VAO	Suavanao Airstrip	Unknown	Unknown	Suavanao	Solomon Islands	SB	Unavailable	154° 40’ 0”	7° 34’ 0”	874	+0.0
 TAA	Tarapaina	Unknown	Unknown	Tarapaina	Solomon Islands	SB	Unavailable	161° 23’ 0” E	9° 26’ 0” S	874	+0.0
 TLG	Tulagi Island	Unknown	Unknown	Tulagi Island	Solomon Islands	SB	Unavailable	160° 9’ 0” E	9° 6’ 0” S	874	+11.0
-RNA	Ulawa Airport	Unknown	Unknown	Arona	Solomon Islands	SB	Unavailable	44° 49’ 0” E	19° 18’ 0” S	874	+0.0
+RNA	Ulawa	Unknown	Unknown	Arona	Solomon Islands	SB	Unavailable	44° 49’ 0” E	19° 18’ 0” S	874	+0.0
 VIU	Viru Harbour Airstrip	Unknown	Unknown	Viru	Solomon Islands	SB	Unavailable	157° 46’ 0” E	8° 28’ 0” S	874	+0.0
 XYA	Yandina	5921 ft.	20 ft.	Yandina	Solomon Islands	SB	Unavailable	159° 14’ 0” E	9° 4’ 0” S	874	-11.0
 GLK	Abdullahi Yusuf International (formely Galcaio)	9843 ft.	975 ft.	Galcaio	Somalia	SO	Unavailable	47° 27’ 17” E	6° 46’ 51” N	573	+3.0
@@ -6205,10 +6204,10 @@ FCB	Ficksburg Sentra Oes	4593 ft.	5315 ft.	Ficksburg	South Africa	ZA	Unavailable
 GRJ	George	6562 ft.	648 ft.	George	South Africa	ZA	Unavailable	22° 22’ 44” E	34° 0’ 20” S	562	+2.0
 GIY	Giyani	Unknown	Unknown	Giyani	South Africa	ZA	Unavailable	30° 40’ 0”	23° 17’ 0”	562	+0.0
 GCJ	Grand Central	6004 ft.	5327 ft.	Johannesburg	South Africa	ZA	Unavailable	28° 8’ 24” E	25° 59’ 11” S	562	+2.0
-HRS	Harrismith Airport	3560 ft.	5585 ft.	Harrismith	South Africa	ZA	Unavailable	29° 6’ 0” E	28° 14’ 0” S	562	-2.0
+HRS	Harrismith	3560 ft.	5585 ft.	Harrismith	South Africa	ZA	Unavailable	29° 6’ 0” E	28° 14’ 0” S	562	-2.0
 HZV	Hazyview	Unknown	Unknown	Hazyview	South Africa	ZA	Unavailable	31° 8’ 0” E	25° 3’ 0” S	562	+2.0
 HLW	Hluhluwe	3937 ft.	250 ft.	Hluhluwe	South Africa	ZA	Unavailable	32° 15’ 0” E	28° 1’ 0” S	562	-2.0
-HDS	Hoedspruit Airport	Unknown	Unknown	Hoedspruit	South Africa	ZA	Unavailable	31° 2’ 55” E	24° 22’ 7” S	562	+0.0
+HDS	Hoedspruit	Unknown	Unknown	Hoedspruit	South Africa	ZA	Unavailable	31° 2’ 55” E	24° 22’ 7” S	562	+0.0
 INY	Inyati	2730 ft.	1250 ft.	Inyati	South Africa	ZA	Unavailable	31° 23’ 0” E	24° 46’ 0” S	562	+2.0
 HIC	Iscor Heliport	Unknown	Unknown	Pretoria	South Africa	ZA	Unavailable	79° 20’ 0” W	2° 16’ 0” S	562	+0.0
 KMH	Johan Pienaar	3940 ft.	4360 ft.	Kuruman	South Africa	ZA	Unavailable	23° 24’ 41” E	27° 27’ 24” S	562	-2.0
@@ -6229,7 +6228,7 @@ LMR	Lime Acres	4265 ft.	4900 ft.	Lime Acres	South Africa	ZA	Unavailable	23° 27�
 LDZ	Londolozi	3510 ft.	1250 ft.	Londolozi	South Africa	ZA	Unavailable	31° 30’ 0” E	24° 48’ 0” S	562	+2.0
 LCD	Louis Trichardt	3937 ft.	3025 ft.	Louis Trichardt	South Africa	ZA	Unavailable	29° 43’ 0” E	23° 1’ 0” S	562	-2.0
 LUJ	Lusikisiki	2600 ft.	1825 ft.	Lusikisiki	South Africa	ZA	Unavailable	29° 35’ 0” E	31° 22’ 0” S	562	-2.0
-MBD	Mafikeng International Airport	14928 ft.	4189 ft.	Mmabatho	South Africa	ZA	Unavailable	25° 32’ 53” E	25° 47’ 54” S	562	+2.0
+MBD	Mafikeng International	14928 ft.	4189 ft.	Mmabatho	South Africa	ZA	Unavailable	25° 32’ 53” E	25° 47’ 54” S	562	+2.0
 AAM	Mala Mala	4420 ft.	1200 ft.	Mala Mala	South Africa	ZA	Unavailable	31° 32’ 0” E	24° 48’ 0” S	562	-2.0
 LLE	Malelane	3608 ft.	1148 ft.	Malelane	South Africa	ZA	Unavailable	31° 34’ 0” E	25° 28’ 0” S	562	-2.0
 MGH	Margate	4498 ft.	495 ft.	Margate	South Africa	ZA	Unavailable	30° 20’ 35” E	30° 51’ 27” S	562	+2.0
@@ -6405,7 +6404,7 @@ KCB	Tepoe Airstrip	Unknown	Unknown	Kasikasima	Suriname	SR	Unavailable	Unknown	Un
 OEM	Vincent Fayks	Unknown	Unknown	Paloemeu	Suriname	SR	Unavailable	55° 27’ 0”	3° 21’ 0”	379	+0.0
 AGI	Wageningen	1804 ft.	26 ft.	Wageningen	Suriname	SR	Unavailable	56° 41’ 0” W	5° 46’ 0” N	379	+3.0
 WSO	Washabo	1640 ft.	145 ft.	Washabo	Suriname	SR	Unavailable	57° 11’ 0” W	5° 13’ 0” N	379	+3.0
-PBM	Zanderij Intl	11417 ft.	54 ft.	Paramaribo	Suriname	SR	Unavailable	55° 11’ 16” W	5° 27’ 10” N	379	-3.0
+PBM	Zanderij International	11417 ft.	54 ft.	Paramaribo	Suriname	SR	Unavailable	55° 11’ 16” W	5° 27’ 10” N	379	-3.0
 ORG	Zorg En Hoop	2362 ft.	10 ft.	Paramaribo	Suriname	SR	Unavailable	55° 11’ 0” W	5° 29’ 30” N	379	+3.0
 MTS	Matsapha International	8530 ft.	2075 ft.	Manzini	Swaziland	SZ	Unavailable	31° 18’ 27” E	26° 31’ 44” S	582	+2.0
 XXA	Alvesta	Unknown	Unknown	Alvesta	Sweden	SE	Unavailable	Unknown	Unknown	484	+0.0
@@ -6417,7 +6416,7 @@ XYP	Avesta Krylbo	Unknown	Unknown	Avesta Krylbo	Sweden	SE	Unavailable	Unknown	Un
 JKG	Axamo	7228 ft.	741 ft.	Jonkoping	Sweden	SE	Unavailable	14° 4’ 7” E	57° 45’ 27” N	484	+1.0
 XYB	Borlange Railway Svc.	Unknown	Unknown	Borlange/Falun	Sweden	SE	Unavailable	14° 51’ 0” E	57° 2’ 0” N	484	+0.0
 BMA	Bromma	5863 ft.	46 ft.	Stockholm	Sweden	SE	Unavailable	17° 57’ 0” E	59° 21’ 10” N	484	+1.0
-BLE	Dala Airport	7585 ft.	503 ft.	Borlange	Sweden	SE	Unavailable	15° 30’ 0” E	60° 22’ 0” N	484	-1.0
+BLE	Dala	7585 ft.	503 ft.	Borlange	Sweden	SE	Unavailable	15° 30’ 0” E	60° 22’ 0” N	484	-1.0
 XWQ	Enkoping	Unknown	Unknown	Enkoping	Sweden	SE	Unavailable	17° 4’ 0” E	59° 38’ 0” N	484	+0.0
 EKT	Eskilstuna	7218 ft.	138 ft.	Eskilstuna	Sweden	SE	Unavailable	16° 27’ 0” E	59° 23’ 0” N	484	-1.0
 XYM	Falkenberg Rail	Unknown	Unknown	Falkenberg	Sweden	SE	Unavailable	22° 45’ 0” E	49° 39’ 0” N	484	+0.0
@@ -6467,7 +6466,7 @@ GVX	Sandviken	6562 ft.	222 ft.	Gavle	Sweden	SE	Unavailable	17° 1’ 0” E	60°
 NYO	Skavsta	8202 ft.	140 ft.	Stockholm	Sweden	SE	Unavailable	16° 54’ 25” E	58° 47’ 21” N	484	+1.0
 SFT	Skelleftea	5905 ft.	153 ft.	Skelleftea	Sweden	SE	Unavailable	21° 5’ 0” E	64° 38’ 0” N	484	+1.0
 KVB	Skovde	2675 ft.	397 ft.	Skovde	Sweden	SE	Unavailable	13° 58’ 0” E	58° 27’ 0” N	484	-1.0
-VXO	Smaland Airport	7546 ft.	610 ft.	Växjö	Sweden	SE	Unavailable	14° 43’ 41” E	56° 55’ 45” N	484	+1.0
+VXO	Smaland	7546 ft.	610 ft.	Växjö	Sweden	SE	Unavailable	14° 43’ 41” E	56° 55’ 45” N	484	+1.0
 SOO	Soderhamn	8366 ft.	85 ft.	Soderhamn	Sweden	SE	Unavailable	17° 3’ 0” E	61° 18’ 0” N	484	-1.0
 JSO	Sodertalje Heliport	Unknown	Unknown	Sodertalje	Sweden	SE	Unavailable	17° 37’ 0” E	59° 12’ 0” N	484	-1.0
 XEZ	Sodertalje S Railway	Unknown	Unknown	Sodertalje	Sweden	SE	Unavailable	17° 37’ 0” E	59° 12’ 0” N	484	+0.0
@@ -6559,7 +6558,7 @@ GEE	George Town	2700 ft.	Unknown	George Town	Tasmania	AU	Unavailable	146° 50’
 BFV	Buri Ram	6890 ft.	590 ft.	Buri Ram	Thailand	TH	Unavailable	103° 15’ 2” E	15° 13’ 46” N	782	+7.0
 CNX	Chiang Mai International	10171 ft.	1036 ft.	Chiang Mai	Thailand	TH	Unavailable	98° 57’ 46” E	18° 46’ 6” N	782	+7.0
 CEI	Chiang Rai International	9843 ft.	1280 ft.	Chiang Rai	Thailand	TH	Unavailable	99° 52’ 59” E	19° 57’ 8” N	782	+7.0
-CJM	Chumphon Airport	2100 ft.	18 ft.	Chumphon	Thailand	TH	Unavailable	99° 10’ 0” E	10° 30’ 0” N	782	+5.0
+CJM	Chumphon	2100 ft.	18 ft.	Chumphon	Thailand	TH	Unavailable	99° 10’ 0” E	10° 30’ 0” N	782	+5.0
 DMK	Don Muang International	12139 ft.	9 ft.	Bangkok	Thailand	TH	Don Muang International Guide	100° 36’ 24” E	13° 54’ 45” N	782	+7.0
 HDY	Hat Yai	10006 ft.	91 ft.	Hat Yai	Thailand	TH	Unavailable	100° 27’ 0” E	7° 1’ 0” N	782	+7.0
 HHQ	Hua Hin	6890 ft.	62 ft.	Hua Hin	Thailand	TH	Unavailable	99° 57’ 6” E	12° 38’ 10” N	782	+7.0
@@ -6588,7 +6587,7 @@ PHS	Phitsanulok	9843 ft.	154 ft.	Phitsanulok	Thailand	TH	Unavailable	100° 16’
 PRH	Phrae	4921 ft.	535 ft.	Phrae	Thailand	TH	Unavailable	100° 1’ 0” E	18° 7’ 0” N	782	-7.0
 HKT	Phuket International	9843 ft.	82 ft.	Phuket	Thailand	TH	Unavailable	98° 19’ 1” E	8° 6’ 48” N	782	+7.0
 UNN	Ranong	6552 ft.	57 ft.	Ranong	Thailand	TH	Unavailable	98° 35’ 8” E	9° 46’ 39” N	782	+7.0
-ROI	Roi Et Airport	Unknown	Unknown	Roi Et	Thailand	TH	Unavailable	103° 39’ 0” E	16° 4’ 0” N	782	+0.0
+ROI	Roi Et	Unknown	Unknown	Roi Et	Thailand	TH	Unavailable	103° 39’ 0” E	16° 4’ 0” N	782	+0.0
 KKM	Sa Pran Nak	3890 ft.	95 ft.	Lop Buri	Thailand	TH	Unavailable	100° 38’ 35” E	14° 56’ 58” N	782	+7.0
 SNO	Sakon Nakhon	4593 ft.	554 ft.	Sakon Nakhon	Thailand	TH	Unavailable	104° 8’ 0” E	17° 9’ 0” N	782	-7.0
 SGZ	Songkhla	4965 ft.	12 ft.	Songkhla	Thailand	TH	Unavailable	100° 32’ 0” E	7° 20’ 0” N	782	-7.0
@@ -6651,9 +6650,9 @@ ESK	Eskisehir	10000 ft.	2579 ft.	Eskisehir	Turkey	TR	Unavailable	30° 34’ 56�
 AOE	Eskisehir Anadolu	8261 ft.	2588 ft.	Eskisehir	Turkey	TR	Unavailable	30° 31’ 10” E	39° 48’ 35” N	679	+2.0
 ANK	Etimesgut	8554 ft.	2653 ft.	Ankara	Turkey	TR	Unavailable	32° 41’ 19” E	39° 56’ 58” N	679	+2.0
 VAN	Ferit Melen	9022 ft.	5480 ft.	Van	Turkey	TR	Unavailable	43° 19’ 56” E	38° 28’ 6” N	679	+2.0
-GZP	Gazipasa Airport	5988 ft.	92 ft.	Alanya	Turkey	TR	Unavailable	32° 18’ 2” E	36° 17’ 57” N	679	+2.0
+GZP	Gazipasa	5988 ft.	92 ft.	Alanya	Turkey	TR	Unavailable	32° 18’ 2” E	36° 17’ 57” N	679	+2.0
 HTY	Hatay	9990 ft.	25 ft.	Antakya	Turkey	TR	Unavailable	36° 17’ 7” E	36° 21’ 38” N	679	+2.0
-BXN	Imsik Airport	4921 ft.	197 ft.	Bodrum	Turkey	TR	Unavailable	27° 40’ 2” E	37° 8’ 5” N	679	-2.0
+BXN	Imsik	4921 ft.	197 ft.	Bodrum	Turkey	TR	Unavailable	27° 40’ 2” E	37° 8’ 5” N	679	-2.0
 KCM	Kahramanmaras	7546 ft.	1723 ft.	Kahramanmaras	Turkey	TR	Unavailable	36° 57’ 12” E	37° 32’ 20” N	679	+2.0
 KSY	Kars	11483 ft.	5889 ft.	Kars	Turkey	TR	Unavailable	43° 6’ 54” E	40° 33’ 44” N	679	+2.0
 KFS	Kastamonu	2400 ft.	45 ft.	Kastamonu	Turkey	TR	Unavailable	33° 47’ 33” E	41° 18’ 28” N	679	+3.0
@@ -6672,7 +6671,7 @@ SZF	Samsun-Carsamba	9843 ft.	18 ft.	Samsun	Turkey	TR	Unavailable	36° 32’ 55�
 SFQ	Sanliurfa (Closed)	5053 ft.	Unknown	Sanliurfa	Turkey	TR	Unavailable	38° 51’ 0” E	37° 5’ 7” N	679	+2.0
 SXZ	Siirt	Unknown	Unknown	Siirt	Turkey	TR	Unavailable	42° 10’ 0” E	37° 50’ 0” N	679	+0.0
 SQD	Sinop	Unknown	Unknown	Sinop	Turkey	TR	Unavailable	35° 0’ 0” E	41° 40’ 0” N	679	+0.0
-SIC	Sinop Airport	4000 ft.	21 ft.	Sinop	Turkey	TR	Unavailable	35° 4’ 45” E	42° 1’ 8” N	679	-2.0
+SIC	Sinop	4000 ft.	21 ft.	Sinop	Turkey	TR	Unavailable	35° 4’ 45” E	42° 1’ 8” N	679	-2.0
 VAS	Sivas	12503 ft.	5236 ft.	Sivas	Turkey	TR	Unavailable	36° 54’ 13” E	39° 48’ 50” N	679	+2.0
 ISE	Süleyman Demirel	9843 ft.	2835 ft.	Isparta	Turkey	TR	Unavailable	30° 22’ 6” E	37° 51’ 20” N	679	+2.0
 TJK	Tokat	Unknown	Unknown	Tokat	Turkey	TR	Unavailable	32° 42’ 0” E	41° 17’ 0” N	679	+0.0
@@ -6686,13 +6685,13 @@ MYP	Mary	9107 ft.	728 ft.	Mary	Turkmenistan	TM	Unavailable	61° 53’ 48” E	37
 KRW	Turkmanbashi	Unknown	Unknown	Turkmenbashi	Turkmenistan	TM	Unavailable	53° 0’ 0” E	40° 2’ 0” N	785	-2.0
 CRZ	Turkmenabad	Unknown	Unknown	Turkmenabad	Turkmenistan	TM	Unavailable	63° 37’ 0” E	39° 5’ 0” N	785	-2.0
 GDT	Grand Turk International	6368 ft.	11 ft.	Grand Turk Is	Turks And Caicos Islands	TC	Unavailable	71° 8’ 32” W	21° 26’ 40” N	281	-5.0
-XSC	International	6000 ft.	5 ft.	South Caicos	Turks and Caicos Islands	TC	Unavailable	71° 30’ 0” W	21° 30’ 0” N	281	+5.0
+XSC	South Caicos International	6000 ft.	5 ft.	South Caicos	Turks and Caicos Islands	TC	Unavailable	71° 30’ 0” W	21° 30’ 0” N	281	+5.0
 MDS	Middle Caicos	3000 ft.	10 ft.	Middle Caicos	Turks and Caicos Islands	TC	Unavailable	71° 46’ 0” W	21° 47’ 0” N	281	+5.0
 NCA	North Caicos	4280 ft.	10 ft.	North Caicos	Turks and Caicos Islands	TC	Unavailable	71° 57’ 0” W	21° 53’ 0” N	281	+5.0
 PIC	Pine Cay	3608 ft.	15 ft.	Pine Cay	Turks and Caicos Islands	TC	Unavailable	71° 59’ 0” W	21° 55’ 0” N	281	+5.0
 PLS	Providenciales International	9209 ft.	28 ft.	Providenciales	Turks And Caicos Islands	TC	Unavailable	72° 16’ 7” W	21° 46’ 26” N	281	-5.0
 SLX	Salt Cay	2697 ft.	3 ft.	Salt Cay	Turks And Caicos Islands	TC	Unavailable	71° 12’ 0” W	21° 20’ 0” N	281	-5.0
-FUN	International	5000 ft.	9 ft.	Funafuti Atol	Tuvalu	TV	Unavailable	179° 11’ 47” E	8° 31’ 30” S	817	+12.0
+FUN	Funafuti International	5000 ft.	9 ft.	Funafuti Atol	Tuvalu	TV	Unavailable	179° 11’ 47” E	8° 31’ 30” S	817	+12.0
 RUA	Arua	5600 ft.	3951 ft.	Arua	Uganda	UG	Unavailable	30° 55’ 0” E	3° 3’ 0” N	590	+3.0
 EBB	Entebbe International	12000 ft.	3782 ft.	Entebbe	Uganda	UG	Unavailable	32° 26’ 37” E	0° 2’ 33” N	590	+3.0
 ULU	Gulu	10203 ft.	3510 ft.	Gulu	Uganda	UG	Unavailable	32° 18’ 0” E	2° 47’ 0” N	590	-3.0
@@ -6705,41 +6704,41 @@ OYG	Moyo	4260 ft.	3100 ft.	Moyo	Uganda	UG	Unavailable	31° 43’ 0” E	3° 39�
 PAF	Pakuba	Unknown	Unknown	Pakuba	Uganda	UG	Unavailable	31° 37’ 0” E	2° 12’ 0” N	590	-3.0
 SRT	Soroti	6100 ft.	3695 ft.	Soroti	Uganda	UG	Unavailable	33° 37’ 0” E	1° 43’ 0” N	590	-3.0
 TRY	Tororo	Unknown	Unknown	Tororo	Uganda	UG	Unavailable	34° 10’ 59” E	0° 41’ 5” S	590	+0.0
-ERD	Berdiansk Airport	8292 ft.	171 ft.	Berdiansk	Ukraine	UA	Unavailable	36° 45’ 29” E	46° 48’ 54” N	488	+2.0
+ERD	Berdiansk	8292 ft.	171 ft.	Berdiansk	Ukraine	UA	Unavailable	36° 45’ 29” E	46° 48’ 54” N	488	+2.0
 KBP	Boryspil International	13123 ft.	427 ft.	Kyiv	Ukraine	UA	Unavailable	30° 53’ 41” E	50° 20’ 42” N	488	+2.0
-CKC	Cherkasy Airport	8180 ft.	375 ft.	Cherkasy	Ukraine	UA	Unavailable	31° 59’ 43” E	49° 24’ 56” N	488	+2.0
-CEJ	Chernihiv Shestovytsia Airport	7218 ft.	446 ft.	Chernihiv	Ukraine	UA	Unavailable	31° 9’ 30” E	51° 24’ 8” N	488	+2.0
-CWC	Chernivtsi International Airport	7270 ft.	826 ft.	Chernivtsi	Ukraine	UA	Unavailable	25° 58’ 51” E	48° 15’ 34” N	488	+2.0
+CKC	Cherkasy	8180 ft.	375 ft.	Cherkasy	Ukraine	UA	Unavailable	31° 59’ 43” E	49° 24’ 56” N	488	+2.0
+CEJ	Chernihiv Shestovytsia	7218 ft.	446 ft.	Chernihiv	Ukraine	UA	Unavailable	31° 9’ 30” E	51° 24’ 8” N	488	+2.0
+CWC	Chernivtsi International	7270 ft.	826 ft.	Chernivtsi	Ukraine	UA	Unavailable	25° 58’ 51” E	48° 15’ 34” N	488	+2.0
 LWO	Danylo Halytsky International	8235 ft.	1071 ft.	Lviv	Ukraine	UA	Unavailable	23° 57’ 22” E	49° 48’ 45” N	488	+2.0
 DNK	Dnepropetrovsk International	9320 ft.	481 ft.	Dnepropetrovsk	Ukraine	UA	Unavailable	35° 6’ 2” E	48° 21’ 26” N	488	+2.0
-DOK	Donetsk International Airport	8150 ft.	791 ft.	Donetsk	Ukraine	UA	Unavailable	37° 44’ 23” E	48° 4’ 25” N	488	+2.0
+DOK	Donetsk International	8150 ft.	791 ft.	Donetsk	Ukraine	UA	Unavailable	37° 44’ 23” E	48° 4’ 25” N	488	+2.0
 VIN	Gavryshivka International (Vinnytsia)	8202 ft.	974 ft.	Vinnytsia	Ukraine	UA	Unavailable	28° 36’ 51” E	49° 14’ 32” N	488	+2.0
 IFO	Ivano-Frankivsk International	8226 ft.	919 ft.	Ivano-Frankivsk	Ukraine	UA	Unavailable	24° 41’ 10” E	48° 53’ 3” N	488	+2.0
 KCP	Kamianets-Podilskyi	Unknown	227 ft.	Kamianets-Podilskyi	Ukraine	UA	Unavailable	26° 36’ 24” E	48° 41’ 36” N	488	+2.0
 KHC	Kerch	5420 ft.	171 ft.	Kerch	Ukraine	UA	Unavailable	36° 24’ 10” E	45° 22’ 22” N	488	+2.0
 KHE	Kherson	8202 ft.	148 ft.	Kherson	Ukraine	UA	Unavailable	32° 30’ 23” E	46° 40’ 33” N	488	+2.0
-HMJ	Khmelnytskyi Airport	7219 ft.	1150 ft.	Khmelnytskyi	Ukraine	UA	Unavailable	26° 56’ 0” E	49° 21’ 35” N	488	+2.0
-KGO	Kirovohrad Airport	5046 ft.	568 ft.	Kirovohrad	Ukraine	UA	Unavailable	32° 17’ 6” E	48° 32’ 34” N	488	+2.0
+HMJ	Khmelnytskyi	7219 ft.	1150 ft.	Khmelnytskyi	Ukraine	UA	Unavailable	26° 56’ 0” E	49° 21’ 35” N	488	+2.0
+KGO	Kirovohrad	5046 ft.	568 ft.	Kirovohrad	Ukraine	UA	Unavailable	32° 17’ 6” E	48° 32’ 34” N	488	+2.0
 KRQ	Kramatorsk	8202 ft.	646 ft.	Kramatorsk	Ukraine	UA	Unavailable	37° 37’ 44” E	48° 42’ 20” N	488	+2.0
 KHU	Kremenchuk	5249 ft.	Unknown	Kremenchuk	Ukraine	UA	Unavailable	33° 28’ 35” E	49° 8’ 3” N	488	+2.0
-KWG	Kryvyi Rih International Airport	8292 ft.	408 ft.	Kryvyi Rih	Ukraine	UA	Unavailable	33° 12’ 36” E	48° 2’ 36” N	488	+2.0
+KWG	Kryvyi Rih International	8292 ft.	408 ft.	Kryvyi Rih	Ukraine	UA	Unavailable	33° 12’ 36” E	48° 2’ 36” N	488	+2.0
 VSG	Lugansk International	9450 ft.	636 ft.	Lugansk	Ukraine	UA	Unavailable	39° 22’ 27” E	48° 25’ 3” N	488	+2.0
 UCK	Lutsk	Unknown	Unknown	Lutsk	Ukraine	UA	Unavailable	25° 20’ 0” E	50° 45’ 0” N	488	-2.0
 MPW	Mariupol	8431 ft.	251 ft.	Mariupol	Ukraine	UA	Unavailable	37° 26’ 58” E	47° 4’ 34” N	488	+2.0
 MXR	Mirgorod	8202 ft.	423 ft.	Mirgorod	Ukraine	UA	Unavailable	33° 38’ 30” E	49° 55’ 50” N	488	+2.0
 NLV	Mykolayiv International	8438 ft.	184 ft.	Mykolayiv	Ukraine	UA	Unavailable	31° 55’ 11” E	47° 3’ 28” N	488	+2.0
 ODS	Odessa International	9183 ft.	172 ft.	Odessa	Ukraine	UA	Unavailable	30° 40’ 35” E	46° 25’ 36” N	488	+2.0
-HRK	Osnova International Airport	7285 ft.	508 ft.	Kharkiv	Ukraine	UA	Unavailable	36° 17’ 24” E	49° 55’ 29” N	488	+2.0
-RWN	Rivne International Airport	8615 ft.	755 ft.	Rivne	Ukraine	UA	Unavailable	26° 8’ 30” E	50° 36’ 26” N	488	+2.0
+HRK	Osnova International	7285 ft.	508 ft.	Kharkiv	Ukraine	UA	Unavailable	36° 17’ 24” E	49° 55’ 29” N	488	+2.0
+RWN	Rivne International	8615 ft.	755 ft.	Rivne	Ukraine	UA	Unavailable	26° 8’ 30” E	50° 36’ 26” N	488	+2.0
 UKS	Sevastopol International (Belbek)	9865 ft.	295 ft.	Sevastopol	Ukraine	UA	Unavailable	33° 34’ 31” E	44° 41’ 29” N	488	+2.0
 SEV	Severodonetsk	4675 ft.	200 ft.	Severodonetsk	Ukraine	UA	Unavailable	38° 32’ 34” E	48° 54’ 3” N	488	+2.0
-SIP	Simferopol Airport	12142 ft.	639 ft.	Simferopol	Ukraine	UA	Unavailable	33° 58’ 31” E	45° 3’ 8” N	488	+2.0
-UMY	Sumy Airport	8202 ft.	594 ft.	Sumy	Ukraine	UA	Unavailable	34° 45’ 45” E	50° 51’ 30” N	488	+2.0
-PLV	Suprunivka Airport	8202 ft.	505 ft.	Poltava	Ukraine	UA	Unavailable	34° 23’ 50” E	49° 35’ 7” N	488	+2.0
-TNL	Ternopil Airport	6465 ft.	1072 ft.	Ternopil	Ukraine	UA	Unavailable	23° 55’ 0” E	50° 1’ 0” N	488	+2.0
+SIP	Simferopol	12142 ft.	639 ft.	Simferopol	Ukraine	UA	Unavailable	33° 58’ 31” E	45° 3’ 8” N	488	+2.0
+UMY	Sumy	8202 ft.	594 ft.	Sumy	Ukraine	UA	Unavailable	34° 45’ 45” E	50° 51’ 30” N	488	+2.0
+PLV	Suprunivka	8202 ft.	505 ft.	Poltava	Ukraine	UA	Unavailable	34° 23’ 50” E	49° 35’ 7” N	488	+2.0
+TNL	Ternopil	6465 ft.	1072 ft.	Ternopil	Ukraine	UA	Unavailable	23° 55’ 0” E	50° 1’ 0” N	488	+2.0
 UDJ	Uzhgorod	6686 ft.	383 ft.	Uzhgorod	Ukraine	UA	Unavailable	22° 15’ 48” E	48° 38’ 3” N	488	+2.0
 OZH	Zaporizhia	8210 ft.	373 ft.	Zaporizhia	Ukraine	UA	Unavailable	35° 18’ 56” E	47° 52’ 1” N	488	+2.0
-IEV	Zhulyany Airport	5905 ft.	586 ft.	Kyiv	Ukraine	UA	Unavailable	30° 26’ 59” E	50° 24’ 6” N	488	+2.0
+IEV	Zhulyany	5905 ft.	586 ft.	Kyiv	Ukraine	UA	Unavailable	30° 26’ 59” E	50° 24’ 6” N	488	+2.0
 ZTR	Zhytomyr	Unknown	Unknown	Zhytomyr	Ukraine	UA	Unavailable	28° 44’ 8” E	50° 16’ 23” N	488	+2.0
 AUH	Abu Dhabi International	13452 ft.	88 ft.	Abu Dhabi	United Arab Emirates	AE	Unavailable	54° 39’ 4” E	24° 25’ 59” N	678	+4.0
 AAN	Al Ain	13123 ft.	869 ft.	Al Ain	United Arab Emirates	AE	Unavailable	55° 36’ 33” E	24° 15’ 42” N	678	+4.0
@@ -6747,13 +6746,13 @@ AZI	Al Bateen Executive	10499 ft.	16 ft.	Abu Dhabi	United Arab Emirates	AE	Unava
 DHF	Al Dhafra Military	12012 ft.	77 ft.	Abu Dhabi	United Arab Emirates	AE	Unavailable	55° 27’ 23” E	24° 15’ 4” N	678	+4.0
 DXB	Dubai International	13124 ft.	62 ft.	Dubai	United Arab Emirates	AE	Unavailable	55° 21’ 52” E	25° 15’ 10” N	971	+4.0
 DWC	Dubai World Central	14764 ft.	Unknown	Dubai	United Arab Emirates	UE	Unavailable	55° 10’ 20” E	24° 53’ 10” N	678	+4.0
-FJR	Fujairah Intl	10500 ft.	10 ft.	Al-fujairah	United Arab Emirates	AE	Unavailable	56° 19’ 26” E	25° 6’ 44” N	678	+4.0
+FJR	Fujairah International	10500 ft.	10 ft.	Al-fujairah	United Arab Emirates	AE	Unavailable	56° 19’ 26” E	25° 6’ 44” N	678	+4.0
 NHD	Minhad AB	12970 ft.	165 ft.	Minhad	United Arab Emirates	AE	Unavailable	55° 21’ 58” E	25° 1’ 37” N	678	+4.0
 RKT	Ras Al Khaimah	12336 ft.	102 ft.	Ras Al Khaimah	United Arab Emirates	AE	Unavailable	55° 56’ 20” E	25° 36’ 49” N	678	+4.0
 SHJ	Sharjah International	13320 ft.	111 ft.	Sharjah	United Arab Emirates	AE	Unavailable	55° 31’ 2” E	25° 19’ 43” N	678	+4.0
 ABZ	Aberdeen International	6002 ft.	215 ft.	Aberdeen	United Kingdom	GB	Aberdeen International Guide	2° 12’ 0” W	57° 12’ 0” N	493	+0.0
 ADV	Andover	3390 ft.	285 ft.	Andover	United Kingdom	GB	Unavailable	1° 28’ 0” W	51° 13’ 0” N	493	+0.0
-HLY	Anglesey Airport	Unknown	Unknown	Holyhead	United Kingdom	GB	Unavailable	4° 38’ 0” W	53° 19’ 0” N	493	+0.0
+HLY	Anglesey	Unknown	Unknown	Holyhead	United Kingdom	GB	Unavailable	4° 38’ 0” W	53° 19’ 0” N	493	+0.0
 BOL	Ballykelly	Unknown	Unknown	Ballykelly	United Kingdom	GB	Unavailable	6° 46’ 0” W	55° 10’ 0” N	493	+0.0
 UNT	Baltasound	2099 ft.	62 ft.	Unst Shetland Is	United Kingdom	GB	Unavailable	0° 51’ 0” W	60° 45’ 0” N	493	+0.0
 BFS	Belfast International	9121 ft.	268 ft.	Belfast	United Kingdom	GB	Belfast International Guide	5° 55’ 0” W	54° 35’ 27” N	493	+0.0
@@ -6762,7 +6761,7 @@ BEB	Benbecula	6017 ft.	19 ft.	Benbecula	United Kingdom	GB	Unavailable	7° 22’ 
 BEX	Benson (RAF Station)	5981 ft.	226 ft.	Benson	United Kingdom	GB	Unavailable	1° 5’ 45” W	51° 36’ 59” N	493	+0.0
 BHX	Birmingham International	8546 ft.	327 ft.	Birmingham	United Kingdom	GB	Birmingham International Guide	1° 44’ 53” W	52° 27’ 14” N	493	+0.0
 BBS	Blackbushe	4436 ft.	329 ft.	Yateley	United Kingdom	GB	Unavailable	0° 50’ 40” W	51° 19’ 50” N	493	+0.0
-BLK	Blackpool Airport	6001 ft.	34 ft.	Blackpool	United Kingdom	GB	Unavailable	3° 1’ 43” W	53° 46’ 18” N	493	+0.0
+BLK	Blackpool	6001 ft.	34 ft.	Blackpool	United Kingdom	GB	Unavailable	3° 1’ 43” W	53° 46’ 18” N	493	+0.0
 BOH	Bournemouth International	7450 ft.	36 ft.	Bournemouth	United Kingdom	GB	Unavailable	1° 50’ 33” W	50° 46’ 48” N	493	+0.0
 BRF	Bradford	Unknown	Unknown	Bradford	United Kingdom	GB	Unavailable	3° 11’ 0” W	51° 0’ 0” N	493	+0.0
 BRS	Bristol International	6598 ft.	620 ft.	Bristol	United Kingdom	GB	Bristol International Guide	2° 43’ 9” W	51° 22’ 58” N	493	+0.0
@@ -6837,14 +6836,14 @@ KNF	Marham RAF	Unknown	Unknown	Kings Lynn	United Kingdom	GB	Unavailable	0° 17�
 KYN	Milton Keynes	Unknown	Unknown	Milton Keynes	United Kingdom	GB	Unavailable	1° 5’ 0” W	51° 43’ 0” N	493	+0.0
 ULL	Mull	2598 ft.	15 ft.	Mull	United Kingdom	GB	Unavailable	6° 20’ 0” W	56° 25’ 0” N	493	+0.0
 GXH	NAF	Unknown	Unknown	Mildenhall	United Kingdom	GB	Unavailable	1° 42’ 0” W	51° 25’ 0” N	493	+0.0
-NCL	Newcastle Airport	7651 ft.	266 ft.	Newcastle	United Kingdom	GB	Newcastle Airport Guide	1° 42’ 0” W	55° 2’ 0” N	493	+0.0
+NCL	Newcastle	7651 ft.	266 ft.	Newcastle	United Kingdom	GB	Newcastle Guide	1° 42’ 0” W	55° 2’ 0” N	493	+0.0
 NQY	Newquay Cornwall	9003 ft.	390 ft.	Newquay	United Kingdom	GB	Unavailable	4° 59’ 43” W	50° 26’ 27” N	493	+0.0
 BRR	North Bay	2982 ft.	Unknown	Barra	United Kingdom	GB	Unavailable	7° 26’ 0” W	57° 1’ 0” N	493	+0.0
 NRL	North Ronaldsay	1702 ft.	40 ft.	North Ronaldsay	United Kingdom	GB	Unavailable	2° 26’ 0” W	59° 22’ 0” N	493	+0.0
 ORM	Northampton	2982 ft.	429 ft.	Northampton	United Kingdom	GB	Unavailable	0° 47’ 0” W	52° 18’ 0” N	493	+0.0
 NHT	Northolt	5525 ft.	124 ft.	Northolt	United Kingdom	GB	Unavailable	0° 23’ 0” W	51° 33’ 0” N	493	+0.0
 NWI	Norwich International	6040 ft.	117 ft.	Norwich	United Kingdom	GB	Unavailable	1° 16’ 58” E	52° 40’ 33” N	493	+0.0
-OBN	Oban Airport	4152 ft.	20 ft.	Oban	United Kingdom	GB	Unavailable	5° 30’ 0” W	56° 35’ 0” N	493	+0.0
+OBN	Oban	4152 ft.	20 ft.	Oban	United Kingdom	GB	Unavailable	5° 30’ 0” W	56° 35’ 0” N	493	+0.0
 WUK	Off Line Point	Unknown	Unknown	Hammersmith	United Kingdom	GB	Unavailable	2° 50’ 0” W	52° 57’ 0” N	493	+0.0
 KOI	Orkney Island	4698 ft.	69 ft.	Orkney Island	United Kingdom	GB	Unavailable	2° 54’ 0” W	58° 56’ 0” N	493	+0.0
 OUK	Outer Skerries	Unknown	Unknown	Outer Skerries	United Kingdom	GB	Unavailable	0° 45’ 0”	60° 25’ 0”	493	+0.0
@@ -6914,7 +6913,7 @@ ARA	Acadiana Regional	8002 ft.	24 ft.	New Iberia, LA	United States	US	Unavailabl
 MFV	Accomack County	Unknown	Unknown	Melfa, VA	United States	US	Unavailable	75° 45’ 40” W	37° 38’ 49” N	67	-5.0
 ADT	Ada Municial	6203 ft.	1016 ft.	Ada, OK	United States	US	Unavailable	96° 40’ 16” W	34° 48’ 15” N	67	-6.0
 ADK	Adak Island Ns	7790 ft.	18 ft.	Adak Island	United States	US	Unavailable	176° 38’ 46” W	51° 52’ 41” N	67	+10.0
-ADS	Addison Airport	7202 ft.	644 ft.	Dallas, TX	United States	US	Unavailable	96° 50’ 11” W	32° 58’ 7” N	67	-6.0
+ADS	Addison	7202 ft.	644 ft.	Dallas, TX	United States	US	Unavailable	96° 50’ 11” W	32° 58’ 7” N	67	-6.0
 SLK	Adirondack Regional	6573 ft.	1663 ft.	Saranac Lake, NY	United States	US	Unavailable	74° 12’ 22” W	44° 23’ 7” N	67	-5.0
 OHC	AFS	5000 ft.	30 ft.	Northeast Cape	United States	US	Unavailable	168° 58’ 0” W	63° 19’ 0” N	67	+9.0
 PML	AFS	3500 ft.	27 ft.	Port Moller	United States	US	Unavailable	160° 32’ 0” W	55° 59’ 0” N	67	+9.0
@@ -7045,7 +7044,7 @@ NBP	Battery Pk City/N. Cov	Unknown	Unknown	New York	United States	US	Unavailable
 BDE	Baudette	Unknown	Unknown	Baudette	United States	US	Unavailable	19° 42’ 0” E	54° 23’ 0” N	67	+0.0
 BBC	Bay City	5120 ft.	45 ft.	Bay City	United States	US	Unavailable	95° 58’ 0” W	28° 59’ 0” N	67	+6.0
 PFN	Bay County (Closed)	6314 ft.	21 ft.	Panama City, FL	United States	US	Unavailable	85° 41’ 0” W	30° 13’ 0” N	67	-6.0
-HPY	Baytown Airport	4334 ft.	34 ft.	Baytown	United States	US	Unavailable	94° 57’ 10” W	29° 44’ 10” N	67	-6.0
+HPY	Baytown	4334 ft.	34 ft.	Baytown	United States	US	Unavailable	94° 57’ 10” W	29° 44’ 10” N	67	-6.0
 BAB	Beale AFB	Unknown	Unknown	Marysville	United States	US	Unavailable	Unknown	Unknown	67	+0.0
 BCC	Bear Creek 3	1675 ft.	740 ft.	Bear Creek, AK	United States	US	Unavailable	156° 8’ 39” W	63° 34’ 18” N	67	-9.0
 BIE	Beatrice	5600 ft.	1318 ft.	Beatrice	United States	US	Unavailable	96° 45’ 0” W	40° 19’ 0” N	67	+6.0
@@ -7064,10 +7063,10 @@ BVU	Beluga	Unknown	Unknown	Beluga	United States	US	Unavailable	151° 2’ 10”	
 BJI	Bemidji Regional	7004 ft.	1391 ft.	Bemidji, MN	United States	US	Unavailable	94° 56’ 5” W	47° 30’ 39” N	67	-6.0
 BTN	Bennettsville	5000 ft.	148 ft.	Bennettsville	United States	US	Unavailable	79° 41’ 0” W	34° 37’ 0” N	67	+5.0
 JBK	Berkeley	Unknown	Unknown	Berkeley	United States	US	Unavailable	122° 18’ 0” W	37° 57’ 0” N	67	+8.0
-BML	Berlin Municipal Airport	5200 ft.	1161 ft.	Berlin	United States	US	Unavailable	71° 10’ 33” W	44° 34’ 31” N	67	+5.0
+BML	Berlin Municipal	5200 ft.	1161 ft.	Berlin	United States	US	Unavailable	71° 10’ 33” W	44° 34’ 31” N	67	+5.0
 UDD	Bermuda Dunes	5002 ft.	73 ft.	Palm Springs, CA	United States	US	Unavailable	116° 16’ 29” W	33° 44’ 54” N	67	-8.0
-BTM	Bert Mooney Airport	9000 ft.	5553 ft.	Butte, MT	United States	US	Unavailable	112° 29’ 51” W	45° 57’ 17” N	67	-7.0
-BET	Bethel Airport	6400 ft.	128 ft.	Bethel, AK	United States	US	Unavailable	161° 50’ 14” W	60° 46’ 43” N	67	-9.0
+BTM	Bert Mooney	9000 ft.	5553 ft.	Butte, MT	United States	US	Unavailable	112° 29’ 51” W	45° 57’ 17” N	67	-7.0
+BET	Bethel	6400 ft.	128 ft.	Bethel, AK	United States	US	Unavailable	161° 50’ 14” W	60° 46’ 43” N	67	-9.0
 BTT	Bettles	5199 ft.	643 ft.	Bettles	United States	US	Unavailable	151° 31’ 0” W	66° 55’ 0” N	67	+9.0
 BVY	Beverly Municipal	5001 ft.	107 ft.	Beverly, MA	United States	US	Unavailable	70° 54’ 58” W	42° 35’ 3” N	67	-5.0
 BHC	Bhurban Heliport	5060 ft.	547 ft.	Bhurban, GA	United States	US	Unavailable	82° 23’ 38” W	31° 42’ 50” N	67	-7.0
@@ -7086,7 +7085,7 @@ ESP	Birchwood-Pocono	2535 ft.	969 ft.	East Stroudsburg	United States	US	Unavaila
 BHM	Birmingham-Shuttlesworth International	11998 ft.	650 ft.	Birmingham, AL	United States	US	Unavailable	86° 45’ 8” W	33° 33’ 50” N	67	-6.0
 BSQ	Bisbee Municipal Arpt	5929 ft.	4780 ft.	Bisbee	United States	US	Unavailable	109° 52’ 52” W	31° 21’ 50” N	67	+7.0
 DGF	Bisbee-Douglas International	7311 ft.	4125 ft.	Douglas	United States	US	Unavailable	109° 39’ 13” W	31° 28’ 8” N	67	-7.0
-DUG	Bisbee-Douglas Intl	7308 ft.	4158 ft.	Douglas	United States	US	Unavailable	109° 36’ 0” W	31° 28’ 0” N	67	+7.0
+DUG	Bisbee-Douglas International	7308 ft.	4158 ft.	Douglas	United States	US	Unavailable	109° 36’ 0” W	31° 28’ 0” N	67	+7.0
 BIH	Bishop	7500 ft.	4120 ft.	Bishop	United States	US	Unavailable	118° 21’ 0” W	37° 22’ 0” N	67	+8.0
 FNT	Bishop International	7848 ft.	782 ft.	Flint, MI	United States	US	Unavailable	83° 44’ 37” W	42° 57’ 56” N	67	-5.0
 BIS	Bismarck Municipal	8794 ft.	1661 ft.	Bismarck, ND	United States	US	Unavailable	100° 44’ 45” W	46° 46’ 22” N	67	-6.0
@@ -7132,7 +7131,7 @@ HQM	Bowerman	4999 ft.	14 ft.	Hoquiam, Wa	United States	US	Unavailable	123° 56�
 ELN	Bowers Field	4300 ft.	1766 ft.	Ellensburg	United States	US	Unavailable	120° 32’ 0” W	47° 2’ 0” N	67	+8.0
 BWG	Bowling Green-Warren County Regional	6500 ft.	547 ft.	Bowling Green, KY	United States	US	Unavailable	86° 25’ 11” W	36° 57’ 52” N	67	-6.0
 BWM	Bowman	4800 ft.	2958 ft.	Bowman	United States	US	Unavailable	103° 35’ 0” W	46° 8’ 0” N	67	+7.0
-LOU	Bowman Field Airport	4326 ft.	546 ft.	Louisville	United States	US	Unavailable	85° 39’ 49” W	38° 13’ 40” N	67	-5.0
+LOU	Bowman Field	4326 ft.	546 ft.	Louisville	United States	US	Unavailable	85° 39’ 49” W	38° 13’ 40” N	67	-5.0
 BXC	Boxborough	Unknown	Unknown	Boxborough	United States	US	Unavailable	71° 32’ 7” W	42° 29’ 1” N	67	+5.0
 BZN	Bozeman Yellowstone International	8994 ft.	4473 ft.	Bozeman, MT	United States	US	Unavailable	111° 9’ 7” W	45° 46’ 39” N	67	-7.0
 POC	Brackett Field	4840 ft.	1013 ft.	La Verne, CA	United States	US	Unavailable	117° 46’ 54” W	34° 5’ 30” N	67	-8.0
@@ -7159,7 +7158,7 @@ SDM	Brown Field Municipal	7972 ft.	526 ft.	San Diego, CA	United States	US	Unavai
 EPG	Browns	2200 ft.	1183 ft.	Weeping Water	United States	US	Unavailable	96° 8’ 0” W	40° 52’ 0” N	67	+6.0
 BWD	Brownwood	5598 ft.	1386 ft.	Brownwood, Tx	United States	US	Unavailable	98° 57’ 0” W	31° 48’ 0” N	67	-6.0
 NEA	Brunswick Golden Isles	Unknown	Unknown	Glynco	United States	US	Unavailable	3° 37’ 41” W	51° 40’ 46” N	67	+0.0
-BQK	Brunswick Golden Isles Airport	8001 ft.	26 ft.	Brunswick, GA	United States	US	Unavailable	81° 27’ 59” W	31° 15’ 33” N	67	-5.0
+BQK	Brunswick Golden Isles	8001 ft.	26 ft.	Brunswick, GA	United States	US	Unavailable	81° 27’ 59” W	31° 15’ 33” N	67	-5.0
 FRN	Bryant AAF	Unknown	Unknown	Fort Richardson	United States	US	Unavailable	72° 30’ 0” W	19° 50’ 0” N	67	+0.0
 BCE	Bryce	7400 ft.	7586 ft.	Bryce	United States	US	Unavailable	112° 9’ 0” W	37° 42’ 0” N	67	+7.0
 CCR	Buchanan Field	5001 ft.	26 ft.	Concord, CA	United States	US	Unavailable	122° 3’ 25” W	37° 59’ 23” N	67	-8.0
@@ -7167,7 +7166,7 @@ BXK	Buckeye Municipal	5500 ft.	1021 ft.	Buckeye	United States	US	Unavailable	112
 CSE	Buckhorn Ranch	4000 ft.	8980 ft.	Crested Butte, CO	United States	US	Unavailable	106° 55’ 58” W	38° 51’ 7” N	67	-7.0
 BKC	Buckland	1870 ft.	30 ft.	Buckland	United States	US	Unavailable	161° 10’ 0” W	65° 59’ 0” N	67	+9.0
 ZFZ	Buffalo Depew Rr	Unknown	Unknown	Buffalo	United States	US	Unavailable	1° 41’ 0” W	50° 48’ 0” N	67	+5.0
-BFK	Buffalo Municipal Airport	4000 ft.	1800 ft.	Buffalo	United States	US	Unavailable	99° 37’ 7” W	36° 51’ 48” N	67	-6.0
+BFK	Buffalo Municipal	4000 ft.	1800 ft.	Buffalo	United States	US	Unavailable	99° 37’ 7” W	36° 51’ 48” N	67	-6.0
 BUF	Buffalo Niagara International	8828 ft.	728 ft.	Buffalo, NY	United States	US	Unavailable	78° 43’ 56” W	42° 56’ 26” N	67	-5.0
 BFG	Bullfrog Basin	3500 ft.	4167 ft.	Bullfrog Basin	United States	US	Unavailable	110° 42’ 30” W	37° 33’ 0” N	67	+7.0
 BKL	Burke Lakefront	6195 ft.	583 ft.	Cleveland, OH	United States	US	Unavailable	81° 41’ 0” W	41° 31’ 3” N	67	-5.0
@@ -7182,7 +7181,7 @@ FCS	Butts AAF	Unknown	Unknown	Colorado Springs	United States	US	Unavailable	71°
 BZS	Buzzards Pt S	Unknown	Unknown	Washington	United States	US	Unavailable	72° 30’ 0” W	49° 0’ 0” N	67	+0.0
 NGW	Cabaniss Field	5000 ft.	32 ft.	Corpus Christi	United States	US	Unavailable	Unknown	Unknown	67	+6.0
 CBZ	Cabin Creek	Unknown	Unknown	Cabin Creek	United States	US	Unavailable	132° 25’ 0” W	55° 23’ 0” N	67	+9.0
-CCB	Cable Airport	3865 ft.	1444 ft.	Upland, CA	United States	US	Unavailable	117° 41’ 15” W	34° 6’ 42” N	67	-8.0
+CCB	Cable	3865 ft.	1444 ft.	Upland, CA	United States	US	Unavailable	117° 41’ 15” W	34° 6’ 42” N	67	-8.0
 JUP	Cable Heliport	Unknown	Unknown	Upland	United States	US	Unavailable	27° 11’ 0” E	32° 16’ 0” S	67	+0.0
 CAD	Cadillac	4542 ft.	1307 ft.	Cadillac	United States	US	Unavailable	85° 25’ 20” W	44° 16’ 33” N	67	+5.0
 OZR	Cairns AAF	Unknown	Unknown	Ozark	United States	US	Unavailable	22° 27’ 0” E	53° 7’ 0” N	67	+0.0
@@ -7232,9 +7231,9 @@ CWS	Center Island	Unknown	Unknown	Center Island	United States	US	Unavailable	122
 JOC	Centerport Heliport	Unknown	Unknown	Santa Ana	United States	US	Unavailable	77° 33’ 0” W	1° 5’ 0” N	67	+8.0
 CEM	Central	3000 ft.	932 ft.	Central	United States	US	Unavailable	144° 47’ 0” W	65° 34’ 0” N	67	+9.0
 JDX	Central Bus. District	Unknown	Unknown	Houston	United States	US	Unavailable	Unknown	Unknown	67	+6.0
-BMI	Central Illinois Regional Airport At Bloomington-normal	6500 ft.	875 ft.	Bloomington/Normal, IL	United States	US	Unavailable	88° 54’ 57” W	40° 28’ 38” N	67	-6.0
+BMI	Central Illinois Regional At Bloomington-normal	6500 ft.	875 ft.	Bloomington/Normal, IL	United States	US	Unavailable	88° 54’ 57” W	40° 28’ 38” N	67	-6.0
 JVI	Central Jersey Regional	3509 ft.	86 ft.	Hillsborough, NJ	United States	US	Unavailable	74° 35’ 54” W	40° 31’ 28” N	67	-5.0
-OWK	Central Maine Airport of Norridgewock	4000 ft.	270 ft.	Norridgewock	United States	US	Unavailable	69° 48’ 0” W	44° 43’ 0” N	67	+5.0
+OWK	Central Maine of Norridgewock	4000 ft.	270 ft.	Norridgewock	United States	US	Unavailable	69° 48’ 0” W	44° 43’ 0” N	67	+5.0
 GRI	Central Nebraska Regional	7002 ft.	1847 ft.	Grand Island, NE	United States	US	Unavailable	98° 18’ 35” W	40° 58’ 3” N	67	-6.0
 CWA	Central Wisconsin	7648 ft.	1277 ft.	Mosinee, WI	United States	US	Unavailable	89° 40’ 0” W	44° 46’ 39” N	67	-6.0
 CLS	Centralia	5000 ft.	174 ft.	Chehalis	United States	US	Unavailable	122° 59’ 0” W	46° 41’ 0” N	67	+8.0
@@ -7285,13 +7284,13 @@ CXC	Chitina Arpt	3550 ft.	556 ft.	Chitina	United States	US	Unavailable	144° 25�
 CIV	Chomley	Unknown	Unknown	Chomley	United States	US	Unavailable	132° 13’ 0” W	55° 13’ 0” N	67	+9.0
 CHU	Chuathbaluk	Unknown	Unknown	Chuathbaluk	United States	US	Unavailable	159° 15’ 0” W	61° 40’ 0” N	67	+9.0
 LUK	Cincinnati Municipal-Lunken Field	6102 ft.	483 ft.	Cincinnati, OH	United States	US	Unavailable	84° 25’ 7” W	39° 6’ 12” N	67	-5.0
-ISZ	Cincinnati-Blue Ash Airport	3499 ft.	856 ft.	Cincinnati, OH	United States	US	Unavailable	84° 23’ 20” W	39° 14’ 48” N	67	-5.0
+ISZ	Cincinnati-Blue Ash	3499 ft.	856 ft.	Cincinnati, OH	United States	US	Unavailable	84° 23’ 20” W	39° 14’ 48” N	67	-5.0
 CVG	Cincinnati/Northern Kentucky International	12000 ft.	896 ft.	Covington, KY	United States	US	Unavailable	84° 40’ 4” W	39° 2’ 56” N	67	-5.0
 RCP	Cinder River	Unknown	Unknown	Cinder River	United States	US	Unavailable	12° 39’ 0” E	4° 44’ 0” S	67	+0.0
 IRC	Circle City	2730 ft.	598 ft.	Circle	United States	US	Unavailable	144° 5’ 0” W	65° 50’ 0” N	67	+9.0
 CHP	Circle Hot Springs	3670 ft.	956 ft.	Circle Hot Springs	United States	US	Unavailable	144° 35’ 0” W	65° 28’ 0” N	67	+9.0
 JCX	Citicorp Plaza H/P	Unknown	Unknown	Los Angeles	United States	US	Unavailable	Unknown	Unknown	67	+0.0
-CKU	City	Unknown	Unknown	Cordova	United States	US	Unavailable	74° 47’ 0” W	9° 38’ 0” N	67	+0.0
+CKU	Cordova City	Unknown	Unknown	Cordova	United States	US	Unavailable	74° 47’ 0” W	9° 38’ 0” N	67	+0.0
 HVR	City County	5205 ft.	2588 ft.	Havre	United States	US	Unavailable	109° 46’ 0” W	48° 33’ 0” N	67	+7.0
 JBT	City Landing	Unknown	Unknown	Bethel	United States	US	Unavailable	161° 46’ 0” W	60° 48’ 0” N	67	+9.0
 JID	City Of Industry H/P	Unknown	Unknown	Los Angeles	United States	US	Unavailable	117° 57’ 30” W	34° 1’ 38” N	67	+8.0
@@ -7325,7 +7324,7 @@ DET	Coleman A. Young Municipal	5090 ft.	626 ft.	Detroit, MI	United States	US	Una
 MTO	Coles County Memorial	6501 ft.	721 ft.	Mattoon	United States	US	Unavailable	88° 17’ 0” W	39° 29’ 0” N	67	+6.0
 CGS	College Park	2740 ft.	50 ft.	College Park	United States	US	Unavailable	76° 55’ 0” W	39° 0’ 0” N	67	+5.0
 KCR	Colorado Creek	Unknown	Unknown	Colorado Creek	United States	US	Unavailable	129° 22’ 0” E	17° 12’ 0” S	67	+0.0
-AKO	Colorado Plains Regional Airport	4100 ft.	4694 ft.	Akron, CO	United States	US	Unavailable	103° 13’ 19” W	40° 10’ 32” N	67	-7.0
+AKO	Colorado Plains Regional	4100 ft.	4694 ft.	Akron, CO	United States	US	Unavailable	103° 13’ 19” W	40° 10’ 32” N	67	-7.0
 COS	Colorado Springs	11021 ft.	6172 ft.	Colorado Springs	United States	US	Unavailable	104° 43’ 0” W	38° 49’ 0” N	67	+7.0
 COA	Columbia	4673 ft.	2120 ft.	Columbia, CA	United States	US	Unavailable	120° 24’ 52” W	38° 1’ 50” N	67	-8.0
 HCC	Columbia County	Unknown	Unknown	Hudson	United States	US	Unavailable	73° 42’ 40”	42° 17’ 40”	67	+0.0
@@ -7342,7 +7341,7 @@ JQF	Concord Regional	7403 ft.	705 ft.	Concord, NC	United States	US	Unavailable	8
 WSD	Condron AAF	Unknown	Unknown	White Sands	United States	US	Unavailable	1° 50’ 0” W	61° 50’ 0” N	67	+0.0
 JCE	Convention Center H/P	Unknown	Unknown	Oakland	United States	US	Unavailable	142° 3’ 0” E	17° 55’ 0” S	67	+0.0
 DGW	Converse County	6750 ft.	4929 ft.	Douglas	United States	US	Unavailable	105° 24’ 0” W	42° 45’ 0” N	67	+7.0
-COP	Cooperstown - Westville Airport	2300 ft.	1260 ft.	Cooperstown, NY	United States	US	Unavailable	74° 53’ 28” W	42° 37’ 45” N	67	-5.0
+COP	Cooperstown - Westville	2300 ft.	1260 ft.	Cooperstown, NY	United States	US	Unavailable	74° 53’ 28” W	42° 37’ 45” N	67	-5.0
 CZC	Copper Centre	Unknown	Unknown	Copper Centre	United States	US	Unavailable	12° 39’ 0” E	42° 29’ 0” N	67	+0.0
 LOZ	Corbin-london	6002 ft.	1212 ft.	London	United States	US	Unavailable	84° 4’ 0” W	37° 5’ 0” N	67	-5.0
 CRO	Corcoran	3800 ft.	197 ft.	Corcoran, CA	United States	US	Unavailable	119° 35’ 41” W	36° 6’ 10” N	67	-8.0
@@ -7388,9 +7387,9 @@ DCK	Dahl Creek Arpt	3800 ft.	260 ft.	Dahl Creek	United States	US	Unavailable	156
 DGN	Dahlgren Naval Surface Warfare Center	4191 ft.	18 ft.	Dahlgren, VA	United States	US	Unavailable	77° 2’ 13” W	38° 19’ 58” N	67	-4.0
 DHT	Dalhart	Unknown	Unknown	Dalhart	United States	US	Unavailable	42° 53’ 24” E	12° 11’ 10” N	67	+0.0
 DAL	Dallas Love Field	8800 ft.	487 ft.	Dallas, TX	United States	US	Unavailable	96° 51’ 6” W	32° 50’ 50” N	67	-6.0
-DNE	Dallas North Airport	Unknown	Unknown	Dallas	United States	US	Unavailable	40° 55’ 0” E	7° 43’ 0” N	67	+0.0
+DNE	Dallas North	Unknown	Unknown	Dallas	United States	US	Unavailable	40° 55’ 0” E	7° 43’ 0” N	67	+0.0
 DFW	Dallas/Fort Worth International	13401 ft.	607 ft.	Dallas, TX	United States	US	Unavailable	97° 2’ 17” W	32° 53’ 49” N	67	-6.0
-DXR	Danbury Municipal Airport	4422 ft.	458 ft.	Danbury, CT	United States	US	Unavailable	73° 28’ 56” W	41° 22’ 18” N	67	-5.0
+DXR	Danbury Municipal	4422 ft.	458 ft.	Danbury, CT	United States	US	Unavailable	73° 28’ 56” W	41° 22’ 18” N	67	-5.0
 MSN	Dane County Regional	9005 ft.	862 ft.	Madison, Wi	United States	US	Unavailable	89° 20’ 15” W	43° 8’ 23” N	67	-6.0
 DGB	Danger Bay	Unknown	Unknown	Danger Bay	United States	US	Unavailable	152° 45’ 0” W	58° 5’ 0” N	67	+9.0
 DNL	Daniel Field	4002 ft.	423 ft.	Augusta, GA	United States	US	Unavailable	82° 2’ 22” W	33° 27’ 59” N	67	-5.0
@@ -7437,7 +7436,7 @@ DLG	Dillingham	6404 ft.	85 ft.	Dillingham, AK	United States	US	Unavailable	158°
 HDH	Dillingham Airfield	9007 ft.	14 ft.	Oahu, HI	United States	US	Unavailable	158° 11’ 50” W	21° 34’ 46” N	67	-10.0
 DLN	Dillon	4000 ft.	5238 ft.	Dillon	United States	US	Unavailable	112° 38’ 0” W	45° 13’ 0” N	67	+7.0
 DLL	Dillon	3000 ft.	134 ft.	Dillon	United States	US	Unavailable	79° 22’ 0” W	34° 25’ 0” N	67	+5.0
-PTB	Dinwiddie County Airport	5000 ft.	194 ft.	Petersburg, VA	United States	US	Unavailable	77° 30’ 27” W	37° 11’ 2” N	67	-5.0
+PTB	Dinwiddie County	5000 ft.	194 ft.	Petersburg, VA	United States	US	Unavailable	77° 30’ 27” W	37° 11’ 2” N	67	-5.0
 DIO	Diomede Heliport	64 ft.	20 ft.	Diomede Island, AK	United States	US	Unavailable	168° 57’ 11” W	65° 45’ 31” N	67	-9.0
 MGE	Dobbins AFB	10000 ft.	1068 ft.	Marietta, GA	United States	US	Unavailable	84° 30’ 59” W	33° 54’ 55” N	67	-5.0
 DDC	Dodge City Regional	6899 ft.	2596 ft.	Dodge City, KS	United States	US	Unavailable	99° 57’ 55” W	37° 45’ 47” N	67	-6.0
@@ -7490,7 +7489,7 @@ HTO	East Hampton	4255 ft.	55 ft.	East Hampton	United States	US	Unavailable	72° 
 GGG	East Texas Regional	10000 ft.	365 ft.	Longview, TX	United States	US	Unavailable	94° 42’ 41” W	32° 23’ 2” N	67	-6.0
 CID	Eastern Iowa	7000 ft.	864 ft.	Cedar Rapids, IA	United States	US	Unavailable	91° 42’ 39” W	41° 53’ 5” N	67	-6.0
 PDT	Eastern Oregon Regional	6301 ft.	1497 ft.	Pendleton, OR	United States	US	Unavailable	118° 50’ 29” W	45° 41’ 42” N	67	-8.0
-MRB	Eastern Wv Regional Airport/Shepherd Field	7815 ft.	565 ft.	Martinsburg, WV	United States	US	Unavailable	77° 59’ 5” W	39° 24’ 6” N	67	-5.0
+MRB	Eastern Wv Regional/Shepherd Field	7815 ft.	565 ft.	Martinsburg, WV	United States	US	Unavailable	77° 59’ 5” W	39° 24’ 6” N	67	-5.0
 CLL	Easterwood Field	7000 ft.	319 ft.	College Station, TX	United States	US	Unavailable	96° 21’ 50” W	30° 35’ 19” N	67	-6.0
 ESN	Easton/Newnam Field	5500 ft.	72 ft.	Easton, MD	United States	US	Unavailable	76° 4’ 8” W	38° 48’ 15” N	67	-5.0
 OIC	Eaton	Unknown	Unknown	Norwich	United States	US	Unavailable	80° 36’ 0” W	42° 59’ 0” N	67	+0.0
@@ -7538,7 +7537,7 @@ ESO	Espanola	5000 ft.	5790 ft.	Espanola	United States	US	Unavailable	106° 2’ 
 UCE	Eunice	5000 ft.	41 ft.	Eunice	United States	US	Unavailable	92° 25’ 0” W	30° 30’ 0” N	67	+6.0
 EUE	Eureka	4780 ft.	5946 ft.	Eureka	United States	US	Unavailable	115° 58’ 0” W	39° 31’ 0” N	67	+8.0
 EVW	Evanston	5000 ft.	6600 ft.	Evanston	United States	US	Unavailable	111° 1’ 0” W	41° 21’ 0” N	67	+7.0
-EVV	Evansville Regional Airport	8021 ft.	418 ft.	Evansville, IN	United States	US	Unavailable	87° 31’ 57” W	38° 2’ 13” N	67	-6.0
+EVV	Evansville Regional	8021 ft.	418 ft.	Evansville, IN	United States	US	Unavailable	87° 31’ 57” W	38° 2’ 13” N	67	-6.0
 EVM	Eveleth	4693 ft.	1385 ft.	Eveleth	United States	US	Unavailable	92° 30’ 0” W	47° 26’ 0” N	67	+6.0
 UCY	Everett-Stewart	5000 ft.	341 ft.	Union City	United States	US	Unavailable	89° 3’ 0” W	36° 25’ 0” N	67	+6.0
 ZXS	Exchangest Railway Svc	Unknown	Unknown	Buffalo	United States	US	Unavailable	78° 52’ 31” W	42° 52’ 42” N	67	-5.0
@@ -7566,7 +7565,7 @@ FIC	Fire Cove	Unknown	Unknown	Fire Cove	United States	US	Unavailable	131° 32’
 FCT	Firing Center AAF	Unknown	Unknown	Yakima	United States	US	Unavailable	41° 16’ 0” E	56° 48’ 0” N	67	+0.0
 FFA	First Flight	3000 ft.	13 ft.	Kill Devil Hills	United States	US	Unavailable	75° 40’ 0” W	36° 1’ 0” N	67	+5.0
 KCG	Fisheries	1280 ft.	25 ft.	Chignik	United States	US	Unavailable	158° 24’ 0” W	56° 18’ 0” N	67	+9.0
-FIT	Fitchburg Municipal Airport	4500 ft.	348 ft.	Fitchburg, MA	United States	US	Unavailable	71° 45’ 32” W	42° 33’ 14” N	906	-5.0
+FIT	Fitchburg Municipal	4500 ft.	348 ft.	Fitchburg, MA	United States	US	Unavailable	71° 45’ 32” W	42° 33’ 14” N	906	-5.0
 FIV	Five Finger	Unknown	Unknown	Five Finger Coast Guard Heliport	United States	US	Unavailable	133° 37’ 53” W	57° 16’ 12” N	67	-9.0
 FMC	Five Mile	2500 ft.	510 ft.	Five Mile	United States	US	Unavailable	149° 50’ 0” W	65° 55’ 0” N	67	+9.0
 FLG	Flagstaff Pulliam	8800 ft.	7014 ft.	Flagstaff, AZ	United States	US	Unavailable	111° 40’ 9” W	35° 8’ 25” N	67	-7.0
@@ -7594,7 +7593,7 @@ FLE	Fort Lee AAF	Unknown	Unknown	Petersburg	United States	US	Unavailable	5° 50�
 CMY	Fort Mccoy	4708 ft.	837 ft.	Sparta	United States	US	Unavailable	90° 47’ 0” W	43° 57’ 0” N	67	+6.0
 FSM	Fort Smith Regional	8017 ft.	469 ft.	Fort Smith, AR	United States	US	Unavailable	94° 22’ 3” W	35° 20’ 12” N	67	-6.0
 FSU	Fort Sumner	5400 ft.	4166 ft.	Fort Sumner	United States	US	Unavailable	104° 15’ 0” W	34° 28’ 0” N	67	+7.0
-FWA	Fort Wayne International Airport	11981 ft.	814 ft.	Fort Wayne, IN	United States	US	Unavailable	85° 11’ 43” W	40° 58’ 42” N	67	-5.0
+FWA	Fort Wayne International	11981 ft.	814 ft.	Fort Wayne, IN	United States	US	Unavailable	85° 11’ 43” W	40° 58’ 42” N	67	-5.0
 AFW	Fort Worth Alliance	9600 ft.	722 ft.	Fort Worth, TX	United States	US	Unavailable	97° 19’ 8” W	32° 59’ 16” N	67	-6.0
 FWH	Fort Worth NAS JRB/Carswell Field	12000 ft.	650 ft.	Fort Worth, TX	United States	US	Unavailable	97° 26’ 30” W	32° 46’ 9” N	67	-6.0
 FYU	Fort Yukon	5809 ft.	433 ft.	Fort Yukon	United States	US	Unavailable	145° 16’ 0” W	66° 34’ 0” N	67	+9.0
@@ -7612,7 +7611,7 @@ FCH	Fresno-Chandler	Unknown	Unknown	Fresno	United States	US	Unavailable	99° 25�
 FRD	Friday Harbor	3400 ft.	120 ft.	Friday Harbor, Wa	United States	US	Unavailable	123° 1’ 28” W	48° 31’ 19” N	67	-8.0
 FBS	Friday Harbor SPB	Unknown	Unknown	Friday Harbor SPB	United States	US	Unavailable	115° 36’ 0” E	28° 2’ 0” S	67	+0.0
 SUN	Friedman Memorial	7550 ft.	5320 ft.	Sun Valley, ID	United States	US	Unavailable	114° 17’ 44” W	43° 30’ 14” N	67	-7.0
-FTG	Front Range Airport	8000 ft.	5512 ft.	Watkins	United States	US	Unavailable	104° 32’ 35” W	39° 47’ 6” N	67	-7.0
+FTG	Front Range	8000 ft.	5512 ft.	Watkins	United States	US	Unavailable	104° 32’ 35” W	39° 47’ 6” N	67	-7.0
 FRR	Front Royal-Warren County	3019 ft.	709 ft.	Front Royal, VA	United States	US	Unavailable	78° 15’ 13” W	38° 55’ 3” N	67	+5.0
 FRY	Fryeburg	3800 ft.	445 ft.	Fryeburg	United States	US	Unavailable	70° 59’ 0” W	44° 1’ 0” N	67	+5.0
 QAW	Ft Mcclellan Bus Trml	Unknown	Unknown	Anniston	United States	US	Unavailable	Unknown	Unknown	67	+0.0
@@ -7698,7 +7697,7 @@ GMU	Greenville Downtown	5393 ft.	1048 ft.	Greenville	United States	US	Unavailabl
 GSP	Greenville Spartanburg International	11001 ft.	972 ft.	Greenville-spartanburg, SC	United States	US	Unavailable	82° 13’ 8” W	34° 53’ 44” N	67	-5.0
 JGP	Greenway Plaza H/P	Unknown	Unknown	Houston	United States	US	Unavailable	Unknown	Unknown	67	+0.0
 GRD	Greenwood	5175 ft.	631 ft.	Greenwood	United States	US	Unavailable	82° 9’ 0” W	34° 15’ 0” N	67	+5.0
-HFY	Greenwood Municipal Airport	4901 ft.	822 ft.	Greenwood, IN	United States	US	Unavailable	86° 5’ 17” W	39° 37’ 39” N	Unknown	-5.0
+HFY	Greenwood Municipal	4901 ft.	822 ft.	Greenwood, IN	United States	US	Unavailable	86° 5’ 17” W	39° 37’ 39” N	Unknown	-5.0
 PBF	Grider Field	5998 ft.	206 ft.	Pine Bluff	United States	US	Unavailable	91° 56’ 0” W	34° 11’ 0” N	67	+6.0
 SKY	Griffing Sandusky Regional	3559 ft.	580 ft.	Sandusky, OH	United States	US	Unavailable	82° 39’ 8” W	41° 26’ 0” N	67	-5.0
 RME	Griffiss AFB	11820 ft.	504 ft.	Rome, NY	United States	US	Unavailable	75° 24’ 25” W	43° 14’ 2” N	67	-5.0
@@ -7711,7 +7710,7 @@ GUN	Gunter AFB	Unknown	Unknown	Montgomery	United States	US	Unavailable	1° 10’
 GST	Gustavus Arpt	6800 ft.	36 ft.	Gustavus	United States	US	Unavailable	135° 42’ 0” W	58° 25’ 0” N	67	+9.0
 GOK	Guthrie	3000 ft.	1074 ft.	Guthrie	United States	US	Unavailable	97° 25’ 0” W	35° 53’ 0” N	67	+6.0
 GUY	Guymon	4299 ft.	3123 ft.	Guymon	United States	US	Unavailable	101° 29’ 0” W	36° 41’ 0” N	67	+6.0
-LZU	Gwinnett County Airport	6021 ft.	1061 ft.	Lawrenceville	United States	US	Unavailable	83° 57’ 45” W	33° 58’ 41” N	67	-5.0
+LZU	Gwinnett County	6021 ft.	1061 ft.	Lawrenceville	United States	US	Unavailable	83° 57’ 45” W	33° 58’ 41” N	67	-5.0
 JBS	Hacienda Bus.Park H/P	Unknown	Unknown	Pleasanton	United States	US	Unavailable	121° 54’ 0” W	37° 41’ 59” N	67	+8.0
 PVW	Hale County	5197 ft.	3372 ft.	Plainview	United States	US	Unavailable	101° 43’ 0” W	34° 10’ 0” N	67	+6.0
 FSN	Haley AAF	Unknown	Unknown	Fort Sheridan	United States	US	Unavailable	72° 30’ 0” W	19° 50’ 0” N	67	+0.0
@@ -7757,7 +7756,7 @@ JPD	Heliport	Unknown	Unknown	Pasadena	United States	US	Unavailable	118° 8’ 0�
 JRD	Heliport	Unknown	Unknown	Riverside	United States	US	Unavailable	117° 21’ 58”	33° 59’ 59”	67	+0.0
 JTO	Heliport	Unknown	Unknown	Thousand Oaks	United States	US	Unavailable	Unknown	Unknown	67	+0.0
 HSH	Henderson Executive	6501 ft.	2492 ft.	Las Vegas, NV	United States	US	Unavailable	115° 8’ 4” W	35° 58’ 22” N	67	-8.0
-0A7	Hendersonville Airport	3000 ft.	2084 ft.	Hendersonville	United States	US	Unavailable	82° 27’ 0” W	35° 19’ 0” N	67	-4.0
+0A7	Hendersonville	3000 ft.	2084 ft.	Hendersonville	United States	US	Unavailable	82° 27’ 0” W	35° 19’ 0” N	67	-4.0
 PHT	Henry County	5000 ft.	573 ft.	Paris	United States	US	Unavailable	88° 23’ 0” W	36° 20’ 0” N	67	+6.0
 FSI	Henry Post AAF/Ford Sill	5001 ft.	1189 ft.	Fort Sill, OK	United States	US	Unavailable	98° 24’ 8” W	34° 38’ 59” N	67	-6.0
 TMA	Henry Tift Myers	5504 ft.	355 ft.	Tifton, GA	United States	US	Unavailable	83° 29’ 19” W	31° 25’ 44” N	67	-5.0
@@ -7828,12 +7827,12 @@ SKW	Intermediate	3500 ft.	148 ft.	Skwentna	United States	US	Unavailable	151° 12
 TSG	Intermediate	Unknown	Unknown	Tanacross	United States	US	Unavailable	18° 4’ 24” E	45° 13’ 41” N	67	+0.0
 CYT	Intermediate	4950 ft.	12 ft.	Yakataga	United States	US	Unavailable	142° 29’ 0” W	60° 5’ 0” N	67	+9.0
 BIG	Intermediate Field	7499 ft.	1277 ft.	Big Delta	United States	US	Unavailable	145° 44’ 0” W	64° 0’ 0” N	67	+9.0
-ALI	International	5997 ft.	178 ft.	Alice, Tx	United States	US	Unavailable	98° 1’ 0” W	27° 44’ 0” N	67	+6.0
-CXL	International	4330 ft.	Unknown	Calexico	United States	US	Unavailable	115° 31’ 0” W	32° 40’ 0” N	67	+8.0
-HUL	International	5000 ft.	493 ft.	Houlton	United States	US	Unavailable	67° 48’ 0” W	46° 8’ 0” N	67	+5.0
-OLF	International	5089 ft.	1986 ft.	Wolf Point	United States	US	Unavailable	105° 34’ 0” W	48° 5’ 0” N	67	+7.0
-GGW	International-Wokal Field	5000 ft.	2296 ft.	Glasgow, MT	United States	US	Unavailable	106° 36’ 53” W	48° 12’ 45” N	67	-7.0
-JIO	Intl Heliport	Unknown	Unknown	Ontario	United States	US	Unavailable	74° 26’ 0” W	11° 17’ 0” S	67	+0.0
+ALI	Alice International	5997 ft.	178 ft.	Alice, Tx	United States	US	Unavailable	98° 1’ 0” W	27° 44’ 0” N	67	+6.0
+CXL	Calexico International	4330 ft.	Unknown	Calexico	United States	US	Unavailable	115° 31’ 0” W	32° 40’ 0” N	67	+8.0
+HUL	Houlton International	5000 ft.	493 ft.	Houlton	United States	US	Unavailable	67° 48’ 0” W	46° 8’ 0” N	67	+5.0
+OLF	Wolf Point International	5089 ft.	1986 ft.	Wolf Point	United States	US	Unavailable	105° 34’ 0” W	48° 5’ 0” N	67	+7.0
+GGW	Glasgow International	5000 ft.	2296 ft.	Glasgow, MT	United States	US	Unavailable	106° 36’ 53” W	48° 12’ 45” N	67	-7.0
+JIO	Ontario International Heliport	Unknown	Unknown	Ontario	United States	US	Unavailable	74° 26’ 0” W	11° 17’ 0” S	67	+0.0
 IYK	Inyokern	7100 ft.	2457 ft.	Inyokern, CA	United States	US	Unavailable	117° 49’ 46” W	35° 39’ 31” N	67	-8.0
 ECA	Iosco County	4802 ft.	606 ft.	East Tawas, MI	United States	US	Unavailable	83° 25’ 20” W	44° 18’ 46” N	67	-5.0
 IOW	Iowa City Municipal	4355 ft.	668 ft.	Iowa City, IA	United States	US	Unavailable	91° 32’ 47” W	41° 38’ 21” N	67	-6.0
@@ -7877,7 +7876,7 @@ AZO	Kalamazoo/Battle Creek	6502 ft.	873 ft.	Kalamazoo, MI	United States	US	Unava
 LUP	Kalaupapa	2760 ft.	26 ft.	Kalaupapa	United States	US	Unavailable	156° 58’ 0” W	21° 11’ 0” N	67	+10.0
 KAL	Kaltag	3986 ft.	181 ft.	Kaltag, AK	United States	US	Unavailable	158° 44’ 29” W	64° 19’ 8” N	67	-9.0
 MUE	Kamuela	5200 ft.	2671 ft.	Kamuela	United States	US	Unavailable	155° 41’ 0” W	20° 0’ 0” N	67	+10.0
-KUY	Kamusi Airport	Unknown	1 ft.	Kamusi	United States	US	Unavailable	153° 59’ 54” W	57° 38’ 4” N	67	+9.0
+KUY	Kamusi	Unknown	1 ft.	Kamusi	United States	US	Unavailable	153° 59’ 54” W	57° 38’ 4” N	67	+9.0
 KNB	Kanab	6200 ft.	4856 ft.	Kanab	United States	US	Unavailable	112° 50’ 0” W	37° 15’ 0” N	67	+7.0
 MCI	Kansas City International	10801 ft.	1026 ft.	Kansas City, MO	United States	US	Unavailable	94° 42’ 50” W	39° 17’ 51” N	67	-6.0
 JHM	Kapalua	3000 ft.	256 ft.	Lahaina, HI	United States	US	Unavailable	156° 40’ 23” W	20° 57’ 47” N	67	-10.0
@@ -7923,11 +7922,11 @@ LMT	Klamath Falls	10301 ft.	4095 ft.	Klamath Falls, OR	United States	US	Unavaila
 KLW	Klawock	3000 ft.	50 ft.	Klawock	United States	US	Unavailable	133° 6’ 0” W	55° 33’ 0” N	67	+9.0
 RKD	Knox County Regional	4502 ft.	55 ft.	Rockland	United States	US	Unavailable	69° 6’ 0” W	44° 4’ 0” N	67	+5.0
 OBU	Kobuk	4020 ft.	145 ft.	Kobuk, AK	United States	US	Unavailable	156° 53’ 50” W	66° 54’ 44” N	67	-9.0
-ADQ	Kodiak Airport	7548 ft.	73 ft.	Kodiak	United States	US	Unavailable	152° 29’ 0” W	57° 45’ 0” N	67	+9.0
+ADQ	Kodiak	7548 ft.	73 ft.	Kodiak	United States	US	Unavailable	152° 29’ 0” W	57° 45’ 0” N	67	+9.0
 WDY	Kodiak Fss	Unknown	Unknown	Kodiak	United States	US	Unavailable	1° 15’ 0” W	56° 52’ 0” N	67	+0.0
 KNK	Kokhanok	3300 ft.	115 ft.	Kokhanok, AK	United States	US	Unavailable	154° 48’ 9” W	59° 26’ 0” N	67	-9.0
 OKK	Kokomo	5201 ft.	830 ft.	Kokomo	United States	US	Unavailable	86° 4’ 0” W	40° 32’ 0” N	67	+5.0
-KOA	Kona International Airport	11000 ft.	47 ft.	Kona, HI	United States	US	Unavailable	156° 2’ 44” W	19° 44’ 20” N	67	-10.0
+KOA	Kona International	11000 ft.	47 ft.	Kona, HI	United States	US	Unavailable	156° 2’ 44” W	19° 44’ 20” N	67	-10.0
 KKH	Kongiganak	2000 ft.	25 ft.	Kongiganak	United States	US	Unavailable	162° 45’ 0” W	59° 58’ 0” N	67	+9.0
 KOT	Kotlik	2236 ft.	5 ft.	Kotlik	United States	US	Unavailable	163° 32’ 0” W	63° 2’ 0” N	67	+9.0
 KKA	Koyuk	2000 ft.	150 ft.	Koyuk	United States	US	Unavailable	161° 8’ 0” W	64° 55’ 0” N	67	+9.0
@@ -7941,7 +7940,7 @@ OEO	L O Simenstad Municipal	5006 ft.	906 ft.	Osceola, WI	United States	US	Unavai
 LSE	La Crosse Municipal	8536 ft.	654 ft.	La Crosse, Wi	United States	US	Unavailable	91° 15’ 0” W	43° 53’ 0” N	67	-6.0
 LGD	La Grande	4576 ft.	2713 ft.	La Grande	United States	US	Unavailable	118° 2’ 0” W	45° 19’ 0” N	67	+8.0
 LGA	La Guardia	7003 ft.	21 ft.	New York, NY	United States	US	Unavailable	73° 52’ 21” W	40° 46’ 38” N	67	-5.0
-PMD	La Palmdale Regional Airport	12002 ft.	2542 ft.	Palmdale, CA	United States	US	Unavailable	118° 5’ 4” W	34° 37’ 46” N	67	-8.0
+PMD	La Palmdale Regional	12002 ft.	2542 ft.	Palmdale, CA	United States	US	Unavailable	118° 5’ 4” W	34° 37’ 46” N	67	-8.0
 WLB	Labouchere Bay	Unknown	Unknown	Labouchere Bay	United States	US	Unavailable	133° 39’ 30” W	56° 17’ 30” N	67	+9.0
 FBK	Ladd AAF	8575 ft.	460 ft.	Fort Wainwright/Fairbanks, AK	United States	US	Unavailable	147° 36’ 58” W	64° 50’ 12” N	67	-9.0
 LFT	Lafayette Regional	7651 ft.	42 ft.	Lafayette, LA	United States	US	Unavailable	91° 59’ 15” W	30° 12’ 19” N	67	-6.0
@@ -7972,7 +7971,7 @@ TAD	Las Animas	Unknown	Unknown	Trinidad	United States	US	Unavailable	71° 40’ 
 LVS	Las Vegas Municipal	8199 ft.	6877 ft.	Las Vegas, NM	United States	US	Unavailable	105° 8’ 33” W	35° 39’ 15” N	67	-7.0
 LTH	Lathrop Wells	2600 ft.	2250 ft.	Lathrop Wells	United States	US	Unavailable	116° 39’ 0” W	36° 40’ 0” N	67	+8.0
 DLF	Laughlin AFB	8857 ft.	1082 ft.	Del Rio, TX	United States	US	Unavailable	100° 46’ 40” W	29° 21’ 34” N	67	-6.0
-IFP	Laughlin Bullhead Intl	7520 ft.	695 ft.	Bullhead City, Arizona	United States	US	Unavailable	72° 49’ 0” E	30° 44’ 0” N	67	+0.0
+IFP	Laughlin Bullhead International	7520 ft.	695 ft.	Bullhead City, Arizona	United States	US	Unavailable	72° 49’ 0” E	30° 44’ 0” N	67	+0.0
 LWM	Lawrence	4997 ft.	149 ft.	Lawrence	United States	US	Unavailable	71° 7’ 0” W	42° 43’ 0” N	67	+5.0
 HTW	Lawrence County Airpark	3001 ft.	568 ft.	Chesapeake/Huntington Wva	United States	US	Unavailable	82° 29’ 40” W	38° 25’ 9” N	67	-5.0
 MWC	Lawrence J Timmerman	15 ft.	745 ft.	Milwaukee	United States	US	Unavailable	88° 2’ 3” W	43° 6’ 37” N	67	-6.0
@@ -8002,7 +8001,7 @@ LXN	Lexington	4100 ft.	2409 ft.	Lexington	United States	US	Unavailable	99° 45�
 LIH	Lihue	6500 ft.	153 ft.	Lihue, HI	United States	US	Unavailable	159° 20’ 20” W	21° 58’ 34” N	67	-10.0
 LVD	Lime Village	2500 ft.	552 ft.	Lime Village	United States	US	Unavailable	155° 28’ 0” W	61° 21’ 0” N	67	+9.0
 LNK	Lincoln	12901 ft.	1214 ft.	Lincoln, NE	United States	US	Unavailable	96° 45’ 33” W	40° 51’ 3” N	67	-6.0
-LHM	Lincoln Regional Airport	6001 ft.	121 ft.	Lincoln, CA	United States	US	Unavailable	121° 21’ 5” W	38° 54’ 33” N	67	-8.0
+LHM	Lincoln Regional	6001 ft.	121 ft.	Lincoln, CA	United States	US	Unavailable	121° 21’ 5” W	38° 54’ 33” N	67	-8.0
 LDJ	Linden	4139 ft.	23 ft.	Linden	United States	US	Unavailable	74° 15’ 0” W	40° 38’ 0” N	67	+5.0
 WLN	Little Naukati	Unknown	Unknown	Little Naukati	United States	US	Unavailable	133° 13’ 0” W	55° 52’ 0” N	67	+9.0
 LPW	Little Port Walter	Unknown	14 ft.	Little Port Walter	United States	US	Unavailable	134° 39’ 0” W	56° 23’ 0” N	67	-9.0
@@ -8010,7 +8009,7 @@ LRF	Little Rock Afb	12000 ft.	311 ft.	Jacksonville	United States	US	Unavailable	
 LIV	Livengood	1050 ft.	425 ft.	Livengood, AK	United States	US	Unavailable	148° 40’ 9” W	65° 28’ 21” N	67	-9.0
 LVK	Livermore Municipal	5253 ft.	400 ft.	Livermore, CA	United States	US	Unavailable	121° 49’ 13” W	37° 41’ 36” N	67	-8.0
 LGU	Logan Cache	9010 ft.	4457 ft.	Logan, UT	United States	US	Unavailable	111° 51’ 6” W	41° 47’ 29” N	67	-7.0
-LPC	Lompoc Airport	4600 ft.	88 ft.	Lompoc	United States	US	Unavailable	120° 28’ 10” W	34° 40’ 0” N	67	+8.0
+LPC	Lompoc	4600 ft.	88 ft.	Lompoc	United States	US	Unavailable	120° 28’ 10” W	34° 40’ 0” N	67	+8.0
 CXO	Lone Star Executive	6000 ft.	245 ft.	Houston, TX	United States	US	Unavailable	95° 24’ 52” W	30° 21’ 8” N	67	-6.0
 LGB	Long Beach Municipal	10003 ft.	60 ft.	Long Beach, CA	United States	US	Unavailable	118° 9’ 6” W	33° 49’ 4” N	67	-8.0
 LIJ	Long Island	Unknown	Unknown	Long Island	United States	US	Unavailable	132° 45’ 0” W	54° 54’ 0” N	67	+9.0
@@ -8055,8 +8054,8 @@ MAW	Malden	5000 ft.	295 ft.	Malden	United States	US	Unavailable	89° 59’ 0” 
 GFA	Malmstrom AFB	Unknown	Unknown	Great Falls	United States	US	Unavailable	77° 0’ 0” W	27° 5’ 0” N	67	+0.0
 MLK	Malta	3600 ft.	2280 ft.	Malta	United States	US	Unavailable	107° 52’ 0” W	48° 21’ 0” N	67	+7.0
 MMH	Mammoth Lakes	7000 ft.	7128 ft.	Mammoth Lakes	United States	US	Unavailable	118° 51’ 0” W	37° 37’ 0” N	67	-8.0
-MNZ	Manassas Regional Airport/Harry P. Davis Field	5700 ft.	193 ft.	Manassas, VA	United States	US	Unavailable	77° 31’ 56” W	38° 43’ 17” N	67	-5.0
-MHT	Manchester-boston Regional Airport	9250 ft.	234 ft.	Manchester, NH	United States	US	Unavailable	71° 26’ 8” W	42° 55’ 57” N	67	-5.0
+MNZ	Manassas Regional/Harry P. Davis Field	5700 ft.	193 ft.	Manassas, VA	United States	US	Unavailable	77° 31’ 56” W	38° 43’ 17” N	67	-5.0
+MHT	Manchester-boston Regional	9250 ft.	234 ft.	Manchester, NH	United States	US	Unavailable	71° 26’ 8” W	42° 55’ 57” N	67	-5.0
 MHK	Manhattan Regional	7000 ft.	1066 ft.	Manhattan, KS	United States	US	Unavailable	96° 40’ 18” W	39° 8’ 28” N	67	-6.0
 MBL	Manistee County-Blacker	5502 ft.	621 ft.	Manistee, MI	United States	US	Unavailable	86° 14’ 49” W	44° 16’ 21” N	67	-5.0
 MKT	Mankato Regional	6600 ft.	1021 ft.	Mankato, MN	United States	US	Unavailable	93° 55’ 9” W	44° 13’ 22” N	67	-6.0
@@ -8141,7 +8140,7 @@ MFH	Mesquite	5121 ft.	1978 ft.	Mesquite, NV	United States	US	Unavailable	114° 3
 MTX	Metro Field	4400 ft.	432 ft.	Fairbanks	United States	US	Unavailable	147° 45’ 0” W	64° 48’ 0” N	67	+9.0
 ZME	Metropark Rail	Unknown	Unknown	Newark	United States	US	Unavailable	74° 10’ 10” E	40° 55’ 10” N	67	+0.0
 PMX	Metropolitan	2475 ft.	418 ft.	Palmer	United States	US	Unavailable	72° 19’ 0” W	42° 9’ 0” N	67	+5.0
-CAE	Metropolitan Airport	8602 ft.	236 ft.	Columbia, SC	United States	US	Unavailable	81° 7’ 10” W	33° 56’ 20” N	67	-5.0
+CAE	Metropolitan	8602 ft.	236 ft.	Columbia, SC	United States	US	Unavailable	81° 7’ 10” W	33° 56’ 20” N	67	-5.0
 CHI	Metropolitan Area	13050 ft.	667 ft.	Chicago, IL	United States	US	Unavailable	87° 38’ 0” W	41° 52’ 59” N	67	-6.0
 CLC	Metroport	2500 ft.	35 ft.	Clearlake	United States	US	Unavailable	95° 8’ 21” W	29° 33’ 27” N	67	+6.0
 CEV	Mettle Field	6503 ft.	866 ft.	Connersville, IN	United States	US	Unavailable	85° 7’ 52” W	39° 41’ 53” N	67	-5.0
@@ -8186,7 +8185,7 @@ ECS	Mondell	5300 ft.	4167 ft.	Newcastle	United States	US	Unavailable	104° 19’
 BLM	Monmouth Executive	7300 ft.	159 ft.	Belmar - Farmingdale, NJ	United States	US	Unavailable	74° 7’ 25” W	40° 11’ 8” N	67	-5.0
 MVC	Monroe - Walton County	Unknown	Unknown	Monroeville	United States	US	Unavailable	18° 45’ 0” E	10° 6’ 0” N	67	+0.0
 MLU	Monroe Regional	7505 ft.	79 ft.	Monroe, LA	United States	US	Unavailable	92° 2’ 16” W	32° 30’ 39” N	67	-6.0
-MTP	Montauk Airport	3472 ft.	20 ft.	Montauk	United States	US	Unavailable	71° 55’ 0” W	41° 5’ 0” N	67	+5.0
+MTP	Montauk	3472 ft.	20 ft.	Montauk	United States	US	Unavailable	71° 55’ 0” W	41° 5’ 0” N	67	+5.0
 MRY	Monterey Peninsula	7616 ft.	257 ft.	Monterey, CA	United States	US	Unavailable	121° 50’ 35” W	36° 35’ 13” N	67	-8.0
 MVE	Montevideo-Chippewa	1034 ft.	4000 ft.	Montevideo, MN	United States	US	Unavailable	95° 42’ 37” W	44° 58’ 9” N	67	-6.0
 CEZ	Montezuma County	7205 ft.	5914 ft.	Cortez	United States	US	Unavailable	108° 38’ 0” W	37° 19’ 0” N	67	+7.0
@@ -8194,7 +8193,7 @@ GAI	Montgomery County	4235 ft.	540 ft.	Gaithersburg	United States	US	Unavailable
 MYF	Montgomery Field	3400 ft.	423 ft.	San Diego	United States	US	Unavailable	117° 8’ 0” W	32° 48’ 0” N	67	+8.0
 MGM	Montgomery Regional (Dannelly Field)	9020 ft.	221 ft.	Montgomery, AL	United States	US	Unavailable	86° 23’ 38” W	32° 18’ 2” N	67	-6.0
 MXO	Monticello Municipal	4400 ft.	832 ft.	Monticello, IA	United States	US	Unavailable	91° 9’ 48” W	42° 13’ 13” N	67	-6.0
-MTJ	Montrose Regional Airport	8497 ft.	5759 ft.	Montrose	United States	US	Unavailable	107° 53’ 39” W	38° 30’ 35” N	67	-7.0
+MTJ	Montrose Regional	8497 ft.	5759 ft.	Montrose	United States	US	Unavailable	107° 53’ 39” W	38° 30’ 35” N	67	-7.0
 QMV	Montvale	Unknown	Unknown	Montvale	United States	US	Unavailable	1° 36’ 0” E	43° 52’ 0” N	67	+0.0
 GMV	Monument Valley	Unknown	Unknown	Monument Valley Gldngs	United States	US	Unavailable	152° 1’ 0” E	2° 37’ 0” S	67	+0.0
 VAD	Moody AFB	Unknown	Unknown	Valdosta	United States	US	Unavailable	12° 26’ 16” E	46° 17’ 10” N	67	+0.0
@@ -8404,10 +8403,10 @@ NPA	NAS Pensacola	8002 ft.	28 ft.	Pensacola, FL	United States	US	Unavailable	87�
 NBG	NAS/Alvin Callendar	Unknown	Unknown	New Orleans	United States	US	Unavailable	123° 24’ 54” E	7° 26’ 8” N	67	+0.0
 BNA	Nashville International	11030 ft.	599 ft.	Nashville, TN	United States	US	Unavailable	86° 40’ 41” W	36° 7’ 28” N	67	-6.0
 GCN	National Park	8999 ft.	6609 ft.	Grand Canyon, AZ	United States	US	Unavailable	112° 8’ 49” W	35° 57’ 8” N	67	-7.0
-CPR	Natrona County International Airport	10600 ft.	5348 ft.	Casper, WY	United States	US	Unavailable	106° 27’ 52” W	42° 54’ 29” N	67	-7.0
+CPR	Natrona County International	10600 ft.	5348 ft.	Casper, WY	United States	US	Unavailable	106° 27’ 52” W	42° 54’ 29” N	67	-7.0
 WNC	Naukati Bay SPB	Unknown	Unknown	Tuxekan Island, AK	United States	US	Unavailable	133° 13’ 40” W	55° 50’ 59” N	67	-9.0
 NKI	Naukiti	Unknown	Unknown	Naukiti	United States	US	Unavailable	133° 11’ 0” W	55° 51’ 20” N	67	+9.0
-IDI	ndiana County Airport (Jimmy Stewart Field)	4001 ft.	1405 ft.	Indiana, PA	United States	US	Unavailable	79° 6’ 20” W	40° 37’ 56” N	67	-5.0
+IDI	ndiana County (Jimmy Stewart Field)	4001 ft.	1405 ft.	Indiana, PA	United States	US	Unavailable	79° 6’ 20” W	40° 37’ 56” N	67	-5.0
 EED	Needles	5000 ft.	990 ft.	Needles	United States	US	Unavailable	114° 37’ 0” W	34° 51’ 0” N	67	+8.0
 AXV	Neil Armstrong	5001 ft.	910 ft.	Wapakoneta	United States	US	Unavailable	84° 11’ 0” W	40° 34’ 0” N	67	+5.0
 LSV	Nellis AFB	10120 ft.	1869 ft.	Las Vegas, NV	United States	US	Unavailable	115° 2’ 3” W	36° 14’ 10” N	67	-8.0
@@ -8418,7 +8417,7 @@ NVD	Nevada Municipal	5000 ft.	892 ft.	Nevada, MO	United States	US	Unavailable	94
 EWB	New Bedford Regional	5000 ft.	78 ft.	New Bedford, MA	United States	US	Unavailable	70° 57’ 28” W	41° 40’ 36” N	67	-5.0
 ZRZ	New Carrolton RR	Unknown	Unknown	Washington	United States	US	Unavailable	72° 30’ 0” W	49° 0’ 0” N	67	+0.0
 ILG	New Castle	7275 ft.	80 ft.	Wilmington, DE	United States	US	Unavailable	75° 36’ 24” W	39° 40’ 43” N	67	-5.0
-JCI	New Century Aircenter Airport	7339 ft.	1087 ft.	Olathe, KS	United States	US	Unavailable	94° 53’ 25” W	38° 49’ 51” N	67	-6.0
+JCI	New Century Aircenter	7339 ft.	1087 ft.	Olathe, KS	United States	US	Unavailable	94° 53’ 25” W	38° 49’ 51” N	67	-6.0
 NCN	New Chenega	Unknown	Unknown	New Chenega	United States	US	Unavailable	148° 0’ 30” W	60° 0’ 4” N	67	+9.0
 ZVE	New Haven Rail	Unknown	Unknown	New Haven	United States	US	Unavailable	58° 8’ 0” W	6° 5’ 0” N	67	+0.0
 KGK	New Koliganek	2140 ft.	240 ft.	New Koliganek	United States	US	Unavailable	157° 20’ 0” W	59° 47’ 0” N	67	+9.0
@@ -8476,7 +8475,7 @@ NUP	Nunapitchuk	Unknown	10 ft.	Nunapitchuk	United States	US	Unavailable	162° 28
 ZNC	Nyac	3650 ft.	460 ft.	Nyac	United States	US	Unavailable	159° 59’ 0” W	60° 59’ 0” N	67	+9.0
 ODW	Oak Harbor	3267 ft.	189 ft.	Oak Harbor	United States	US	Unavailable	122° 37’ 0” W	48° 17’ 0” N	67	+8.0
 PTK	Oakland County International	6521 ft.	981 ft.	Pontiac, MI	United States	US	Unavailable	83° 25’ 14” W	42° 39’ 56” N	67	-5.0
-OAK	Oakland International Airport	10001 ft.	9 ft.	Oakland, CA	United States	US	Unavailable	122° 13’ 15” W	37° 43’ 17” N	67	-8.0
+OAK	Oakland International	10001 ft.	9 ft.	Oakland, CA	United States	US	Unavailable	122° 13’ 15” W	37° 43’ 17” N	67	-8.0
 OBT	Oakland/Coliseum Stat	Unknown	Unknown	Oakland, MD	United States	US	Unavailable	142° 3’ 0” W	17° 55’ 0” N	67	-5.0
 OCF	Ocala International	7467 ft.	90 ft.	Ocala, FL	United States	US	Unavailable	82° 13’ 27” W	29° 10’ 19” N	67	-5.0
 OCA	Ocean Reef	3520 ft.	8 ft.	Ocean Reef	United States	US	Unavailable	80° 16’ 0” W	25° 22’ 0” N	67	+5.0
@@ -8500,13 +8499,13 @@ RHI	Oneida County	6800 ft.	1624 ft.	Rhinelander	United States	US	Unavailable	89�
 UCA	Oneida County	6002 ft.	742 ft.	Utica, NY	United States	US	Unavailable	75° 23’ 2” W	43° 8’ 42” N	67	-5.0
 ONN	Onion Bay	Unknown	Unknown	Onion Bay	United States	US	Unavailable	152° 50’ 0” W	58° 14’ 0” N	67	+9.0
 ONT	Ontario International	12198 ft.	944 ft.	Ontario, CA	United States	US	Unavailable	117° 36’ 4” W	34° 3’ 22” N	67	-8.0
-ONO	Ontario Municipal Airport	4307 ft.	2193 ft.	Ontario, OR	United States	US	Unavailable	117° 0’ 47” W	44° 1’ 10” N	67	+7.0
+ONO	Ontario Municipal	4307 ft.	2193 ft.	Ontario, OR	United States	US	Unavailable	117° 0’ 47” W	44° 1’ 10” N	67	+7.0
 OPF	Opa Locka	8002 ft.	8 ft.	Miami, FL	United States	US	Unavailable	80° 16’ 42” W	25° 54’ 27” N	67	-5.0
 MGJ	Orange County	5006 ft.	364 ft.	Montgomery, NY	United States	US	Unavailable	74° 15’ 53” W	41° 30’ 36” N	67	-5.0
 ESD	Orcas Island	2900 ft.	25 ft.	Eastsound	United States	US	Unavailable	122° 49’ 0” W	48° 43’ 0” N	67	+8.0
 ORL	Orlando Executive	5998 ft.	113 ft.	Orlando	United States	US	Unavailable	81° 21’ 0” W	28° 32’ 0” N	67	+5.0
 MCO	Orlando International	12004 ft.	96 ft.	Orlando, FL	United States	US	Unavailable	81° 18’ 32” W	28° 25’ 46” N	67	-5.0
-SFB	Orlando Sanford Intl	9600 ft.	55 ft.	Sanford	United States	US	Unavailable	81° 15’ 0” W	28° 47’ 0” N	67	-5.0
+SFB	Orlando Sanford International	9600 ft.	55 ft.	Sanford	United States	US	Unavailable	81° 15’ 0” W	28° 47’ 0” N	67	-5.0
 OVE	Oroville	5960 ft.	199 ft.	Oroville	United States	US	Unavailable	121° 38’ 0” W	39° 29’ 0” N	67	+8.0
 OSB	Osage Beach	3205 ft.	876 ft.	Osage Beach, MO	United States	US	Unavailable	92° 40’ 50” W	38° 6’ 38” N	67	-6.0
 OSC	Oscoda-Wurtsmith AFB	11800 ft.	633 ft.	Oscoda, MI	United States	US	Unavailable	83° 23’ 39” W	44° 27’ 6” N	67	-5.0
@@ -8525,7 +8524,7 @@ FMY	Page Field	6401 ft.	18 ft.	Fort Myers	United States	US	Unavailable	81° 52�
 PCE	Painter Creek	Unknown	Unknown	Painter Creek	United States	US	Unavailable	10° 13’ 0” E	47° 48’ 0” N	67	+0.0
 PWK	Pal-Waukee	5000 ft.	647 ft.	Chicago	United States	US	Unavailable	87° 58’ 0” W	42° 0’ 0” N	67	+6.0
 PSX	Palacios	5000 ft.	15 ft.	Palacios	United States	US	Unavailable	96° 13’ 0” W	28° 42’ 0” N	67	+6.0
-PSN	Palestine Municipal Airport	5005 ft.	423 ft.	Palestine, TX	United States	US	Unavailable	95° 42’ 23” W	31° 46’ 47” N	67	-6.0
+PSN	Palestine Municipal	5005 ft.	423 ft.	Palestine, TX	United States	US	Unavailable	95° 42’ 23” W	31° 46’ 47” N	67	-6.0
 PHK	Palm Beach Co. Glades	4116 ft.	16 ft.	Pahokee, FL	United States	US	Unavailable	80° 41’ 36” W	26° 47’ 6” N	67	-5.0
 LNA	Palm Beach County Park	3256 ft.	14 ft.	West Palm Beach	United States	US	Unavailable	80° 5’ 6” W	26° 35’ 35” N	67	+0.0
 PBI	Palm Beach International	10000 ft.	19 ft.	West Palm Beach, FL	United States	US	Unavailable	80° 5’ 44” W	26° 40’ 59” N	67	-5.0
@@ -8546,7 +8545,7 @@ COF	Patrick AFB	Unknown	Unknown	Cocoa	United States	US	Unavailable	80° 36’ 0�
 FFO	Patterson Afb	Unknown	Unknown	Dayton	United States	US	Unavailable	84° 2’ 54” W	39° 49’ 34” N	67	+0.0
 NHK	Patuxent River NAS	11807 ft.	39 ft.	Patuxent River, MD	United States	US	Unavailable	76° 24’ 42” W	38° 17’ 10” N	67	-5.0
 KPH	Pauloff Harbor SPB	Unknown	1 ft.	Pauloff Harbor	United States	US	Unavailable	162° 42’ 0” W	54° 28’ 0” N	67	+9.0
-PVJ	Pauls Valley Municipal Airport	5000 ft.	968 ft.	Pauls Valley, OK	United States	US	Unavailable	97° 13’ 24” W	34° 42’ 40” N	67	-6.0
+PVJ	Pauls Valley Municipal	5000 ft.	968 ft.	Pauls Valley, OK	United States	US	Unavailable	97° 13’ 24” W	34° 42’ 40” N	67	-6.0
 PJB	Payson	4910 ft.	5156 ft.	Payson	United States	US	Unavailable	111° 20’ 30” W	34° 15’ 40” N	67	+7.0
 PGS	Peach Springs	3972 ft.	5386 ft.	Peach Springs	United States	US	Unavailable	113° 25’ 0” W	35° 32’ 0” N	67	+7.0
 PCU	Pearl River County	4000 ft.	60 ft.	Picayune	United States	US	Unavailable	89° 42’ 20” W	30° 31’ 0” N	67	+6.0
@@ -8587,7 +8586,7 @@ MCB	Pike County	5000 ft.	413 ft.	Mccomb	United States	US	Unavailable	90° 26’ 
 PIP	Pilot Point	3280 ft.	57 ft.	Pilot Point, AK	United States	US	Unavailable	157° 34’ 19” W	57° 34’ 49” N	67	-9.0
 PQS	Pilot Station	2541 ft.	305 ft.	Pilot Station, AK	United States	US	Unavailable	162° 53’ 58” W	61° 56’ 4” N	67	-9.0
 MZJ	Pinal Airpark	6849 ft.	1893 ft.	Marana, AZ	United States	US	Unavailable	111° 19’ 31” W	32° 30’ 35” N	67	-7.0
-DUF	Pine Island Airport	3500 ft.	16 ft.	Corolla, NC	United States	US	Unavailable	75° 47’ 19” W	36° 15’ 13” N	67	-5.0
+DUF	Pine Island	3500 ft.	16 ft.	Corolla, NC	United States	US	Unavailable	75° 47’ 19” W	36° 15’ 13” N	67	-5.0
 XPR	Pine Ridge	5200 ft.	3331 ft.	Pine Ridge	United States	US	Unavailable	102° 31’ 0” W	43° 1’ 0” N	67	+7.0
 PGV	Pitt-Greenville	5000 ft.	25 ft.	Greenville, NC	United States	US	Unavailable	77° 24’ 0” W	35° 38’ 0” N	67	-5.0
 PIT	Pittsburgh International	11500 ft.	1204 ft.	Pittsburgh, PA	United States	US	Unavailable	80° 13’ 58” W	40° 29’ 29” N	67	-5.0
@@ -8704,8 +8703,8 @@ RMG	Richard B Russell	6000 ft.	644 ft.	Rome	United States	US	Unavailable	85° 10
 SUW	Richard I Bong Arpt	4000 ft.	674 ft.	Superior	United States	US	Unavailable	92° 10’ 0” W	46° 44’ 0” N	67	+6.0
 GVW	Richards-Gebaur	Unknown	Unknown	Grandview	United States	US	Unavailable	94° 32’ 0” W	38° 53’ 0” N	67	+6.0
 RLD	Richland	4009 ft.	394 ft.	Richland, WA	United States	US	Unavailable	119° 18’ 15” W	46° 18’ 20” N	67	-8.0
-RIC	Richmond International Airport	8999 ft.	168 ft.	Richmond, VA	United States	US	Unavailable	77° 19’ 0” W	37° 30’ 0” N	67	-5.0
-RID	Richmond Municipal Airport	5202 ft.	1141 ft.	Richmond, IN	United States	US	Unavailable	84° 50’ 34” W	39° 45’ 26” N	67	-5.0
+RIC	Richmond International	8999 ft.	168 ft.	Richmond, VA	United States	US	Unavailable	77° 19’ 0” W	37° 30’ 0” N	67	-5.0
+RID	Richmond Municipal	5202 ft.	1141 ft.	Richmond, IN	United States	US	Unavailable	84° 50’ 34” W	39° 45’ 26” N	67	-5.0
 ZRD	Richmond VA Rail	Unknown	Unknown	Richmond	United States	US	Unavailable	65° 50’ 0” W	48° 10’ 0” N	67	+0.0
 AMA	Rick Husband Amarillo International	13502 ft.	3607 ft.	Amarillo, TX	United States	US	Unavailable	101° 42’ 21” W	35° 13’ 35” N	67	-6.0
 LCK	Rickenbacker	12100 ft.	744 ft.	Columbus	United States	US	Unavailable	82° 53’ 0” W	40° 0’ 10” N	67	+5.0
@@ -8757,7 +8756,7 @@ BTR	Ryan	6900 ft.	70 ft.	Baton Rouge	United States	US	Unavailable	91° 9’ 0”
 HMT	Ryan Field	4315 ft.	1512 ft.	Hemet	United States	US	Unavailable	116° 58’ 0” W	33° 45’ 0” N	67	+8.0
 SAC	Sacramento Executive	5503 ft.	23 ft.	Sacramento, CA	United States	US	Unavailable	121° 29’ 36” W	38° 30’ 45” N	67	-8.0
 SMF	Sacramento International	8605 ft.	27 ft.	Sacramento, CA	United States	US	Unavailable	121° 35’ 27” W	38° 41’ 44” N	67	-8.0
-MHR	Sacramento Mather Airport	11301 ft.	75 ft.	Sacramento, CA	United States	US	Unavailable	121° 17’ 50” W	38° 33’ 19” N	67	-8.0
+MHR	Sacramento Mather	11301 ft.	75 ft.	Sacramento, CA	United States	US	Unavailable	121° 17’ 50” W	38° 33’ 19” N	67	-8.0
 SAD	Safford Regional	6006 ft.	3179 ft.	Safford, AZ	United States	US	Unavailable	109° 38’ 6” W	32° 51’ 12” N	67	-7.0
 SGW	Saginaw Bay	Unknown	1 ft.	Saginaw Bay	United States	US	Unavailable	134° 9’ 0” W	56° 52’ 0” N	67	+9.0
 SAG	Sagwon	5825 ft.	650 ft.	Sagwon	United States	US	Unavailable	148° 42’ 0” W	69° 22’ 0” N	67	+9.0
@@ -8780,7 +8779,7 @@ SFR	San Fernando	Unknown	Unknown	San Fernando, CA	United States	US	Unavailable	7
 SFO	San Francisco International	11870 ft.	13 ft.	San Francisco, CA	United States	US	Unavailable	122° 22’ 31” W	37° 37’ 9” N	67	-8.0
 MXC	San Juan County	4817 ft.	6998 ft.	Monticello	United States	US	Unavailable	109° 21’ 0” W	37° 52’ 0” N	67	+7.0
 WSJ	San Juan SPB	Unknown	1 ft.	San Juan	United States	US	Unavailable	153° 18’ 0” W	57° 44’ 0” N	67	+9.0
-SBP	San Luis County Regional Airport	5300 ft.	212 ft.	San Luis Obispo	United States	US	Unavailable	120° 38’ 31” W	35° 14’ 13” N	67	-8.0
+SBP	San Luis County Regional	5300 ft.	212 ft.	San Luis Obispo	United States	US	Unavailable	120° 38’ 31” W	35° 14’ 13” N	67	-8.0
 JSG	San Rafael H/P	Unknown	Unknown	San Rafael	United States	US	Unavailable	73° 55’ 0” W	8° 27’ 0” N	67	+0.0
 SHN	Sanderson Field	5293 ft.	278 ft.	Shelton	United States	US	Unavailable	123° 8’ 0” W	47° 14’ 30” N	67	+8.0
 SFM	Sanford	6000 ft.	243 ft.	Sanford	United States	US	Unavailable	70° 42’ 0” W	43° 23’ 0” N	67	+5.0
@@ -8860,7 +8859,7 @@ MVW	Skagit Regional	5465 ft.	140 ft.	Mount Vernon	United States	US	Unavailable	1
 SGY	Skagway Municipal	3550 ft.	44 ft.	Skagway, AL	United States	US	Unavailable	135° 18’ 56” W	59° 27’ 36” N	67	-9.0
 SRU	Skypark	Unknown	Unknown	Santa Cruz	United States	US	Unavailable	76° 6’ 0” W	2° 10’ 0” N	67	+0.0
 SLQ	Sleetmute	2500 ft.	225 ft.	Sleetmute	United States	US	Unavailable	157° 7’ 0” W	61° 42’ 0” N	67	+9.0
-ISN	Sloulin Field Intl	6041 ft.	1957 ft.	Williston	United States	US	Unavailable	103° 39’ 0” W	48° 11’ 0” N	67	+6.0
+ISN	Sloulin Field International	6041 ft.	1957 ft.	Williston	United States	US	Unavailable	103° 39’ 0” W	48° 11’ 0” N	67	+6.0
 SCJ	Smith Cove	Unknown	Unknown	Smith Cove	United States	US	Unavailable	132° 20’ 30” W	55° 26’ 15” N	67	+9.0
 SMD	Smith Field	3126 ft.	836 ft.	Fort Wayne, IN	United States	US	Unavailable	85° 9’ 10” W	41° 8’ 36” N	67	-5.0
 SLG	Smith Field	4985 ft.	1193 ft.	Siloam Springs	United States	US	Unavailable	94° 32’ 0” W	36° 11’ 0” N	67	+6.0
@@ -8873,7 +8872,7 @@ SOL	Solomon	1850 ft.	45 ft.	Solomon	United States	US	Unavailable	164° 18’ 0�
 GEY	South Big Horn County	6300 ft.	3933 ft.	Greybull	United States	US	Unavailable	108° 5’ 0” W	44° 31’ 0” N	67	+7.0
 TVL	South Lake Tahoe	8541 ft.	6269 ft.	South Lake Tahoe, CA	United States	US	Unavailable	119° 59’ 43” W	38° 53’ 38” N	67	-8.0
 WSN	South Naknek	2200 ft.	130 ft.	South Naknek	United States	US	Unavailable	157° 0’ 0” W	58° 42’ 0” N	67	+9.0
-BRO	South Padre Is. Intl	7400 ft.	22 ft.	Brownsville, Tx	United States	US	Unavailable	97° 25’ 0” W	25° 55’ 0” N	67	-6.0
+BRO	South Padre Is. International	7400 ft.	22 ft.	Brownsville, Tx	United States	US	Unavailable	97° 25’ 0” W	25° 55’ 0” N	67	-6.0
 NZW	South Weymouth	7006 ft.	161 ft.	South Weymouth	United States	US	Unavailable	70° 57’ 0” W	42° 10’ 0” N	67	+5.0
 BRL	Southeast Iowa Regional	6702 ft.	698 ft.	Burlington, IA	United States	US	Unavailable	91° 7’ 32” W	40° 47’ 0” N	67	-6.0
 VCV	Southern California Logistics	15050 ft.	2885 ft.	Victorville, CA	United States	US	Unavailable	117° 22’ 59” W	34° 35’ 51” N	67	-8.0
@@ -8938,7 +8937,7 @@ HES	State	4000 ft.	637 ft.	Hermiston	United States	US	Unavailable	119° 17’ 0�
 NPT	State	3000 ft.	170 ft.	Newport	United States	US	Unavailable	71° 25’ 0” W	41° 36’ 0” N	67	+5.0
 SCB	State	4200 ft.	1324 ft.	Scribner	United States	US	Unavailable	96° 39’ 0” W	41° 40’ 0” N	67	+6.0
 VSF	State	5498 ft.	577 ft.	Springfield	United States	US	Unavailable	72° 31’ 0” W	43° 20’ 0” N	67	+5.0
-TBR	Statesboro-Bulloch County Airport	6000 ft.	187 ft.	Statesboro, GA	United States	US	Unavailable	81° 44’ 13” W	32° 28’ 58” N	67	-5.0
+TBR	Statesboro-Bulloch County	6000 ft.	187 ft.	Statesboro, GA	United States	US	Unavailable	81° 44’ 13” W	32° 28’ 58” N	67	-5.0
 SBS	Steamboat Springs	3913 ft.	6878 ft.	Steamboat Springs	United States	US	Unavailable	106° 52’ 0” W	40° 31’ 0” N	67	+7.0
 WBB	Stebbins	2800 ft.	26 ft.	Stebbins	United States	US	Unavailable	162° 16’ 0” W	63° 30’ 0” N	67	+9.0
 JSL	Steel Pier Hlpt	Unknown	14 ft.	Atlantic City	United States	US	Unavailable	74° 25’ 15” W	39° 21’ 38” N	67	+5.0
@@ -9022,7 +9021,7 @@ TDZ	Toledo Executive	5829 ft.	623 ft.	Toledo, OH	United States	US	Unavailable	83
 TOL	Toledo Express	10599 ft.	683 ft.	Toledo, OH	United States	US	Unavailable	83° 48’ 28” W	41° 35’ 13” N	67	-5.0
 TPH	Tonopah Arpt	7057 ft.	5426 ft.	Tonopah	United States	US	Unavailable	117° 5’ 13” W	38° 3’ 36” N	67	+7.0
 KYO	Topp Of Tampa	Unknown	Unknown	Tampa	United States	US	Unavailable	23° 39’ 0” E	54° 26’ 0” N	67	+0.0
-TOA	Torrance Airport	Unknown	101 ft.	Torrance	United States	US	Unavailable	118° 20’ 38” W	33° 48’ 18” N	67	-8.0
+TOA	Torrance	Unknown	101 ft.	Torrance	United States	US	Unavailable	118° 20’ 38” W	33° 48’ 18” N	67	-8.0
 TDW	Tradewind	5100 ft.	3642 ft.	Amarillo	United States	US	Unavailable	101° 50’ 0” W	35° 10’ 0” N	67	+6.0
 JGQ	Transco Twr Galleria	Unknown	Unknown	Houston	United States	US	Unavailable	Unknown	Unknown	67	+6.0
 SUU	Travis AFB	11001 ft.	62 ft.	Fairfield, CA	United States	US	Unavailable	121° 55’ 39” W	38° 15’ 46” N	67	-8.0
@@ -9042,7 +9041,7 @@ TTD	Troutdale	Unknown	Unknown	Troutdale	United States	US	Unavailable	1° 10’ 0
 TOI	Troy Municipal	5022 ft.	398 ft.	Troy, AL	United States	US	Unavailable	86° 0’ 44” E	31° 51’ 37” N	67	-6.0
 TKF	Truckee-Tahoe	7000 ft.	5900 ft.	Truckee, CA	United States	US	Unavailable	120° 8’ 22” W	39° 19’ 12” N	67	-8.0
 TCS	Truth Or Consequences Municipal	7202 ft.	Unknown	Truth Or Consequences, NM	United States	US	Unavailable	7° 26’ 0” E	50° 2’ 0” N	67	-7.0
-CNW	TSTC Waco Airport	8600 ft.	470 ft.	Waco, TX	United States	US	Unavailable	97° 4’ 27” W	31° 38’ 16” N	67	-6.0
+CNW	TSTC Waco	8600 ft.	470 ft.	Waco, TX	United States	US	Unavailable	97° 4’ 27” W	31° 38’ 16” N	67	-6.0
 TBC	Tuba City	6230 ft.	4513 ft.	Tuba City	United States	US	Unavailable	111° 22’ 59” W	35° 5’ 34” N	67	-7.0
 TUS	Tucson International	10996 ft.	2643 ft.	Tucson, AZ	United States	US	Unavailable	110° 56’ 28” W	32° 6’ 58” N	67	-7.0
 TCC	Tucumcari Municipal	Unknown	Unknown	Tucumcari, NM	United States	US	Unavailable	103° 36’ 11” W	35° 10’ 58” N	67	-7.0
@@ -9058,7 +9057,7 @@ HVN	Tweed-New Haven Regional	5600 ft.	13 ft.	New Haven, CT	United States	US	Unav
 TNP	Twentynine Palms	Unknown	Unknown	Twentynine Palms	United States	US	Unavailable	7° 24’ 0” E	52° 7’ 0” N	67	+0.0
 TWA	Twin Hills	Unknown	Unknown	Twin Hills	United States	US	Unavailable	1° 51’ 0” W	46° 16’ 0” N	67	+0.0
 TWH	Two Harbors	Unknown	1 ft.	Catalina Island	United States	US	Unavailable	120° 3’ 0” W	41° 38’ 0” N	67	+8.0
-TYR	Tyler Pounds Regional Airport	7200 ft.	544 ft.	Tyler	United States	US	Unavailable	95° 24’ 9” W	32° 21’ 15” N	67	-6.0
+TYR	Tyler Pounds Regional	7200 ft.	544 ft.	Tyler	United States	US	Unavailable	95° 24’ 9” W	32° 21’ 15” N	67	-6.0
 PAM	Tyndall AFB	10004 ft.	17 ft.	Panama City, FL	United States	US	Unavailable	85° 34’ 35” W	30° 4’ 12” N	67	-6.0
 TYE	Tyonek	3000 ft.	110 ft.	Tyonek, AK	United States	US	Unavailable	151° 8’ 17” W	61° 4’ 36” N	67	-9.0
 UGI	Uganik	Unknown	Unknown	Uganik	United States	US	Unavailable	153° 30’ 0” W	57° 53’ 0” N	67	+9.0
@@ -9071,7 +9070,7 @@ UNK	Unalakleet	6004 ft.	21 ft.	Unalakleet	United States	US	Unavailable	160° 47�
 JLX	Union Station H/P	Unknown	Unknown	Los Angeles	United States	US	Unavailable	Unknown	Unknown	67	+0.0
 JUC	Universal City H/P	Unknown	Unknown	Los Angeles	United States	US	Unavailable	Unknown	Unknown	67	+0.0
 CMI	University Of Illinois Willard	8102 ft.	755 ft.	Champaign/Urbana, IL	United States	US	Unavailable	88° 16’ 40” W	40° 2’ 20” N	67	-6.0
-SCE	University Park Airport	4065 ft.	1228 ft.	State College, Pennsylvania, PA	United States	US	Unavailable	77° 53’ 0” W	40° 46’ 20” N	67	-5.0
+SCE	University Park	4065 ft.	1228 ft.	State College, Pennsylvania, PA	United States	US	Unavailable	77° 53’ 0” W	40° 46’ 20” N	67	-5.0
 UOX	University-Oxford	4700 ft.	451 ft.	Oxford	United States	US	Unavailable	89° 32’ 0” W	34° 23’ 0” N	67	+6.0
 UPP	Upolu Point	3800 ft.	96 ft.	Upolu Point	United States	US	Unavailable	155° 51’ 0” W	20° 16’ 0” N	67	+10.0
 UKT	Upper Bucks	3200 ft.	526 ft.	Quakertown	United States	US	Unavailable	75° 20’ 0” W	40° 26’ 0” N	67	+5.0
@@ -9112,7 +9111,7 @@ OTO	Vor	Unknown	Unknown	Otto	United States	US	Unavailable	105° 56’ 8” W	35�
 LHV	W T Piper Memorial	3350 ft.	555 ft.	Lock Haven	United States	US	Unavailable	77° 27’ 0” W	41° 8’ 0” N	67	+5.0
 ACT	Waco Regional	7107 ft.	516 ft.	Waco, TX	United States	US	Unavailable	97° 13’ 49” W	31° 36’ 44” N	67	-6.0
 WAH	Wahpeton	3310 ft.	967 ft.	Wahpeton	United States	US	Unavailable	96° 36’ 0” W	46° 16’ 0” N	67	+6.0
-WKL	Waikoloa Airport	Unknown	Unknown	Waikoloa	United States	US	Unavailable	155° 52’ 0” W	19° 55’ 0” N	67	+10.0
+WKL	Waikoloa	Unknown	Unknown	Waikoloa	United States	US	Unavailable	155° 52’ 0” W	19° 55’ 0” N	67	+10.0
 AIN	Wainwright	2200 ft.	25 ft.	Wainwright	United States	US	Unavailable	160° 2’ 0” W	70° 38’ 0” N	67	+9.0
 WDN	Waldron Island	2400 ft.	60 ft.	Waldron Island, WA	United States	US	Unavailable	123° 2’ 0” W	48° 43’ 0” N	67	-8.0
 WAA	Wales	2600 ft.	25 ft.	Wales	United States	US	Unavailable	168° 5’ 0” W	65° 40’ 0” N	67	+9.0
@@ -9121,7 +9120,7 @@ ALW	Walla Walla	7186 ft.	1205 ft.	Walla Walla, WA	United States	US	Unavailable	1
 WAL	Wallops Flight Center	Unknown	Unknown	Chincoteague	United States	US	Unavailable	75° 23’ 0” W	37° 56’ 0” N	67	+5.0
 ARG	Walnut Ridge Regional	6001 ft.	279 ft.	Walnut Ridge, AR	United States	US	Unavailable	90° 55’ 30” W	36° 7’ 29” N	67	-6.0
 DWS	Walt Disney World	2000 ft.	Unknown	Orlando, FL	United States	US	Unavailable	81° 34’ 52” W	28° 25’ 10” N	67	-5.0
-GBR	Walter J. Koladza Airport	2600 ft.	739 ft.	Great Barrington	United States	US	Unavailable	73° 24’ 12” W	42° 11’ 3” N	67	-5.0
+GBR	Walter J. Koladza	2600 ft.	739 ft.	Great Barrington	United States	US	Unavailable	73° 24’ 12” W	42° 11’ 3” N	67	-5.0
 WLM	Waltham	Unknown	Unknown	Waltham	United States	US	Unavailable	71° 15’ 5” W	42° 23’ 7” N	67	+5.0
 UWA	Ware	2030 ft.	483 ft.	Ware	United States	US	Unavailable	72° 14’ 0” W	42° 15’ 0” N	67	+5.0
 AYS	Ware County	5042 ft.	142 ft.	Waycross	United States	US	Unavailable	82° 24’ 0” W	31° 15’ 0” N	67	+5.0
@@ -9185,7 +9184,7 @@ QWG	Wilgrove Air Park	2835 ft.	799 ft.	Charlotte, NC	United States	US	Unavailabl
 IKB	Wilkes County	4250 ft.	996 ft.	Wilkesboro	United States	US	Unavailable	81° 9’ 0” W	36° 10’ 0” N	67	+5.0
 AVP	Wilkes-barre/scranton International	7501 ft.	962 ft.	Wilkes-barre/Scranton, PA	United States	US	Unavailable	75° 43’ 24” W	41° 20’ 18” N	67	-5.0
 WBW	Wilkes-Barre/Wyoming Valley	3376 ft.	543 ft.	Wilkes-Barre, PA	United States	US	Unavailable	75° 51’ 8” W	41° 17’ 50” N	67	-5.0
-OKC	Will Rogers World Airport	9802 ft.	1295 ft.	Oklahoma City, OK	United States	US	Unavailable	97° 36’ 3” W	35° 23’ 35” N	67	-6.0
+OKC	Will Rogers World	9802 ft.	1295 ft.	Oklahoma City, OK	United States	US	Unavailable	97° 36’ 3” W	35° 23’ 35” N	67	-6.0
 WJF	William J Fox	7201 ft.	2351 ft.	Lancaster, CA	United States	US	Unavailable	118° 13’ 7” W	34° 44’ 28” N	67	-8.0
 HOU	William P Hobby	7602 ft.	47 ft.	Houston, TX	United States	US	Unavailable	95° 16’ 44” W	29° 38’ 44” N	67	-6.0
 CLM	William R Fairchild International	6347 ft.	291 ft.	Port Angeles, WA	United States	US	Unavailable	123° 29’ 59” W	48° 7’ 13” N	67	-8.0
@@ -9244,7 +9243,7 @@ AYZ	Zahns	Unknown	Unknown	Amityville	United States	US	Unavailable	73° 25’ 0�
 ZZV	Zanesville Municipal	5000 ft.	900 ft.	Zanesville, OH	United States	US	Unavailable	81° 53’ 31” W	39° 56’ 40” N	67	-5.0
 ZPH	Zephyrhills Municipal	4999 ft.	90 ft.	Zephyrhills, FL	United States	US	Unavailable	82° 9’ 21” W	28° 13’ 41” N	67	-5.0
 WAX	Zwara	3703 ft.	1074 ft.	Zwara	United States	US	Unavailable	95° 18’ 0” W	48° 54’ 0” N	67	-6.0
-PDP	Capitan Corbeta CA Curbelo International Airport	6998 ft.	95 ft.	Maldonado	Uruguay	UY	Unavailable	55° 5’ 30” W	34° 51’ 30” S	385	-3.0
+PDP	Capitan Corbeta CA Curbelo International	6998 ft.	95 ft.	Maldonado	Uruguay	UY	Unavailable	55° 5’ 30” W	34° 51’ 30” S	385	-3.0
 ATI	Artigas	4183 ft.	404 ft.	Artigas	Uruguay	UY	Unavailable	56° 31’ 0” W	30° 25’ 0” S	385	+3.0
 BUV	Bella Union	3773 ft.	272 ft.	Bella Union	Uruguay	UY	Unavailable	57° 5’ 0” W	30° 20’ 0” S	385	+3.0
 MVD	Carrasco International	10499 ft.	105 ft.	Montevideo	Uruguay	UY	Unavailable	56° 1’ 51” W	34° 50’ 18” S	385	-3.0
@@ -9265,7 +9264,7 @@ BHK	Bukhara	Unknown	Unknown	Bukhara	Uzbekistan	UZ	Unavailable	64° 29’ 0” E	
 FEG	Fergana	Unknown	Unknown	Fergana	Uzbekistan	UZ	Unavailable	71° 46’ 0” E	40° 23’ 0” N	788	+5.0
 KSQ	Karshi	Unknown	Unknown	Karshi	Uzbekistan	UZ	Unavailable	65° 46’ 0” E	38° 48’ 0” N	788	-2.0
 NMA	Namangan	Unknown	Unknown	Namangan	Uzbekistan	UZ	Unavailable	71° 36’ 0” E	40° 59’ 0” N	788	-2.0
-NVI	Navoi International Airport	13123 ft.	1253 ft.	Navoi	Uzbekistan	UZ	Unavailable	68° 59’ 42” E	41° 12’ 38” N	788	+5.0
+NVI	Navoi International	13123 ft.	1253 ft.	Navoi	Uzbekistan	UZ	Unavailable	68° 59’ 42” E	41° 12’ 38” N	788	+5.0
 NCU	Nukus	Unknown	Unknown	Nukus	Uzbekistan	UZ	Unavailable	59° 38’ 0” E	42° 29’ 0” N	788	-2.0
 SKD	Samarkand	10171 ft.	2224 ft.	Samarkand	Uzbekistan	UZ	Unavailable	66° 59’ 2” E	39° 42’ 2” N	788	+5.0
 TMJ	Termez	Unknown	Unknown	Termez	Uzbekistan	UZ	Unavailable	67° 16’ 42” E	37° 13’ 27” N	788	+0.0
@@ -9280,7 +9279,7 @@ CCV	Craig Cove	2952 ft.	69 ft.	Craig Cove	Vanuatu	VU	Unavailable	167° 30’ 0�
 DLY	Dillons Bay	2165 ft.	538 ft.	Dillons Bay	Vanuatu	VU	Unavailable	169° 9’ 0” E	18° 42’ 0” S	885	-11.0
 EAE	Emae	3280 ft.	7 ft.	Emae	Vanuatu	VU	Unavailable	168° 24’ 0” E	17° 4’ 0” S	885	-11.0
 EPI	Epi	Unknown	Unknown	Epi	Vanuatu	VU	Unavailable	168° 20’ 0” E	16° 45’ 0” S	885	-11.0
-FTA	Futuna Airport	Unknown	Unknown	Futuna Island	Vanuatu	VU	Unavailable	170° 13’ 55” E	19° 30’ 59” S	885	+11.0
+FTA	Futuna	Unknown	Unknown	Futuna Island	Vanuatu	VU	Unavailable	170° 13’ 55” E	19° 30’ 59” S	885	+11.0
 ZGU	Gaua	Unknown	Unknown	Gaua	Vanuatu	VU	Unavailable	167° 40’ 0” E	14° 50’ 0” S	885	-11.0
 IPA	Ipota	3050 ft.	36 ft.	Ipota	Vanuatu	VU	Unavailable	169° 11’ 0” E	18° 45’ 0” S	885	-11.0
 LPM	Lamap	2756 ft.	7 ft.	Lamap	Vanuatu	VU	Unavailable	168° 30’ 30” E	17° 30’ 0” S	885	-11.0
@@ -9306,7 +9305,7 @@ VLS	Valesdir	1968 ft.	36 ft.	Valesdir	Vanuatu	VU	Unavailable	168° 12’ 0” E	
 WLH	Walaha	2165 ft.	151 ft.	Walaha	Vanuatu	VU	Unavailable	167° 42’ 0” E	15° 25’ 0” S	885	-11.0
 MRD	A Carnevalli	5348 ft.	5007 ft.	Merida	Venezuela	VE	Unavailable	71° 10’ 0” W	8° 35’ 0” N	388	+4.0
 AAO	Anaco	3937 ft.	721 ft.	Anaco	Venezuela	VE	Unavailable	64° 28’ 0” W	9° 25’ 0” N	388	+4.0
-VLN	Arturo Michelena International Airport	9842 ft.	1417 ft.	Valencia	Venezuela	VE	Unavailable	67° 55’ 42” W	10° 8’ 59” N	388	-4.5
+VLN	Arturo Michelena International	9842 ft.	1417 ft.	Valencia	Venezuela	VE	Unavailable	67° 55’ 42” W	10° 8’ 59” N	388	-4.5
 BNS	Barinas	6562 ft.	666 ft.	Barinas	Venezuela	VE	Unavailable	70° 13’ 0” W	8° 37’ 0” N	388	+4.0
 BRM	Barquisimeto	9350 ft.	2042 ft.	Barquisimeto	Venezuela	VE	Unavailable	69° 21’ 31” W	10° 2’ 34” N	338	-4.5
 CXA	Caicara Del Orinoco	4879 ft.	140 ft.	Caicara Del Orinoco	Venezuela	VE	Unavailable	66° 9’ 54” W	7° 37’ 34” N	388	-4.0
@@ -9409,7 +9408,7 @@ EIS	Terrance B. Lettsome International	4642 ft.	16 ft.	Road Town, Beef Island	Vi
 VIJ	Virgin Gorda	3160 ft.	12 ft.	Spanish Town/Virgin Gorda	Virgin Islands (British)	VG	Unavailable	64° 30’ 0” W	18° 30’ 0” N	282	+4.0
 TOV	West End SPB	Unknown	Unknown	Tortola	Virgin Islands (British)	VG	Unavailable	64° 36’ 0” W	18° 27’ 0” N	282	+0.0
 SPB	Charlotte Amalie Harbor SPB	Unknown	Unknown	St Thomas Island	Virgin Islands (U. S.)	VI	Unavailable	64° 56’ 27” W	18° 20’ 19” N	4	-4.0
-STT	Cyril E King Airport	7000 ft.	23 ft.	Charlotte Amalie, St Thomas	Virgin Islands (U.S.)	VI	Unavailable	64° 58’ 24” W	18° 20’ 14” N	4	-4.0
+STT	Cyril E King	7000 ft.	23 ft.	Charlotte Amalie, St Thomas	Virgin Islands (U.S.)	VI	Unavailable	64° 58’ 24” W	18° 20’ 14” N	4	-4.0
 JCD	Downtown Heliport	Unknown	Unknown	St Croix Island	Virgin Islands (U.S.)	VI	Unavailable	Unknown	Unknown	4	+4.0
 STX	Henry E Rohlsen	10004 ft.	74 ft.	Christiansted, St Croix	Virgin Islands (U.S.)	VI	Unavailable	64° 48’ 6” W	17° 42’ 6” N	4	-4.0
 SSB	SPB	Unknown	1 ft.	St Croix Island	Virgin Islands (U.S.)	VI	Unavailable	Unknown	Unknown	4	+4.0

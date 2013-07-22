@@ -2,84 +2,93 @@
  * Copyright 2013 Sabre Holdings
  */
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Random;
-import java.util.Set;
+import java.util.Iterator;
 
-import com.flightaware.flightxml.soap.FlightXML2.AirlineFlightScheduleStruct;
-import com.flightaware.flightxml.soap.FlightXML2.AirlineFlightSchedulesRequest;
-import com.flightaware.flightxml.soap.FlightXML2.AirlineInsightRequest;
-import com.flightaware.flightxml.soap.FlightXML2.AirlineInsightStruct;
-import com.flightaware.flightxml.soap.FlightXML2.ArrayOfAirlineFlightScheduleStruct;
-import com.flightaware.flightxml.soap.FlightXML2.ArrayOfAirlineInsightStruct;
-import com.flightaware.flightxml.soap.FlightXML2.ArrayOfRoutesBetweenAirportsExStruct;
-import com.flightaware.flightxml.soap.FlightXML2.ArrivalFlightStruct;
-import com.flightaware.flightxml.soap.FlightXML2.ArrivalStruct;
-import com.flightaware.flightxml.soap.FlightXML2.ArrivedRequest;
-import com.flightaware.flightxml.soap.FlightXML2.DepartedRequest;
-import com.flightaware.flightxml.soap.FlightXML2.DepartureFlightStruct;
-import com.flightaware.flightxml.soap.FlightXML2.DepartureStruct;
-import com.flightaware.flightxml.soap.FlightXML2.EnrouteFlightStruct;
-import com.flightaware.flightxml.soap.FlightXML2.EnrouteRequest;
-import com.flightaware.flightxml.soap.FlightXML2.EnrouteStruct;
-import com.flightaware.flightxml.soap.FlightXML2.FlightExStruct;
-import com.flightaware.flightxml.soap.FlightXML2.FlightInfoExRequest;
-import com.flightaware.flightxml.soap.FlightXML2.FlightInfoExStruct;
-import com.flightaware.flightxml.soap.FlightXML2.FlightXML2Locator;
-import com.flightaware.flightxml.soap.FlightXML2.FlightXML2Soap;
-import com.flightaware.flightxml.soap.FlightXML2.FlightXML2SoapStub;
-import com.flightaware.flightxml.soap.FlightXML2.RoutesBetweenAirportsExRequest;
-import com.flightaware.flightxml.soap.FlightXML2.RoutesBetweenAirportsExStruct;
-
+import org.apache.axis.encoding.Base64;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 /**
  * Submit to FlghtAware.
  * 
  * @author Sabre Labs Twitter Mining Team - 2
- *
+ * 
  */
 public class AirlineMatcher {
 	
-/*
-	//	private static JSONObject tweet = null;
-		private static String airline = null;
-		private static String flightNumber = null;
-		private static String originAirport = null;
-		private static String destinationAirport = null;
-		private static int startTime = 0;	// has to be unix time stamps
-		private static int endTime = 0;		// tweet post time -- has to be unix time stamps
-	*/
+		private String tweetID = null;
+		private String airline = null;
+		private String flightNumber = null;
+		private String originAirport = null;
+		private String destinationAirport = null;
+		private int startTime = 0;	// has to be unix time stamps
+		private int endTime = 0;	// tweet post time -- has to be unix time stamps
 	
-	
-	private static String airline = "AAL";
-	private static String flightNumber = "AAL2356";
-	private static String originAirport = null;
-	private static String destinationAirport = null;
-	private static int startTime = 0;	// has to be unix time stamps
-	private static int endTime = 1374160584;		// tweet post time -- has to be unix time stamps
-	
-	
-	static ArrayList<String> likely = new ArrayList<String>();
-	static ArrayList<String> flights = new ArrayList<String>();
-	
-	public AirlineMatcher(String airline, String flightNumber, String originAirport,
-			String destinationAirport, String originCity, String destinationCity, int endTime) {
-	//	this.tweet = tweet;
+		static ArrayList<String> likely = new ArrayList<String>();
+		static ArrayList<String> flights = new ArrayList<String>();
+		
+		private String authStr = "markmcspadden:67335dec3f3b762a4fb496e9f17c66594ad903a4";
+        private String authEncoded = Base64.encode(authStr.getBytes());
+        
+       private int current = 0;
+       private int remaining = 100;
+       private int mk = 100;
+       
+	public AirlineMatcher(String tweetID,String airline, String flightNumber, String originAirport,
+			String destinationAirport,String endTime) {
+
+		this.tweetID = tweetID;
 		this.airline = airline;
 		this.flightNumber = flightNumber;
 		this.originAirport = originAirport;
 		this.destinationAirport = destinationAirport;
-		this.endTime = endTime;
+		this.endTime = determineEndTime(endTime);
+		startTime = determineStartTime();
 	}
 	
 	/*
 	 * 
 	 */
-	public static void determineStartTime() {
+	public int determineEndTime(String endTime) {
+		
+		int time =0;
+		
+		// will get this format
+		// EEE MMM dd HH:mm:ss ZZZZZ yyyy
+		
+	        SimpleDateFormat formatter = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZZZ yyyy");
+	        Date dt = null;
+
+	        try {
+	            dt = formatter.parse(endTime);
+	        } catch (ParseException e) {
+	            e.printStackTrace();
+	        }
+	        
+	        Calendar cal = Calendar.getInstance();
+	        cal.setTime(dt);
+	        time = (int) ((cal.getTimeInMillis())*.001);
+
+		return time;
+
+	}
+	
+	/*
+	 * 
+	 */
+	public int determineStartTime() {
 
 		/*
 		 * Determine Start time to be 
@@ -93,102 +102,139 @@ public class AirlineMatcher {
         cal.setTime(date);
         cal.add(Calendar.HOUR_OF_DAY, -6);
 
-        startTime = (int) ((cal.getTimeInMillis())*.001);
+        //startTime = (int) ((cal.getTimeInMillis())*.001);
+        return (int) ((cal.getTimeInMillis())*.001);
 	}
 	
 	/*
 	 * 
 	 */
-	public static void determineLikelyFlight() {
+	public void determineLikelyFlight() throws IOException, org.json.simple.parser.ParseException, ParseException, NumberFormatException, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
 		
-		String tweetID = generateTweetID();
-		int metric=0;
-
 		try {
-            FlightXML2Locator locator = new FlightXML2Locator();
-            FlightXML2Soap df = locator.getFlightXML2Soap();
-            FlightXML2SoapStub stub = (FlightXML2SoapStub)df;
-	            stub.setUsername("markmcspadden");                                                                                                                                                                             
-	            stub.setPassword("67335dec3f3b762a4fb496e9f17c66594ad903a4");    
-	         
-	     
+			String inputLine;
+			String url = null;
+			String s1=null;
+			String s2=null;
+			
 	        // needed when on Sabre network
 			System.getProperties().put("http.proxyHost", "www-ad-proxy.sabre.com");
 			System.getProperties().put("http.proxyPort", "80");
-			System.getProperties().put("http.proxyUser", "sg0219486");
-			System.getProperties().put("http.proxyPassword", "Calcifer56");
-           
-            // get startTime
-            determineStartTime();
-            
-            /**
-             * get likely flights
-             */
-            if(!flightNumber.isEmpty()) {
+			System.getProperties().put("http.proxyUser", "sg0XXXXXX");
+			System.getProperties().put("http.proxyPassword", "PWD");
+
+			
+			/*	Check:
+			 * 		Time Basis 
+			 * 		Origin Airport
+			 * 		Destination Airport
+			 * 		Airline Carrier
+			 * 			
+			 */
+			if(!flightNumber.isEmpty()) {
+				
+				url = "http://flightxml.flightaware.com/json/FlightXML2/FlightInfo?" +
+            			"ident="+ flightNumber + 
+            			"&howMany=10";
+	           	s1 = "FlightInfoResult";
+	           	s2 = "flights";
+			}
+			else if(!originAirport.isEmpty()) {
             	
-            	likely.add(flightNumber);
-            }
-            else if(!originAirport.isEmpty() && !destinationAirport.isEmpty()) {
-            	
-            	ArrayOfAirlineFlightScheduleStruct rr = df.airlineFlightSchedules( new AirlineFlightSchedulesRequest(startTime,endTime,"K"+originAirport,"K"+destinationAirport,
-                		airline,flightNumber,15,0)).getAirlineFlightSchedulesResult();
-            			
-	                for (AirlineFlightScheduleStruct f: rr.getData()) {
-	                	
-	                	// save flight number
-	                	likely.add(f.getIdent());
-	                }
-	                
-            }
-            else if(!airline.isEmpty()) {
-            	
-            	ArrayOfAirlineFlightScheduleStruct rr = df.airlineFlightSchedules( new AirlineFlightSchedulesRequest(startTime,endTime,"K"+originAirport,"K"+destinationAirport,
-                		airline,flightNumber,15,0)).getAirlineFlightSchedulesResult();
-            			
-	                for (AirlineFlightScheduleStruct f: rr.getData()) {
-	                	
-	                	// save flight number
-	                	likely.add(f.getIdent());
-	                }
-	                
-            }
-            else if(!originAirport.isEmpty()) {
-            	
-            	DepartureStruct d = df.departed(new DepartedRequest(originAirport, 15, "", 0)).getDepartedResult();
-            	// Get the list of enroute aircraft when only airport is known
-                for (DepartureFlightStruct e: d.getDepartures()) {
-                	
-                	likely.add(e.getIdent());
-                }
+    			url = "http://flightxml.flightaware.com/json/FlightXML2/Departed?" +
+    					"airport="+originAirport +
+    					"&howMany=10" +
+    					"&filter=" +
+    					"&offset=0";
+    			s1 = "DepartedResult";
+    			s2 = "departures";
             }
             else if(!destinationAirport.isEmpty()) {
             	
-            	ArrivalStruct a = df.arrived(new ArrivedRequest(destinationAirport, 15, "", 0)).getArrivedResult();
-                for (ArrivalFlightStruct e: a.getArrivals()) {
-                	
-                	likely.add(e.getIdent());
-                }
+    			url = "http://flightxml.flightaware.com/json/FlightXML2/Arrived?" +
+    					"airport=" + destinationAirport +
+    					"&howMany=10" +
+    					"&filter=" +
+    					"&offset=0";
+    			s1 = "ArrivedResult";
+    			s2 = "arrivals";
             }
+			else if(!airline.isEmpty()) {
 
-            /**
-             * Get flight data for likely flights
-             * and determine metric
-             */
-            for(int i=0; i < likely.size(); i++) {
-            	
-                FlightInfoExStruct flight = df.flightInfoEx(new FlightInfoExRequest(likely.get(i),1,0)).getFlightInfoExResult();	
-                for(FlightExStruct e1: flight.getFlights()) {
-                	
-		            	metric = match(e1.getIdent(), e1.getDestination(), e1.getOrigin(), e1.getFiled_departuretime());
-		 
-		            	flights.add(tweetID+"|"+e1.getIdent()+"|"+e1.getAircrafttype()+"|"+e1.getOrigin()+"|"+e1.getOriginCity()
-		            			+"|"+e1.getDestination()+"|"+ e1.getDestinationCity()+"|"+e1.getFiled_departuretime()
-		            			+"|"+e1.getFiled_time()+"|"+metric);
-		        	}
-                }
-
-        } catch (javax.xml.rpc.ServiceException x) {
-            System.err.println(x);
+				url = "http://flightxml.flightaware.com/json/FlightXML2/FleetArrived?" +
+						"fleet="+airline +
+						"&howMany=15" +
+						"&offset=0";
+				s1 = "FleetArrivedResult";
+				s2 = "arrivals";
+			}
+//			else if(endTime != 0 && startTime !=0 && (!airline.isEmpty() || !originAirport.isEmpty() || !destinationAirport.isEmpty())) {
+//				
+//				// sometimes this one doesn't work :/
+//				
+//	           	url = "http://flightxml.flightaware.com/json/FlightXML2/AirlineFlightSchedules?" +
+//            			"startDate="+ startTime +
+//            			"&endDate=" + endTime +
+//            			"&origin="  + originAirport +
+//            			"&destination="+destinationAirport +
+//            			"&airline=" + airline +
+//            			"&flightno=" +
+//            			"&howMany=15" +
+//            			"&offset=0";
+//	           	s1 = "";
+//	           	s2 = "";
+//			}
+			else {
+				// no matching flights found
+				return;
+			}
+            
+			if(!url.isEmpty()) {
+            	System.out.println(url);
+				URL http = new URL(url);
+				HttpURLConnection con = (HttpURLConnection) http.openConnection();
+					con.setRequestMethod("GET");
+			        con.setRequestProperty("Authorization", "Basic " + authEncoded);
+					con.setRequestProperty("User-Agent", "Mozilla/5.0");
+					con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
+					con.setDoOutput(true);
+				
+				BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+				StringBuffer response = new StringBuffer();
+					while ((inputLine = in.readLine()) != null) {
+						response.append(inputLine);
+					}
+					in.close();
+					
+					System.out.println("resp: " + response.toString());
+				
+				// parse JSON response here
+				JSONParser parser = new JSONParser();
+					Object obj = parser.parse(response.toString());
+					JSONObject jsonObject = (JSONObject) obj;
+				
+				JSONObject json = (JSONObject) jsonObject.get(s1);
+					JSONArray msg = (JSONArray) json.get(s2);
+					Iterator<Object> iterator = msg.iterator();
+					JSONObject js = null;
+						while (iterator.hasNext()) {
+							js = (JSONObject) iterator.next();
+							likely.add((String) js.get("ident"));
+						}
+						
+						for(int j=0; j < likely.size(); j++) {
+							mk = mk - current;
+							checkLikely(likely.get(j), j);
+						}
+						
+						// store results to database
+						parseStoreDB();
+						
+						// clear arrays
+						likely.clear();
+						flights.clear();
+			}
+						
         } catch (java.rmi.RemoteException x) {
             System.err.println(x);
         }
@@ -197,64 +243,113 @@ public class AirlineMatcher {
 	/*
 	 * 
 	 */
-	private static String generateTweetID() {
+	public void checkLikely(String likely, int index) throws IOException, org.json.simple.parser.ParseException {
 		
-		char[] chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".toCharArray();
-		StringBuilder sb = new StringBuilder();
-		Random random = new Random();
-			for (int i = 0; i < 25; i++) {
-			    char c = chars[random.nextInt(chars.length)];
-			    sb.append(c);
+		String inputLine = null;
+		String url = null;
+
+		url = "http://flightxml.flightaware.com/json/FlightXML2/FlightInfoEx?" +
+				"ident=" + likely +
+				"&howMany=1" +
+				"&offset=0";
+		
+		URL http = new URL(url);
+		HttpURLConnection con = (HttpURLConnection) http.openConnection();
+			con.setRequestMethod("GET");
+	        con.setRequestProperty("Authorization", "Basic " + authEncoded);
+			con.setRequestProperty("User-Agent", "Mozilla/5.0");
+			con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
+			con.setDoOutput(true);
+		
+		BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		StringBuffer response = new StringBuffer();
+			while ((inputLine = in.readLine()) != null) {
+				response.append(inputLine);
 			}
+			in.close();
+	
+		// parse JSON response here
+		JSONParser parser = new JSONParser();
+			Object obj = parser.parse(response.toString());
+			JSONObject jsonObject = (JSONObject) obj;
+		
+		JSONObject json = (JSONObject) jsonObject.get("FlightInfoExResult");
+			JSONArray msg = (JSONArray) json.get("flights");
+			Iterator<Object> iterator = msg.iterator();
+			JSONObject js = null;
 
-		return sb.toString();
-	}
-
-	/*
-	 * 
-	 */
-	private static int match(String flightNum, String dest, String origin, int dept_time) {
-		
-		/*
-		 * very arbitrary way of determining
-		 * metric of possible flights
-		 */
-		
-		int i=0;
-		
-		if(flightNumber.equals(flightNum)) {
-			
-			i = 100;
-		}
-		else if( ( ("K"+originAirport).equals(origin) && ("K"+destinationAirport).equals(dest)) && ( (endTime-dept_time) < 6000) ) {
-			
-			i = 90;
-		}
-		else if( ( ("K"+originAirport).equals(dest) && ("K"+destinationAirport).equals(origin)) && ( (endTime-dept_time) < 6000) ) {
-			
-			i = 90;
-		}
-		else if( ( ("K"+originAirport).equals(dest) && ("K"+destinationAirport).equals(origin))) {
-			
-			i = 80;
-		}
-		else if( ( ("K"+originAirport).equals(origin) && ("K"+destinationAirport).equals(dest))) {
-			
-			i = 80;
-		}
-		else {
-			i=40;
-		}
-		
-		return i;
+				while (iterator.hasNext()) {
+					js = (JSONObject) iterator.next();
+					
+					// get a persentage of likeliness 
+					remaining = match((String)js.get("ident"),(String)js.get("destination"), (String)js.get("origin"), endTime);
+					
+					if(mk > 0) {
+		            	flights.add(tweetID+"/"+(String)js.get("ident")+"/"+(String)js.get("aircrafttype")+"/"+(String)js.get("origin")+"/"+(String)js.get("originCity")
+		        			+"/"+(String)js.get("destination")+"/"+(String)js.get("destinationCity")+"/"+js.get("filed_departuretime")
+		        			+"/"+js.get("filed_time")+"/"+current);
+					}
+				}
 	}
 	
 	/*
 	 * 
 	 */
-	public static void parseStoreDB() throws NumberFormatException, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
+	private int match(String flightNum, String dest, String origin, int dept_time) {
 		
-		String store = "";
+		
+		if(flightNumber.contains(flightNum)) {
+			
+			current = 100;
+			return remaining;
+		}
+		if( originAirport.endsWith(origin) && destinationAirport.endsWith(dest) && ( (endTime-dept_time) < 3000) && flightNum.contains(airline)) {
+			
+			current = 90;
+			if(remaining <= 90)
+				return remaining;
+			else
+				return (remaining - 90);
+		}
+		if( originAirport.endsWith(dest) && destinationAirport.endsWith(origin) && ( (endTime-dept_time) < 3000) && flightNum.contains(airline) ) {
+			
+			current =90;
+			if(remaining <= 90)
+				return remaining;
+			else
+				return (remaining - 90);
+		}
+		if( originAirport.endsWith(dest) || destinationAirport.endsWith(origin) || originAirport.endsWith(origin) || destinationAirport.endsWith(dest) ) {
+			
+			current = 50;
+			if(remaining <= 50)
+				return remaining;
+			else
+				return (remaining - 50);
+		}
+		if( flightNum.contains(airline) ) {
+			
+			current = 30;
+			if(remaining <= 30)
+				return remaining;
+			else
+				return (remaining - 30);
+
+		}
+		else {
+			current = 20;
+			if(remaining <= 20)
+				return remaining;
+			else
+				return (remaining - 20);
+		}
+	}
+	
+	/*
+	 * 
+	 */
+	public void parseStoreDB() throws NumberFormatException, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
+		
 		ArrayList<String> arr = new ArrayList<String>();
 		StoreToDB db = new StoreToDB();
 		String[] tokens = null;
@@ -271,14 +366,10 @@ public class AirlineMatcher {
 		}
 	}
 	
-	/*
-	 * 
-	 */
-	public static void main(String args[]) throws NumberFormatException, InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException {
+	public static void main(String args[]) throws NumberFormatException, InstantiationException, IllegalAccessException, ClassNotFoundException, IOException, org.json.simple.parser.ParseException, ParseException, SQLException {
 		
-		determineLikelyFlight();
-		parseStoreDB();
-		
+		AirlineMatcher aa = new AirlineMatcher("123", "AA","AAL567", "DFW", "SEA", "Sat Jun 12 12:00:20 +0000 2013");
+		aa.determineLikelyFlight();
 	}
-	
+
 }

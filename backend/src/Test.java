@@ -1,21 +1,30 @@
-import java.text.DateFormat;
+/*
+ * Copyright 2013 Sabre Holdings
+ */
+
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Local code snippet test.
+ * 
+ * @author Sabre Labs Twitter Mining Team - 2
+ * 
+ */
 public class Test {
 
 	/**
 	 * @param args
+	 * @throws ParseException
 	 */
-	public static void main(String[] args) {
-		DateFormat df = new SimpleDateFormat("yyyyMMdd-HHmmss");
-		System.out.println(df.format(new Date()));
-
-		String content = "@westjet trying the Encore service from #YVR to Fort St John. Connector through #CGY flight #286. #Delayed Hope I catch the #3101 to #FSJ.";
-		String[] words = content.split("\\s+");
-		for (String word : words) {
-			System.out.println(Utils.strip(word));
-		}
+	public static void main(String[] args) throws ParseException {
+		String a = "Sat May 18 22:31:20 +0000 2013";
+		SimpleDateFormat sf = new SimpleDateFormat(
+				Constants.TWITTER_DATE_FORMAT);
+		sf.setLenient(true);
+		Date d = sf.parse(a);
+		System.out.println(d.getTime());
 	}
 
 }

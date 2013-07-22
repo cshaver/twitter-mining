@@ -1,15 +1,23 @@
+/*
+ * Copyright 2013 Sabre Holdings
+ */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.util.Iterator;
 
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
- 
+
+/**
+ * Getting tweets sentiment alchemyapi using API.
+ * 
+ * @author Sabre Labs Twitter Mining Team - 2
+ * 
+ */
 public class SentimentAnalyzer {
  
   public static void main(String[] args) throws Exception {
@@ -18,13 +26,13 @@ public class SentimentAnalyzer {
 		System.out.println(http.getSentiment("i love pizza!"));
 	} 
 			
-	private String getSentiment(String tweet) throws Exception {
+	public String getSentiment(String tweet) throws Exception {
 		
 		// needed when on Sabre network
 		System.getProperties().put("http.proxyHost", "www-ad-proxy.sabre.com");
 		System.getProperties().put("http.proxyPort", "80");
-		System.getProperties().put("http.proxyUser", "sg0219486");
-		System.getProperties().put("http.proxyPassword", "Calcifer56");
+		System.getProperties().put("http.proxyUser", "sg0XXXXXX");
+		System.getProperties().put("http.proxyPassword", "PWD");
 		
 		String text = URLEncoder.encode(tweet, "ISO-8859-1");
 		String key = "d73c10d0ab430f7bc7f549fd074577f67db3bd86";

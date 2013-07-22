@@ -68,3 +68,5 @@
 @EtihadAirways	Etihad Airways
 @LOTpolish	LOT Polish Airlines
 @LufthansaLatina	Deutsche Lufthansa
+@SouthwestVerity	Southwest Airlines
+@Jetstar_Asia	Jetstar Airways

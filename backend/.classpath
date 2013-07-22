@@ -2,10 +2,65 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/twitter4j-async-3.0.3.jar"/>
-	<classpathentry kind="lib" path="lib/twitter4j-core-3.0.3.jar" sourcepath="twitter4j-src/twitter4j-core-3.0.3-sources.jar"/>
-	<classpathentry kind="lib" path="lib/twitter4j-examples-3.0.3.jar"/>
-	<classpathentry kind="lib" path="lib/twitter4j-media-support-3.0.3.jar"/>
-	<classpathentry kind="lib" path="lib/twitter4j-stream-3.0.3.jar" sourcepath="twitter4j-src/twitter4j-stream-3.0.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/twitter4j-async-3.0.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/twitter4j-core-3.0.3.jar" sourcepath="twitter4j-src/twitter4j-core-3.0.3-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/twitter4j-examples-3.0.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/twitter4j-media-support-3.0.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/twitter4j-stream-3.0.3.jar" sourcepath="twitter4j-src/twitter4j-stream-3.0.3-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Eclipse/plugins/org.apache.axis_1.4.0.v201005080400/lib/axis.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Eclipse/plugins/org.apache.commons.discovery_0.2.0.v201004190315/lib/commons-discovery-0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Eclipse/plugins/javax.xml.rpc_1.1.0.v201005080400/lib/jaxrpc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/lib/saaj.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Eclipse/plugins/javax.wsdl_1.6.2.v201012040545.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Eclipse/plugins/org.apache.commons.logging_1.0.4.v201101211617.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="lib/activation.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.25-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
