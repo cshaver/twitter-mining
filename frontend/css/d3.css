@@ -1,6 +1,6 @@
 
 #states path {
-  fill: #ccc;
+  fill: #D4CCC5;
   stroke: #fff;
 }
 
@@ -17,7 +17,7 @@ path.cell {
 }
 
 circle {
-  fill: steelblue;
+  fill: #4D5360;
   fill-opacity: .8;
   stroke: #fff;
 }
